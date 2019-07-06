@@ -13,6 +13,7 @@ import { EducationCard } from './content/education-page/education-card/education
 import { EducationPageComponent } from './content/education-page/education-page.component';
 import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
 import { ProjectsCardComponent } from './content/projects-page/projects-card/projects-card.component';
+import { AchievementsPageComponent } from './achievements-page/achievements-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProjectsCardComponent } from './content/projects-page/projects-card/pro
     EducationCard,
     EducationPageComponent,
     ProjectsPageComponent,
-    ProjectsCardComponent
+    ProjectsCardComponent,
+    AchievementsPageComponent
   ],
   imports: [
     BrowserModule,

@@ -5,8 +5,9 @@ export let educationData = [
         period: "2017 - Current",
         content:
             `Undergraduate, Bachelor of Science, Computer Science and Engineering, University of Moratuwa.
-            <br/>
-            Current SGPA: 4.11`
+            <br/> <br/>
+            Current SGPA: 4.11
+           `
     },
     {
         title: "GCE ADVANCED LEVEL EXAMINATION",
@@ -14,7 +15,7 @@ export let educationData = [
         period: "2003 - 2016",
         content:
             `
-            All A Passes in Physical Sciences Stream<br/>
+            All A Passes in Physical Sciences Stream<br/> <br/>
             Island rank 76th, District Rank 2nd, Z Score 2.680
             `
     },

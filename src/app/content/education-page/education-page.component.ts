@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EducationCardData } from '../../education-card-data';
-import { educationData } from 'src/app/education-data';
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-education-page',
@@ -8,11 +8,12 @@ import { educationData } from 'src/app/education-data';
   styleUrls: ['./education-page.component.scss']
 })
 export class EducationPageComponent implements OnInit {
-  cards: EducationCardData[] = educationData;
+  cards: EducationCardData[];
 
-  constructor() { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getEducationData().subscribe((v) => this.cards = v);
   }
 
 }

@@ -35,7 +35,7 @@ export let projectsData = [
             including doctor management facility and other medical center oriented facilities. 
             <br/>
             <br/>
-            <strong> This was a project done for semester 3 module Object-Oriented Software Development (CS2062)</strong>
+            <strong> This was a project done for semester 3 module Object-Oriented Software Development (17-S3-CS2062)</strong>
             <br/>
             <br/>
             <a href="https://github.com/kdsuneraavinash/pulse-healthcare" target="_blank">Github Repository</a>
@@ -53,7 +53,7 @@ export let projectsData = [
 
             <br/>
             <br/>
-            <strong> This was a project done for semester 3 module Operating Systems (CS2042)</strong>
+            <strong> This was a project done for semester 3 module Operating Systems (17-S3-CS2042)</strong>
             <br/>
             <br/>
             <a href="https://github.com/kdsuneraavinash/os-scheduler" target="_blank">Github Repository</a>
@@ -96,11 +96,26 @@ export let projectsData = [
             <a href="https://github.com/kdsuneraavinash/python-projects/tree/master/piano-tile-bot" target="_blank">Github Repository</a>
             <br/>
             <br/>
-            <div class="embed-responsive embed-responsive-16by9">
+            <div class="embed-responsive embed-responsive-16by9 img-fluid d-none d-md-block">
             <video loop controls class="embed-responsive-item">
                 <source src="https://github.com/kdsuneraavinash/python-projects/blob/master/piano-tile-bot/result/PianoTiles.2.2.mp4?raw=true" type="video/mp4">
             </video>
             </div>
+            `
+    },
+    {
+        title: `Nano Processor - VHDL`,
+        content:
+            `
+            <strong>Nanoprocessor Project for 17-S2-CS2052 Computer Architecture</strong>
+            <br/>
+            This is a VHDL implementation of a nanoprocess which can execute 8 different commands.
+            <br/>
+            <br/>
+            <a href="https://github.com/kdsuneraavinash/nanoprocessor" target="_blank">Github Repository</a>
+            <br/>
+            <br/>
+            <img src="https://github.com/kdsuneraavinash/nanoprocessor/raw/master/design.png" class="img-fluid d-none d-md-block" alt="Design">
             `
     },
 
