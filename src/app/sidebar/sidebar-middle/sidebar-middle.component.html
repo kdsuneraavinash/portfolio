@@ -1,0 +1,9 @@
+<div id="sidebar-middle" class="pt-3">
+  <div class="p-2">
+    <div type="button" *ngFor="let navButton of navButtons" class="p-2 mb-2 nav-button hvr-box-shadow-inset"
+      [class.pressed]="currentNavButton==navButton" (click)="currentNavButton = navButton" mdbWavesEffect>
+      <mdb-icon class="icon-circle" fas icon="{{navButton.iconName}}"></mdb-icon> &nbsp;
+      {{navButton.text | uppercase}}
+    </div>
+  </div>
+</div>

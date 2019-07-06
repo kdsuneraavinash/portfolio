@@ -1,30 +1,9 @@
 <div id="sidebar" class="text-center text-white">
 
-  <div id="sidebar-top">
-    <img src="../assets/me.jpg" class="rounded-circle hoverable border" alt="hoverable">
-    <div class="p-4">
-      <h1>{{name | uppercase}}</h1>
-      <h2>{{subtitle}}</h2>
-    </div>
-  </div>
+  <app-sidebar-top></app-sidebar-top>
 
-  <div id="sidebar-middle" class="pt-3">
-    <div class="p-2">
-      <div type="button" *ngFor="let navButton of navButtons" class="p-2 mb-2 nav-button hvr-box-shadow-inset"
-        [class.pressed]="currentNavButton==navButton" (click)="currentNavButton = navButton" mdbWavesEffect>
-        <mdb-icon class="icon-circle" fas icon="{{navButton.iconName}}"></mdb-icon> &nbsp;
-        {{navButton.text | uppercase}}
-      </div>
-    </div>
-  </div>
+  <app-sidebar-middle></app-sidebar-middle>
 
-  <div id="sidebar-bottom">
-    <div class="row">
-      <a *ngFor="let footerIcon of footerIcons" class="text-white col p-2 hvr-grow" href="{{footerIcon.linkAddress}}"
-        mdbTooltip="{{footerIcon.tooltip}}" placement="top" target="_blank">
-        <mdb-icon fab icon="{{footerIcon.iconName}}"></mdb-icon>
-      </a>
-    </div>
-  </div>
+  <app-sidebar-bottom></app-sidebar-bottom>
 
 </div>
