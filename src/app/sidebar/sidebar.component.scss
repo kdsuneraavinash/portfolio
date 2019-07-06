@@ -1,16 +1,19 @@
 $sidebar-width: 300px;
+$dark-color: #262f36;
+$light-color: #253238ee;
 
+// Size Calculations based on sidebar width
 $avatar-size: $sidebar-width/2;
 $avatar-x-margin: (($sidebar-width - $avatar-size)/2);
 
 #sidebar {
   width: $sidebar-width;
   min-height: 100vh;
-  height: auto;
-  background-color: #253238ee;
+  background-color: $light-color;
 
+  // Avatar
   #sidebar-top {
-    background-color: #262f36;
+    background-color: $dark-color;
 
     img {
       width: $avatar-size;
@@ -28,17 +31,47 @@ $avatar-x-margin: (($sidebar-width - $avatar-size)/2);
     }
   }
 
-  #sidebar-middle {
-    padding-bottom: 75px;
 
-    a {
-      width: 85%;
+  // Navigation Buttons
+  #sidebar-middle {
+    // To Make space for footer buttons
+    padding-bottom: 75px;
+    text-align: left;
+
+    .nav-button {
+      font-weight: 600;
+      border-radius: 60px;
+      letter-spacing: 1px;
+      transition: all 200ms ease;
+
+      // To make same size and center
+      width: 90%;
+      margin-left: 5%;
+
+      &:hover {
+        box-shadow: 1px 1px 2px #000 inset;
+      }
+
+      &.pressed {
+        background-color: $dark-color;
+        box-shadow: 1px 1px 2px #000 inset;
+      }
+
+      // To make icon appear in a dark circle
+      .icon-circle {
+        background-color: $dark-color;
+        display: inline-block;
+        border-radius: 60px;
+        padding: 0.6em 0.6em;
+      }
     }
   }
 
+  // Footer Buttons
   #sidebar-bottom {
     width: $sidebar-width;
-    background-color: #262f36;
+    background-color: $dark-color;
+    // To stick to bottom of screen
     position: fixed;
     bottom: 0;
     left: 0;
@@ -46,7 +79,6 @@ $avatar-x-margin: (($sidebar-width - $avatar-size)/2);
 
 
     .fab {
-      vertical-align: bottom;
       font-size: 1.5em;
     }
   }

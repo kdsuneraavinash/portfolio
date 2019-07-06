@@ -6,12 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
+  name: string = "Sunera Avinash";
+  subtitle: string = "Computer Science Student";
+
   navButtons: NavButton[] = [
-    new NavButton("ABOUT ME"),
-    new NavButton("SKILLS"),
-    new NavButton("EDUCATION"),
-    new NavButton("ACHIEVEMTNS"),
-    new NavButton("PROJECTS")
+    new NavButton("About Me", "user"),
+    new NavButton("Skills", "crown"),
+    new NavButton("Education", "graduation-cap"),
+    new NavButton("Acheievements", "trophy"),
+    new NavButton("Projects", "project-diagram")
   ];
   footerIcons: FooterIcon[] = [
     new FooterIcon("google", "mailto:kdsuneraavinash@gmail.com"),
@@ -33,5 +36,5 @@ class FooterIcon {
 }
 
 class NavButton {
-  constructor(public text: string) { }
+  constructor(public text: string, public iconName: string = "user", ) { }
 }
