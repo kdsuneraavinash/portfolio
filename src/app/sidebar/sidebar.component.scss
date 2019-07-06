@@ -8,8 +8,9 @@ $avatar-x-margin: (($sidebar-width - $avatar-size)/2);
 
 #sidebar {
   width: $sidebar-width;
-  min-height: 100vh;
+  height: 100vh;
   background-color: $light-color;
+  overflow: auto;
 
   // Avatar
   #sidebar-top {
