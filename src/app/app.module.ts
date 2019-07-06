@@ -11,6 +11,8 @@ import { SidebarBottomComponent } from './sidebar/sidebar-bottom/sidebar-bottom.
 import { ContentComponent } from './content/content.component';
 import { EducationCard } from './content/education-page/education-card/education-card.component';
 import { EducationPageComponent } from './content/education-page/education-page.component';
+import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
+import { ProjectsCardComponent } from './content/projects-page/projects-card/projects-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { EducationPageComponent } from './content/education-page/education-page.
     SidebarBottomComponent,
     ContentComponent,
     EducationCard,
-    EducationPageComponent
+    EducationPageComponent,
+    ProjectsPageComponent,
+    ProjectsCardComponent
   ],
   imports: [
     BrowserModule,

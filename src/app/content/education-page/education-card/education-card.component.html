@@ -15,7 +15,9 @@
       </div>
     </div>
     <hr />
-    <p *ngFor="let line of data.content">{{line}}</p>
+    <p>
+      <span *ngFor="let line of data.content.split('\n')">{{line}} <br /></span>
+    </p>
 
   </mdb-card-body>
 </mdb-card>
