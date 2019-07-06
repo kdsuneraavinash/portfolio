@@ -1,0 +1,31 @@
+<div id="sidebar" class="text-center text-white">
+
+  <div id="sidebar-top">
+    <img src="../assets/me.jpg" class="rounded-circle hoverable border" alt="hoverable">
+    <div class="p-4">
+      <h1>SUNERA AVINASH</h1>
+      <h2>Computer Science Student</h2>
+    </div>
+  </div>
+
+  <div id="sidebar-middle" class="pt-3">
+    <div class="p-2">
+      <div *ngFor="let navButton of navButtons">
+        <a mdbBtn class="text-dark" [ngClass]="(this.currentNavButton==navButton)?'btn-default':'btn-light'"
+          (click)="this.currentNavButton = navButton" mdbWavesEffect>
+          {{navButton.text}}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="sidebar-bottom">
+    <div class="row">
+      <a *ngFor="let footerIcon of footerIcons" class="text-white col" href="{{footerIcon.linkAddress}}"
+        target="_blank">
+        <mdb-icon fab icon="{{footerIcon.iconName}}"></mdb-icon>
+      </a>
+    </div>
+  </div>
+
+</div>

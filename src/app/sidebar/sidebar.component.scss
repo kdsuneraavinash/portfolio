@@ -1,0 +1,53 @@
+$sidebar-width: 300px;
+
+$avatar-size: $sidebar-width/2;
+$avatar-x-margin: (($sidebar-width - $avatar-size)/2);
+
+#sidebar {
+  width: $sidebar-width;
+  min-height: 100vh;
+  height: auto;
+  background-color: #253238ee;
+
+  #sidebar-top {
+    background-color: #262f36;
+
+    img {
+      width: $avatar-size;
+      height: $avatar-size;
+      margin: 50px $avatar-x-margin 0 $avatar-x-margin;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+  }
+
+  #sidebar-middle {
+    padding-bottom: 75px;
+
+    a {
+      width: 85%;
+    }
+  }
+
+  #sidebar-bottom {
+    width: $sidebar-width;
+    background-color: #262f36;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+
+
+    .fab {
+      vertical-align: bottom;
+      font-size: 1.5em;
+    }
+  }
+}
