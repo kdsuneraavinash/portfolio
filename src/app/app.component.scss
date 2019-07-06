@@ -1,3 +1,10 @@
+@import '../variables';
+
+app-sidebar {
+  position: absolute;
+  left: 0;
+}
+
 #content {
-  background-color: bisque;
+  margin-left: $sidebar-width;
 }

@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarTopComponent } from './sidebar/sidebar-top/sidebar-top.component';
 import { SidebarMiddleComponent } from './sidebar/sidebar-middle/sidebar-middle.component';
 import { SidebarBottomComponent } from './sidebar/sidebar-bottom/sidebar-bottom.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SidebarBottomComponent } from './sidebar/sidebar-bottom/sidebar-bottom.
     SidebarComponent,
     SidebarTopComponent,
     SidebarMiddleComponent,
-    SidebarBottomComponent
+    SidebarBottomComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
