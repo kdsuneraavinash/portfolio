@@ -1,0 +1,16 @@
+@import '../../../variables';
+
+h1 {
+  font-size: 28px;
+  font-weight: 900 !important;
+}
+
+// To make icon appear in a dark circle
+.icon-circle {
+  background-color: $dark-color;
+  display: inline-block;
+  border-radius: 60px;
+  padding: 0.6em 0.5em;
+
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+<mdb-card class="mt-1 hoverable animated fadeIn">
+  <mdb-card-body class="p-4">
+    <h2>{{data.title}}</h2>
+
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <small class="px-2 blue-grey-text">
+          <mdb-icon fas icon="city" class="pr-2"></mdb-icon> {{data.location}}
+        </small>
+      </div>
+      <div class="col-md-4">
+        <small class="px-2 blue-grey-text">
+          <mdb-icon fas icon="calendar" class="pr-2"></mdb-icon> {{data.period}}
+        </small>
+      </div>
+    </div>
+    <hr />
+    <p *ngFor="let line of data.content">{{line}}</p>
+
+  </mdb-card-body>
+</mdb-card>
