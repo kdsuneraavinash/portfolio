@@ -10,22 +10,18 @@
 
   <div id="sidebar-middle" class="pt-3">
     <div class="p-2">
-      <div type="button" *ngFor="let navButton of navButtons" class="p-2 mb-2 nav-button"
+      <div type="button" *ngFor="let navButton of navButtons" class="p-2 mb-2 nav-button hvr-box-shadow-inset"
         [class.pressed]="currentNavButton==navButton" (click)="currentNavButton = navButton" mdbWavesEffect>
         <mdb-icon class="icon-circle" fas icon="{{navButton.iconName}}"></mdb-icon> &nbsp;
         {{navButton.text | uppercase}}
-        <!-- <a mdbBtn [ngClass]="(this.currentNavButton==navButton)?'btn-default text-dark':'btn-dark text-white'"
-          (click)="currentNavButton = navButton" mdbWavesEffect>
-          {{navButton.text | uppercase}}
-        </a> -->
       </div>
     </div>
   </div>
 
   <div id="sidebar-bottom">
     <div class="row">
-      <a *ngFor="let footerIcon of footerIcons" class="text-white col" href="{{footerIcon.linkAddress}}"
-        target="_blank">
+      <a *ngFor="let footerIcon of footerIcons" class="text-white col p-2 hvr-grow" href="{{footerIcon.linkAddress}}"
+        mdbTooltip="{{footerIcon.tooltip}}" placement="top" target="_blank">
         <mdb-icon fab icon="{{footerIcon.iconName}}"></mdb-icon>
       </a>
     </div>

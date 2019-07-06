@@ -17,10 +17,10 @@ export class SidebarComponent implements OnInit {
     new NavButton("Projects", "project-diagram")
   ];
   footerIcons: FooterIcon[] = [
-    new FooterIcon("google", "mailto:kdsuneraavinash@gmail.com"),
-    new FooterIcon("linkedin", "https://www.linkedin.com/in/kdsuneraavinash"),
-    new FooterIcon("github", "https://github.com/kdsuneraavinash"),
-    new FooterIcon("hackerrank", "https://www.hackerrank.com/kdsuneraavinash"),
+    new FooterIcon("google", "Email", "mailto:kdsuneraavinash@gmail.com"),
+    new FooterIcon("linkedin", "LinkedIn", "https://www.linkedin.com/in/kdsuneraavinash"),
+    new FooterIcon("github", "GitHub", "https://github.com/kdsuneraavinash"),
+    new FooterIcon("hackerrank", "Hackerrank", "https://www.hackerrank.com/kdsuneraavinash"),
   ];
 
   currentNavButton: NavButton = this.navButtons[0];
@@ -32,7 +32,8 @@ export class SidebarComponent implements OnInit {
 }
 
 class FooterIcon {
-  constructor(public iconName: string, public linkAddress: string = "") { }
+  constructor(public iconName: string, public tooltip: string = "", public linkAddress: string = "") {
+  }
 }
 
 class NavButton {
