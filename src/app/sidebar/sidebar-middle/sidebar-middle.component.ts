@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarMiddleComponent implements OnInit {
     navButtons: NavButton[] = [
-        new NavButton("About Me", "user"),
-        new NavButton("Skills", "crown"),
-        new NavButton("Education", "graduation-cap"),
-        new NavButton("Acheievements", "trophy"),
-        new NavButton("Projects", "project-diagram")
+        new NavButton("About Me", "user", '/about'),
+        new NavButton("Skills", "crown", '/skills'),
+        new NavButton("Education", "graduation-cap", '/education'),
+        new NavButton("Acheievements", "trophy", '/acheievements'),
+        new NavButton("Projects", "project-diagram", '/projects')
     ];
 
     currentNavButton: NavButton = this.navButtons[0];
@@ -23,5 +23,5 @@ export class SidebarMiddleComponent implements OnInit {
 }
 
 class NavButton {
-    constructor(public text: string, public iconName: string = "user", ) { }
+    constructor(public text: string, public iconName: string = "user", public link: string = '/') { }
 }

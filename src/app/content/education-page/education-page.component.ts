@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EducationCardData } from '../../education-card-data';
+import { educationData } from 'src/app/education-data';
 
 @Component({
   selector: 'app-education-page',
@@ -7,22 +8,7 @@ import { EducationCardData } from '../../education-card-data';
   styleUrls: ['./education-page.component.scss']
 })
 export class EducationPageComponent implements OnInit {
-  cards: EducationCardData[] = [
-    {
-      title: "UNDERGRADUATE, BACHELOR OF SCIENCE",
-      location: "University of Moratuwa",
-      period: "2017 - Current",
-      content:
-        "Undergraduate, Bachelor of Science, Computer Science and Engineering, University of Moratuwa.\nCurrent SGPA: 4.11"
-    },
-    {
-      title: "GCE ADVANCED LEVEL EXAMINATION",
-      location: "Kalutara Vidyalaya - National School",
-      period: "2003 - 2016",
-      content:
-        "All A Passes in Physical Sciences Stream\nIsland rank 76th, District Rank 2nd, Z Score 2.680"
-    },
-  ];
+  cards: EducationCardData[] = educationData;
 
   constructor() { }
 

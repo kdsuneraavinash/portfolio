@@ -14,10 +14,10 @@
         </small>
       </div>
     </div>
+
     <hr />
-    <p>
-      <span *ngFor="let line of data.content.split('\n')">{{line}} <br /></span>
-    </p>
+    <div [innerHTML]="data.content">
+    </div>
 
   </mdb-card-body>
 </mdb-card>
