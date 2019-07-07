@@ -15,3 +15,10 @@ h1 {
 
   color: #fff;
 }
+
+
+@media only screen and (max-width: $small-size) {
+  h1 {
+    text-align: center;
+  }
+}
