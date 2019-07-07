@@ -8,6 +8,8 @@ export let educationData = [
             `Undergraduate, Bachelor of Science, Computer Science and Engineering, University of Moratuwa.
             <br/> 
             Current SGPA: 4.11
+            <br/>
+            <strong>Dean's List: Semester 1, Semester 2<strong><br/>
            `
     },
     {
