@@ -15,7 +15,7 @@ export let skillsData = [
                 progress: 8
             },
             {
-                imageUrl: "https://pbs.twimg.com/profile_images/993555605078994945/Yr-pWI4G_400x400.jpg",
+                imageUrl: "assets/dart.jpg",
                 link: "https://dart.dev/",
                 title: "Dart",
                 progress: 8
@@ -56,7 +56,7 @@ export let skillsData = [
         title: 'Frameworks',
         skills: [
             {
-                imageUrl: "https://miro.medium.com/max/1200/1*ilC2Aqp5sZd1wi0CopD1Hw.png",
+                imageUrl: "assets/flutter.png",
                 link: "https://flutter.dev/",
                 title: "Flutter",
                 progress: 9
@@ -97,7 +97,7 @@ export let skillsData = [
                 progress: 5
             },
             {
-                imageUrl: "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_0016c93c710cf35990b999cba3a59bae/firebase.png",
+                imageUrl: "assets/firebase.webp",
                 link: "https://firebase.google.com/",
                 title: "Firebase",
                 progress: 5
@@ -120,13 +120,13 @@ export let skillsData = [
                 progress: 8
             },
             {
-                imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png",
+                imageUrl: "assets/vscode.png",
                 link: "https://code.visualstudio.com/",
                 title: "VS Code",
                 progress: 9
             },
             {
-                imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/1200px-IntelliJ_IDEA_Logo.svg.png",
+                imageUrl: "assets/idea.png",
                 link: "https://www.jetbrains.com/idea/",
                 title: "IntelliJ",
                 progress: 7
