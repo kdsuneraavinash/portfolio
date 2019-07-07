@@ -16,6 +16,8 @@ import { ProjectsCardComponent } from './content/projects-page/projects-card/pro
 import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component';
 import { AchievementsCardComponent } from './content/achievements-page/achievements-card/achievements-card.component';
 import { TitleComponent } from './content/title/title.component';
+import { SkillsPageComponent } from './content/skills-page/skills-page.component';
+import { SkillsCardComponent } from './content/skills-page/skills-card/skills-card.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { TitleComponent } from './content/title/title.component';
     ProjectsCardComponent,
     AchievementsPageComponent,
     AchievementsCardComponent,
-    TitleComponent
+    TitleComponent,
+    SkillsPageComponent,
+    SkillsCardComponent
   ],
   imports: [
     BrowserModule,

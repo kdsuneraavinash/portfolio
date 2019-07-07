@@ -6,6 +6,8 @@ import { achievementsData } from './achievements-data';
 import { EducationCardData } from './education-card-data';
 import { Observable, of } from 'rxjs';
 import { AchievementsCardData } from './achievements-card-data';
+import { SkillsCardData, SkillsCardGroup } from './skills-card-data';
+import { skillsData } from './skills-data';
 
 @Injectable({
   providedIn: 'root'
@@ -23,5 +25,9 @@ export class DataService {
 
   getAchievementsData(): Observable<AchievementsCardData[]> {
     return of(achievementsData);
+  }
+
+  getSkillsData(): Observable<SkillsCardGroup[]> {
+    return of(skillsData);
   }
 }

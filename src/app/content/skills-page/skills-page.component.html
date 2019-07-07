@@ -1,0 +1,10 @@
+<app-title icon="crown" title="Skills"></app-title>
+
+<div *ngFor="let cardGroup of cardGroups">
+  <h2> {{cardGroup.title}}</h2>
+  <div class="row mt-5">
+    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" *ngFor="let card of cardGroup.skills">
+      <app-skills-card [data]="card"></app-skills-card>
+    </div>
+  </div>
+</div>
