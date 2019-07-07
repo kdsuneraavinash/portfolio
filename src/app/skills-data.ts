@@ -3,11 +3,11 @@ export let skillsData = [
         title: 'Languages',
         skills: [
             {
-                imageUrl: "../../../assets/python.svg",
+                imageUrl: "assets/python.svg",
                 link: "https://www.python.org/"
             },
             {
-                imageUrl: "../../../assets/java.svg",
+                imageUrl: "assets/java.svg",
                 link: "https://www.java.com/en/"
             },
             {
@@ -15,23 +15,23 @@ export let skillsData = [
                 link: "https://dart.dev/"
             },
             {
-                imageUrl: "../../../assets/php.svg",
+                imageUrl: "assets/php.svg",
                 link: "https://php.net/"
             },
             {
-                imageUrl: "../../../assets/js.svg",
+                imageUrl: "assets/js.svg",
                 link: "https://www.javascript.com/"
             },
             {
-                imageUrl: "../../../assets/ts.svg",
+                imageUrl: "assets/ts.svg",
                 link: "https://www.typescriptlang.org/"
             },
             {
-                imageUrl: "../../../assets/html.svg",
+                imageUrl: "assets/html.svg",
                 link: "https://whatwg.org/"
             },
             {
-                imageUrl: "../../../assets/css.svg",
+                imageUrl: "assets/css.svg",
                 link: "https://whatwg.org/"
             }
         ]
@@ -44,19 +44,19 @@ export let skillsData = [
                 link: "https://flutter.dev/"
             },
             {
-                imageUrl: "../../../assets/angular.svg",
+                imageUrl: "assets/angular.svg",
                 link: "https://angular.io/"
             },
             {
-                imageUrl: "../../../assets/bootstrap.svg",
+                imageUrl: "assets/bootstrap.svg",
                 link: "https://getbootstrap.com/"
             },
             {
-                imageUrl: "../../../assets/express.svg",
+                imageUrl: "assets/express.svg",
                 link: "https://expressjs.com/"
             },
             {
-                imageUrl: "../../../assets/node.svg",
+                imageUrl: "assets/node.svg",
                 link: "https://nodejs.org/"
             }
         ]
@@ -65,7 +65,7 @@ export let skillsData = [
         title: 'Database and Tooling',
         skills: [
             {
-                imageUrl: "../../../assets/mysql.svg",
+                imageUrl: "assets/mysql.svg",
                 link: "https://www.mysql.com/"
             },
             {
@@ -73,7 +73,7 @@ export let skillsData = [
                 link: "https://firebase.google.com/"
             },
             {
-                imageUrl: "../../../assets/git.svg",
+                imageUrl: "assets/git.svg",
                 link: "https://git-scm.com/"
             }
         ],
@@ -82,7 +82,7 @@ export let skillsData = [
         title: 'IDEs and Environments',
         skills: [
             {
-                imageUrl: "../../../assets/github.svg",
+                imageUrl: "assets/github.svg",
                 link: "https://github.com/"
             },
             {
@@ -94,7 +94,7 @@ export let skillsData = [
                 link: "https://www.jetbrains.com/idea/"
             },
             {
-                imageUrl: "../../../assets/linux.svg",
+                imageUrl: "assets/linux.svg",
                 link: "https://www.linux.org/"
             },
         ],
