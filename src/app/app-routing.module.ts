@@ -4,12 +4,17 @@ import { EducationPageComponent } from './content/education-page/education-page.
 import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
 import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component';
 import { SkillsPageComponent } from './content/skills-page/skills-page.component';
+import { AboutComponent } from './content/about/about.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/projects',
+    redirectTo: '/about',
     pathMatch: 'full'
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   },
   {
     path: 'projects',
