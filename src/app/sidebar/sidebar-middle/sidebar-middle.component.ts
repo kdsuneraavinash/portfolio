@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/data.service';
+import { NavButton } from 'src/app/navbutton-data';
 
 @Component({
     selector: 'app-sidebar-middle',
@@ -6,22 +8,11 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./sidebar-middle.component.scss']
 })
 export class SidebarMiddleComponent implements OnInit {
-    navButtons: NavButton[] = [
-        new NavButton("About Me", "user", '/about'),
-        new NavButton("Skills", "crown", '/skills'),
-        new NavButton("Education", "graduation-cap", '/education'),
-        new NavButton("Achievements", "trophy", '/achievements'),
-        new NavButton("Projects", "project-diagram", '/projects')
-    ];
+    public navButtons: NavButton[];
 
-    currentNavButton: NavButton = this.navButtons[0];
-
-    constructor() { }
+    constructor(private dataService: DataService) { }
 
     ngOnInit() {
+        this.dataService.getNavigationData().subscribe((v) => this.navButtons = v);
     }
-}
-
-class NavButton {
-    constructor(public text: string, public iconName: string = "user", public link: string = '/') { }
 }

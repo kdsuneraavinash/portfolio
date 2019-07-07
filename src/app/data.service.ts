@@ -9,15 +9,22 @@ import { AchievementsCardData } from './achievements-card-data';
 import { SkillsCardGroup } from './skills-card-data';
 import { skillsData } from './skills-data';
 import { ProfileData } from './profile-data';
+import { NavButton } from './navbutton-data';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
   private profileData: ProfileData;
+  private navButtonData: NavButton[];
 
   constructor() {
     this.profileData = new ProfileData();
+    this.navButtonData = NavButton.getData();
+  }
+
+  getNavigationData(): Observable<NavButton[]> {
+    return of(this.navButtonData);
   }
 
   getProfileData(): Observable<ProfileData> {

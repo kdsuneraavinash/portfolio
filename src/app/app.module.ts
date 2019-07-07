@@ -19,6 +19,7 @@ import { SkillsPageComponent } from './content/skills-page/skills-page.component
 import { SkillsCardComponent } from './content/skills-page/skills-card/skills-card.component';
 import { TeamMateComponent } from './content/team-mate/team-mate.component';
 import { AboutPageComponent } from './content/about-page/about-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { AboutPageComponent } from './content/about-page/about-page.component';
     SkillsPageComponent,
     SkillsCardComponent,
     TeamMateComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

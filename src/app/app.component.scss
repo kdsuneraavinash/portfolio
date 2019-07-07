@@ -10,6 +10,7 @@ app-sidebar {
   margin-left: $sidebar-width;
   height: 100vh;
   overflow: auto;
+  padding-bottom: 100px;
 }
 
 /*
@@ -17,13 +18,28 @@ app-sidebar {
 Responsive Design
 -----------------------------------
 */
+
+
+app-navbar {
+  display: none;
+}
+
 @media only screen and (max-width: 1280px) {
   app-sidebar {
     display: none;
   }
 
   #content {
+    padding-top: 30px;
     margin-left: 0;
+  }
+
+  app-navbar {
+    display: block;
+  }
+
+  .github-corner {
+    display: none;
   }
 }
 
