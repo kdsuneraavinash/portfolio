@@ -8,7 +8,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarTopComponent } from './sidebar/sidebar-top/sidebar-top.component';
 import { SidebarMiddleComponent } from './sidebar/sidebar-middle/sidebar-middle.component';
 import { SidebarBottomComponent } from './sidebar/sidebar-bottom/sidebar-bottom.component';
-import { ContentComponent } from './content/content.component';
 import { EducationCard } from './content/education-page/education-card/education-card.component';
 import { EducationPageComponent } from './content/education-page/education-page.component';
 import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
@@ -28,7 +27,6 @@ import { AboutComponent } from './content/about/about.component';
     SidebarTopComponent,
     SidebarMiddleComponent,
     SidebarBottomComponent,
-    ContentComponent,
     EducationCard,
     EducationPageComponent,
     ProjectsPageComponent,
