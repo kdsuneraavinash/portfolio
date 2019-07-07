@@ -49,6 +49,18 @@ export let skillsData = [
                 link: "https://whatwg.org/",
                 title: "CSS3",
                 progress: 8
+            },
+            {
+                imageUrl: "assets/cplusplus.svg",
+                link: "https://isocpp.org/",
+                title: "C++",
+                progress: 4
+            },
+            {
+                imageUrl: "assets/vb.png",
+                link: "https://visualstudio.microsoft.com/",
+                title: "VB.NET",
+                progress: 8
             }
         ]
     },
@@ -60,6 +72,12 @@ export let skillsData = [
                 link: "https://flutter.dev/",
                 title: "Flutter",
                 progress: 9
+            },
+            {
+                imageUrl: "assets/android.svg",
+                link: "https://www.android.com/",
+                title: "Android",
+                progress: 4
             },
             {
                 imageUrl: "assets/angular.svg",
@@ -90,6 +108,18 @@ export let skillsData = [
                 link: "https://nodejs.org/",
                 title: "NodeJs",
                 progress: 2
+            },
+            {
+                imageUrl: "assets/opencv.png",
+                link: "https://opencv.org/",
+                title: "OpenCV",
+                progress: 5
+            },
+            {
+                imageUrl: "assets/tensorflow.png",
+                link: "https://www.tensorflow.org",
+                title: "TensorFlow",
+                progress: 3
             }
         ]
     },
@@ -117,7 +147,7 @@ export let skillsData = [
         ],
     },
     {
-        title: 'IDEs and Environments',
+        title: 'IDEs, Environments and Platforms',
         skills: [
             {
                 imageUrl: "assets/github.svg",
@@ -143,6 +173,12 @@ export let skillsData = [
                 title: "Linux",
                 progress: 6
             },
+            {
+                imageUrl: "assets/arduino.png",
+                link: "https://www.arduino.cc/",
+                title: "Arduino",
+                progress: 7
+            }
         ],
     }
 ];
