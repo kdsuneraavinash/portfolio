@@ -28,7 +28,7 @@ export let projectsData = [
     },
     {
         title: `MediKit WebApp & MobileApp - Semester 3 Group Project | Managing healthcare services | e-prescriptions`,
-        team: [TeamMate.me(), TeamMate.anju(), TeamMate.lahiru()],
+        team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.lahiru()],
         content:
             `
             <strong>Pulse Healthcare is a project initiated by the team Pulse with the intention of improving 
@@ -69,7 +69,7 @@ export let projectsData = [
     },
     {
         title: `Decrypt 2.0 Website`,
-        team: [TeamMate.me(), TeamMate.rumesh()],
+        team: [TeamMate.sunera(), TeamMate.rumesh()],
         content:
             `
             Website for decrypt event 2019 organized by CSE17.
@@ -109,7 +109,7 @@ export let projectsData = [
     },
     {
         title: `Nano Processor - VHDL`,
-        team: [TeamMate.me(), TeamMate.anju()],
+        team: [TeamMate.sunera(), TeamMate.anju()],
         content:
             `
             <strong>Nanoprocessor Project for 17-S2-CS2052 Computer Architecture</strong>

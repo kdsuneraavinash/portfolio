@@ -1,7 +1,7 @@
 export class TeamMate {
     constructor(public name: string, public image: string, public url: string) { }
 
-    static me() {
+    static sunera() {
         return new TeamMate("Sunera Avinash", "assets/me.jpg", "https://www.linkedin.com/in/kdsuneraavinash/");
     }
 

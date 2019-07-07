@@ -3,29 +3,33 @@
 
     <img src="assets/me.jpg" class="rounded-circle hoverable border border-dark mb-3" alt="Profile Picture">
 
-    <h1 class="animated bounceIn">Sunera Avinash </h1>
+    <h1 class="animated bounceIn">{{data.name}} </h1>
 
-    <div class="subheading mb-5">
-      344/1, Moonamalgahawatta, Duwa Temple Rd, Kalutara South.
+    <div class="subheading mb-2">
+      {{data.address}}
       <br />
-      (076) 833 6850
+      {{data.telephone}}
       <br />
-      <a href="mailto:kdsuneraavinash@gmail.com">kdsuneraavinash@gmail.com</a>
+      <a href="mailto:{{data.email}}">{{data.email}}</a>
     </div>
 
+    <a href="assets/resume.pdf" target="_blank" mdbBtn type="button" size="sm" color="dark" outline="true" class="mb-5"
+      mdbWavesEffect>
+      <mdb-icon fas icon="download" class="mr-1"></mdb-icon>Download Resume
+    </a>
 
     <p class="lead mb-5 px-5">
-      I am a skilled computer science student who has a passion for algorithms and problem solving.
+      {{data.bio}}
     </p>
 
     <div class="social-icons">
-      <a target="_blank" href="https://www.linkedin.com/in/kdsuneraavinash">
+      <a target="_blank" href="{{data.linkedin}}">
         <i class="fab fa-linkedin-in"></i>
       </a>
-      <a target="_blank" href="https://github.com/kdsuneraavinash">
+      <a target="_blank" href="{{data.github}}">
         <i class="fab fa-github"></i>
       </a>
-      <a target="_blank" href="https://www.hackerrank.com/kdsuneraavinash">
+      <a target="_blank" href="{{data.hackerrank}}">
         <i class="fab fa-hackerrank"></i>
       </a>
     </div>

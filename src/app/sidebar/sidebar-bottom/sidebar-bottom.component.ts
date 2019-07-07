@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/data.service';
+import { ProfileData } from 'src/app/profile-data';
 
 @Component({
     selector: 'app-sidebar-bottom',
@@ -6,20 +8,25 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./sidebar-bottom.component.scss']
 })
 export class SidebarBottomComponent implements OnInit {
-    footerIcons: FooterIcon[] = [
-        new FooterIcon("google", "Email", "mailto:kdsuneraavinash@gmail.com"),
-        new FooterIcon("linkedin", "LinkedIn", "https://www.linkedin.com/in/kdsuneraavinash"),
-        new FooterIcon("github", "GitHub", "https://github.com/kdsuneraavinash"),
-        new FooterIcon("hackerrank", "Hackerrank", "https://www.hackerrank.com/kdsuneraavinash"),
-    ];
+    footerIcons: FooterIcon[];
 
-    constructor() { }
+    setFooterIcons(data: ProfileData) {
+        this.footerIcons = [
+            new FooterIcon("google", "Email", "mailto:" + data.email),
+            new FooterIcon("linkedin", "LinkedIn", data.linkedin),
+            new FooterIcon("github", "GitHub", data.github),
+            new FooterIcon("hackerrank", "Hackerrank", data.hackerrank),
+        ];
+    }
+
+    constructor(private dataService: DataService) { }
 
     ngOnInit() {
+        this.dataService.getProfileData().subscribe((v) => this.setFooterIcons(v));
     }
 }
 
 class FooterIcon {
-    constructor(public iconName: string, public tooltip: string = "", public linkAddress: string = "") {
+    constructor(public iconName: string, public tooltip: string, public linkAddress: string) {
     }
 }

@@ -8,12 +8,21 @@ import { Observable, of } from 'rxjs';
 import { AchievementsCardData } from './achievements-card-data';
 import { SkillsCardGroup } from './skills-card-data';
 import { skillsData } from './skills-data';
+import { ProfileData } from './profile-data';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
-  constructor() { }
+  private profileData: ProfileData;
+
+  constructor() {
+    this.profileData = new ProfileData();
+  }
+
+  getProfileData(): Observable<ProfileData> {
+    return of(this.profileData);
+  }
 
   getEducationData(): Observable<EducationCardData[]> {
     return of(educationData);
