@@ -11,6 +11,14 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (max-width: $small-size) {
+  .auto-center {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+
 /*
 -----------------------------------------------
 Scroll Bar
