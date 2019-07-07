@@ -1,5 +1,19 @@
-<div class="p-4 border rounded animated fadeIn">
-  <a href="{{data.link}}" target="_blank">
-    <img src="{{data.imageUrl}}" class="img-fluid hvr-grow" mdbWavesEffect />
-  </a>
-</div>
+<a href="{{data.link}}" target="_blank">
+  <div class="mb-3 border rounded animated fadeIn">
+    <div class="view overlay zoom p-3">
+      <img src="{{data.imageUrl}}" class="img-fluid hvr-grow" alt="{{data.link}}" mdbWavesEffect />
+      <div type="button" class="mask flex-center rgba-white-strong">
+        <p class="text-dark text-center">
+          <strong>{{data.title}}</strong>
+          <br />
+          <span class="progress">
+            <span class="progress-bar blue-gradient" role="progressbar" [style.width.%]="data.progress * 10"
+              aria-valuemin="0" aria-valuemax="100">
+            </span>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</a>
