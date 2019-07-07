@@ -13,6 +13,21 @@ app-sidebar {
 }
 
 /*
+-----------------------------------
+Responsive Design
+-----------------------------------
+*/
+@media only screen and (max-width: 1280px) {
+  app-sidebar {
+    display: none;
+  }
+
+  #content {
+    margin-left: 0;
+  }
+}
+
+/*
   ----------------------------------
   Github Corner
   ----------------------------------
