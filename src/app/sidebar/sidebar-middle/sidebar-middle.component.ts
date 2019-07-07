@@ -10,7 +10,7 @@ export class SidebarMiddleComponent implements OnInit {
         new NavButton("About Me", "user", '/about'),
         new NavButton("Skills", "crown", '/skills'),
         new NavButton("Education", "graduation-cap", '/education'),
-        new NavButton("Acheievements", "trophy", '/acheievements'),
+        new NavButton("Achievements", "trophy", '/achievements'),
         new NavButton("Projects", "project-diagram", '/projects')
     ];
 

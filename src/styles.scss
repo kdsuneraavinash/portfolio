@@ -3,28 +3,13 @@
 
 * {
   font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 body {
   height: 100vh;
   overflow: hidden;
 }
-
-.title-text {
-  font-size: 32px;
-  font-weight: 900 !important;
-}
-
-// To make icon appear in a dark circle
-.title-icon-circle {
-  background-color: $dark-color;
-  display: inline-block;
-  border-radius: 60px;
-  padding: 14px 12px;
-
-  color: #fff;
-}
-
 
 /*
 -----------------------------------------------

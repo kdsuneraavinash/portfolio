@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AchievementsCardData } from 'src/app/achievements-card-data';
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-achievements-page',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./achievements-page.component.scss']
 })
 export class AchievementsPageComponent implements OnInit {
+  cards: AchievementsCardData[];
 
-  constructor() { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getAchievementsData().subscribe((v) => this.cards = v);
   }
-
 }

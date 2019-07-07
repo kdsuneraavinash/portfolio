@@ -13,7 +13,9 @@ import { EducationCard } from './content/education-page/education-card/education
 import { EducationPageComponent } from './content/education-page/education-page.component';
 import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
 import { ProjectsCardComponent } from './content/projects-page/projects-card/projects-card.component';
-import { AchievementsPageComponent } from './achievements-page/achievements-page.component';
+import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component';
+import { AchievementsCardComponent } from './content/achievements-page/achievements-card/achievements-card.component';
+import { TitleComponent } from './content/title/title.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { AchievementsPageComponent } from './achievements-page/achievements-page
     EducationPageComponent,
     ProjectsPageComponent,
     ProjectsCardComponent,
-    AchievementsPageComponent
+    AchievementsPageComponent,
+    AchievementsCardComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

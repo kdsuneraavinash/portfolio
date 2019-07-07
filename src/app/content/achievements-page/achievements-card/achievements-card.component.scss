@@ -1,0 +1,25 @@
+@import '../../../../variables';
+
+.medal {
+  width: 64px;
+  height: 64px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.timeline {
+  position: relative;
+
+  &::before {
+    content: '';
+    z-index: -1;
+    background: #cccccc;
+    width: 5px;
+    height: 150%;
+    position: absolute;
+    left: 50px;
+    transform: translateX(-50%);
+  }
+}
