@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { TeamMate } from '../team-mates';
+import { TeamMate } from '../../team-mates';
 
 @Component({
   selector: 'app-team-mate',

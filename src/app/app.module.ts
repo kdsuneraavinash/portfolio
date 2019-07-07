@@ -17,7 +17,7 @@ import { AchievementsCardComponent } from './content/achievements-page/achieveme
 import { TitleComponent } from './content/title/title.component';
 import { SkillsPageComponent } from './content/skills-page/skills-page.component';
 import { SkillsCardComponent } from './content/skills-page/skills-card/skills-card.component';
-import { TeamMateComponent } from './team-mate/team-mate.component';
+import { TeamMateComponent } from './content/team-mate/team-mate.component';
 import { AboutComponent } from './content/about/about.component';
 
 @NgModule({
