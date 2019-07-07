@@ -4,10 +4,10 @@ import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  templateUrl: './about-page.component.html',
+  styleUrls: ['./about-page.component.scss']
 })
-export class AboutComponent implements OnInit {
+export class AboutPageComponent implements OnInit {
   public data: ProfileData;
 
   constructor(private dataService: DataService) { }
