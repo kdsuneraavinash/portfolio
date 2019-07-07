@@ -23,6 +23,12 @@
       <hr />
       <div [innerHTML]='data.content'>
       </div>
+
+      <div *ngIf="data.team">
+        <div class="row pt-4 px-3">
+          <app-team-mate *ngFor="let teamMate of data.team" [data]="teamMate"></app-team-mate>
+        </div>
+      </div>
     </div>
   </div>
 

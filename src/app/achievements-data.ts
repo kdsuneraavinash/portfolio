@@ -1,3 +1,5 @@
+import { TeamMate } from './team-mates';
+
 let gold: string = 'amber';
 let silver: string = 'blue-grey';
 let bronze: string = 'brown';
@@ -8,6 +10,7 @@ export let achievementsData = [
         title: `UOJ CODERS V1.0 - WINNERS`,
         organizers: ' University of Jaffna (March 2019)',
         type: 'Competitive Programming [Algorithm]',
+        team: [TeamMate.me(), TeamMate.deepana(), TeamMate.budvin()],
         color: gold,
         content:
             `
@@ -27,6 +30,7 @@ export let achievementsData = [
         organizers: 'Google (Feb 2019)',
         type: 'Programming Competition [Algorithm]',
         color: other,
+        team: [TeamMate.me(), TeamMate.gamlath(), TeamMate.mudith()],
         content:
             `
             Hash Code is a team programming competition, organized by Google, for students and professionals around the world. 
@@ -42,6 +46,7 @@ export let achievementsData = [
         title: `Silver Medalist - IESL IDEA Challenge 2018 at Techno'18`,
         organizers: 'IESL (Oct 2018)',
         type: 'Mobile App Competition',
+        team: [TeamMate.me(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.deepana(), TeamMate.uvindu()],
         color: silver,
         content:
             `
@@ -54,6 +59,7 @@ export let achievementsData = [
         title: `Gold Medalist - IESL RoboGames 2018 at Techno'18`,
         organizers: 'IESL (Oct 2018)',
         type: 'Robotics Competition [Computer Vision]',
+        team: [TeamMate.me(), TeamMate.anju(), TeamMate.tharaka(), TeamMate.senuda(), TeamMate.thusara()],
         color: gold,
         content:
             `
@@ -66,6 +72,7 @@ export let achievementsData = [
         title: `SLIIT Robofest - 4th place (University Category)`,
         organizers: 'SLIIT (Oct 2018)',
         type: 'Robotics Competition',
+        team: [TeamMate.me(), TeamMate.deepana(), TeamMate.budvin()],
         color: other,
         content:
             `
@@ -78,6 +85,7 @@ export let achievementsData = [
         organizers: 'IEEE (Oct 2018)',
         type: 'Competitive Programming [Algorithm]',
         color: bronze,
+        team: [TeamMate.me(), TeamMate.deepana(), TeamMate.budvin()],
         content:
             `
             Island Rank: 3<br/>
@@ -97,6 +105,7 @@ export let achievementsData = [
         title: `Winners - Decrypt Ideathon 2018`,
         organizers: 'University of Moratuwa (May 2018)',
         type: 'Ideathon',
+        team: [TeamMate.me(), TeamMate.deepana(), TeamMate.uvindu(), TeamMate.ruchin()],
         color: gold,
         content:
             `
@@ -111,6 +120,7 @@ export let achievementsData = [
         title: `Sri Lanka Robotics Challenge 17 - 2nd Runners Up`,
         organizers: 'University of Moratuwa (Jan 2018)',
         type: 'Robotics Competition',
+        team: [TeamMate.me(), TeamMate.deepana(), TeamMate.dinith()],
         color: bronze,
         content:
             `

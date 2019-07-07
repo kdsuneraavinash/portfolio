@@ -6,5 +6,12 @@
     <div [innerHTML]="data.content">
     </div>
 
+    <div *ngIf="data.team">
+      <hr />
+      <div class="row p-3">
+        <app-team-mate *ngFor="let teamMate of data.team" [data]="teamMate"></app-team-mate>
+      </div>
+    </div>
+
   </mdb-card-body>
 </mdb-card>

@@ -18,6 +18,7 @@ import { AchievementsCardComponent } from './content/achievements-page/achieveme
 import { TitleComponent } from './content/title/title.component';
 import { SkillsPageComponent } from './content/skills-page/skills-page.component';
 import { SkillsCardComponent } from './content/skills-page/skills-card/skills-card.component';
+import { TeamMateComponent } from './team-mate/team-mate.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { SkillsCardComponent } from './content/skills-page/skills-card/skills-ca
     AchievementsCardComponent,
     TitleComponent,
     SkillsPageComponent,
-    SkillsCardComponent
+    SkillsCardComponent,
+    TeamMateComponent
   ],
   imports: [
     BrowserModule,

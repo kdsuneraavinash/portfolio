@@ -74,6 +74,12 @@ export let skillsData = [
                 progress: 8
             },
             {
+                imageUrl: "assets/mdb.png",
+                link: "https://mdbootstrap.com/",
+                title: "MDBootstrap",
+                progress: 8
+            },
+            {
                 imageUrl: "assets/express.svg",
                 link: "https://expressjs.com/",
                 title: "ExpressJS",
