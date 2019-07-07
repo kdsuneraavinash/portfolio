@@ -23,3 +23,11 @@ h2 {
     transform: translateX(-50%);
   }
 }
+
+@media only screen and (max-width: $small-size) {
+
+  .medal,
+  .timeline::before {
+    display: none;
+  }
+}

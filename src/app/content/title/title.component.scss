@@ -6,6 +6,13 @@ h1 {
   margin-bottom: 25px;
 }
 
+@media only screen and (max-width: $small-size) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+
 // To make icon appear in a dark circle
 .title-icon-circle {
   background-color: $dark-color;

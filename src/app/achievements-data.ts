@@ -21,7 +21,7 @@ export let achievementsData = [
             <br/>
             <br/>
             <a target='_blank' href="http://society.jfn.ac.lk/comsoc/uojcoders/">
-            http://society.jfn.ac.lk/comsoc/uojcoders/
+            Website
             </a>
             `
     },
@@ -38,7 +38,7 @@ export let achievementsData = [
             <br/>
             <br/>
             <a target='_blank' href="https://codingcompetitions.withgoogle.com/hashcode">
-            https://codingcompetitions.withgoogle.com/hashcode
+            Website
             </a>
             `
     },
@@ -93,7 +93,7 @@ export let achievementsData = [
             <br/>
             <br/>
             Team - CodeBreakers97<br/><br/>
-            <a href="https://csacademy.com/ieeextreme12/" target="_blank">https://csacademy.com/ieeextreme12/</a>
+            <a href="https://csacademy.com/ieeextreme12/" target="_blank">Website</a>
             <br/><br/>
             IEEEXtreme is a global challenge in which teams of IEEE Student members – 
             advised and proctored by an IEEE member, and often supported by an 
