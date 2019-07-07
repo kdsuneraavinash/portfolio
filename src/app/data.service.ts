@@ -6,7 +6,7 @@ import { achievementsData } from './achievements-data';
 import { EducationCardData } from './education-card-data';
 import { Observable, of } from 'rxjs';
 import { AchievementsCardData } from './achievements-card-data';
-import { SkillsCardData, SkillsCardGroup } from './skills-card-data';
+import { SkillsCardGroup } from './skills-card-data';
 import { skillsData } from './skills-data';
 
 @Injectable({
