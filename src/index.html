@@ -6,7 +6,7 @@
   <title>Sunera Avinash</title>
   <base href="/">
 
-  <meta name="theme-color" content="#253238ee" />
+  <meta name="theme-color" content="#253238" />
   <meta charset="UTF-8">
   <meta name="description" content="Resume/Portfolio website for Sunera Avinash">
   <meta name="keywords" content="kdsuneraavinash,Angular,HTML,CSS,TypeScript,Sunera,Avinash,Resume,Portfolio">
@@ -14,22 +14,44 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;display=swap" rel="stylesheet">
 
   <noscript>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <style>
       app-root {
-        /* Hide all elements */
         display: none;
+      }
+
+      * {
+        font-family: Roboto, serif;
+      }
+
+      body {
+        margin: 0;
       }
 
       .container {
         min-height: 100vh;
+        max-width: 960px;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
       }
 
       .card {
+        border: 1px solid#00000044;
+        border-radius: .4rem;
+        padding: 1rem;
+        font-size: 1.2em;
+
         min-height: 40vh;
         background-image: url(assets/js.svg);
         background-color: #F0DB4F;
@@ -37,17 +59,24 @@
         background-position: right;
       }
 
+      p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+
       @media (max-width:767px) {
         .card {
           background-image: none;
+          width: 100vw;
         }
       }
 
     </style>
+
     <div class="container d-flex align-items-center">
       <div class="card p-3">
-        <h2>You need to have Javascript Enabled</h2>
-        <hr />
+        <h1>You need to have Javascript Enabled</h1>
+        <br />
         <p>You have disabled Javascript in your web browser. Javascript enabled web browser is needed to view content
           properly.</p>
         <p class="font-weight-bold">Sorry for the inconvienience.</p>
