@@ -16,6 +16,44 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap" rel="stylesheet">
+
+  <noscript>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      app-root {
+        /* Hide all elements */
+        display: none;
+      }
+
+      .container {
+        min-height: 100vh;
+      }
+
+      .card {
+        min-height: 40vh;
+        background-image: url(assets/js.svg);
+        background-color: #F0DB4F;
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+
+      @media (max-width:767px) {
+        .card {
+          background-image: none;
+        }
+      }
+
+    </style>
+    <div class="container d-flex align-items-center">
+      <div class="card p-3">
+        <h2>You need to have Javascript Enabled</h2>
+        <hr />
+        <p>You have disabled Javascript in your web browser. Javascript enabled web browser is needed to view content
+          properly.</p>
+        <p class="font-weight-bold">Sorry for the inconvienience.</p>
+      </div>
+    </div>
+  </noscript>
 </head>
 
 <body>
