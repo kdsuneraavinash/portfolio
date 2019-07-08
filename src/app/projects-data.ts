@@ -114,7 +114,7 @@ export let projectsData = [
             `
             <strong>Nanoprocessor Project for 17-S2-CS2052 Computer Architecture</strong>
             <br/>
-            This is a VHDL implementation of a nanoprocess which can execute 8 different commands.
+            This is a VHDL implementation of a nanoprocessor which can execute 8 different commands.
             <br/>
             <br/>
             <a href="https://github.com/kdsuneraavinash/nanoprocessor" target="_blank">Github Repository</a>
