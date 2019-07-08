@@ -14,10 +14,48 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon" rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;display=swap" rel="stylesheet">
+  <style>
+    #loading {
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lds-dual-ring {
+      display: inline-block;
+      width: 64px;
+      height: 64px;
+    }
+
+    .lds-dual-ring:after {
+      content: " ";
+      display: block;
+      width: 46px;
+      height: 46px;
+      margin: 1px;
+      border-radius: 50%;
+      border: 5px solid #262f36;
+      border-color: #262f36 transparent #262f36 transparent;
+      animation: lds-dual-ring 1.2s linear infinite;
+    }
+
+    @keyframes lds-dual-ring {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
 
   <noscript>
     <style>
@@ -25,67 +63,30 @@
         display: none;
       }
 
-      * {
-        font-family: Roboto, serif;
-      }
-
-      body {
-        margin: 0;
-      }
-
-      .container {
-        min-height: 100vh;
-        max-width: 960px;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center;
-
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
-
-      .card {
-        border: 1px solid#00000044;
-        border-radius: .4rem;
-        padding: 1rem;
-        font-size: 1.2em;
-
-        min-height: 40vh;
-        background-image: url(assets/js.svg);
-        background-color: #F0DB4F;
-        background-repeat: no-repeat;
-        background-position: right;
-      }
-
-      p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-      }
-
-      @media (max-width:767px) {
-        .card {
-          background-image: none;
-          width: 100vw;
-        }
-      }
-
     </style>
 
-    <div class="container d-flex align-items-center">
-      <div class="card p-3">
-        <h1>You need to have Javascript Enabled</h1>
-        <br />
-        <p>You have disabled Javascript in your web browser. Javascript enabled web browser is needed to view content
-          properly.</p>
-        <p class="font-weight-bold">Sorry for the inconvienience.</p>
+    <div style="font-family: Roboto, serif;">
+      <div
+        style="min-height: 100vh; max-width: 960px; display: flex; align-items: center; justify-content: center; padding: auto 15px;  margin: auto auto;">
+        <div
+          style="border: 1px solid#00000044; border-radius: .4rem; padding: 1rem; font-size: 1.2em; min-height: 40vh; background-color: #F0DB4F; width: 100vw; max-width: 767px;">
+          <h1>You need to have Javascript Enabled</h1>
+          <br />
+          <p style="margin-top: 0; margin-bottom: 1rem;">
+            You have disabled Javascript in your web browser.
+            Javascript enabled web browser is needed to view content properly.
+            <br /> <br />
+            <strong>
+              Sorry for the inconvienience.
+            </strong>
+          </p>
+        </div>
       </div>
     </div>
   </noscript>
-<link rel="stylesheet" href="styles.3cf28729d0cea1e21df6.css"></head>
+<link rel="stylesheet" href="styles.253e706c0d93c567b2b1.css"></head>
 
-<body>
+<body style="margin: 0">
   <app-root>
     <div id="loading">
 
@@ -100,4 +101,5 @@
   new WOW().init();
 
 </script>
+
 </html>

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562600406755,
+  "timestamp": 1562612176692,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/runtime-es2015.858f8dd898b75fe86926.js",
         "/runtime-es5.741402d1d47331ce975c.js",
         "/scripts.968f55bfb751cd0febb2.js",
-        "/styles.3cf28729d0cea1e21df6.css"
+        "/styles.253e706c0d93c567b2b1.css"
       ],
       "patterns": []
     },
@@ -55,6 +55,7 @@
         "/Roboto-Thin.94998475f6aea65f5584.ttf",
         "/Roboto-Thin.954bbdeb86483e4ffea0.woff2",
         "/Roboto-Thin.dfe56a876d0282555d1e.eot",
+        "/RobotoSlab-Regular.4855f0cb5e91e2ef3b96.ttf",
         "/arrow_left.270f72df47e036d9cfa1.svg",
         "/arrow_right.d9ccc77c8240ad0dc272.svg",
         "/assets/android.svg",
@@ -71,10 +72,12 @@
         "/assets/express.svg",
         "/assets/firebase.webp",
         "/assets/flutter.png",
+        "/assets/fonts/RobotoSlab-Regular.ttf",
         "/assets/gamlath.jpeg",
         "/assets/git.svg",
         "/assets/github.svg",
         "/assets/html.svg",
+        "/assets/icons/apple-touch-icon.png",
         "/assets/icons/icon-120x120.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -158,6 +161,7 @@
     "/Roboto-Thin.94998475f6aea65f5584.ttf": "173ed64528b4d010a76d8d38deb1d7e7eed58eda",
     "/Roboto-Thin.954bbdeb86483e4ffea0.woff2": "2449e3dac5ddb7c3da8bb07450493b62d052758c",
     "/Roboto-Thin.dfe56a876d0282555d1e.eot": "0790a51a848dbe7292c98f9d0459218bf1a8ffdd",
+    "/RobotoSlab-Regular.4855f0cb5e91e2ef3b96.ttf": "f33ab0c777de88f0f0c78e08ebf9deb4c1740df0",
     "/arrow_left.270f72df47e036d9cfa1.svg": "fb5b615955042a7c6aa16b1f0e8dcbdb279a8ac0",
     "/arrow_right.d9ccc77c8240ad0dc272.svg": "fac5123a15d035a642b74740b89636e2ace09810",
     "/assets/android.svg": "1d9353987a6c1e04fb9b201f580a1bc23af3365b",
@@ -174,10 +178,12 @@
     "/assets/express.svg": "43c45ddd385354c0dbcaf4b8a26a514ae71e7035",
     "/assets/firebase.webp": "44a45faf9b942fb530b05bb423f78a948ad89a0a",
     "/assets/flutter.png": "1092484c18e32bc720b2366e80b2792106cb9cee",
+    "/assets/fonts/RobotoSlab-Regular.ttf": "f33ab0c777de88f0f0c78e08ebf9deb4c1740df0",
     "/assets/gamlath.jpeg": "d1d0284934b532ff72f8ffaeb8bf2e3af30c90e1",
     "/assets/git.svg": "e6c13fe7cceb9e2cfbcffec6e6a589de00e26565",
     "/assets/github.svg": "f7f469ace5df32b4032d9b1e8de630d1a56bc86d",
     "/assets/html.svg": "a8c6c58d106809686c0dfc06c4bc5026ecf37d91",
+    "/assets/icons/apple-touch-icon.png": "236a5173b40748ff41d7b40470a1b4a380bbf91f",
     "/assets/icons/icon-120x120.png": "c3da95082354be1552f4aed3e4af4028c66055ee",
     "/assets/icons/icon-144x144.png": "10fcce3cd56e5b3065acd4e9d375b42cc229dc40",
     "/assets/icons/icon-152x152.png": "7aceaa3650ddd8dddb09a7032835645533d75871",
@@ -227,7 +233,7 @@
     "/fa-solid-900.b5cf8ae26748570d8fb9.woff2": "07bed153d47f9129a944ee54dd72952deed074c8",
     "/fa-solid-900.ef3df98419d143d9617f.eot": "acee4f1e361ccf995121f381b95424b6ec6b29c0",
     "/favicon.ico": "9ad13bbc95f9d034fa79a3b88deedb09fdf16445",
-    "/index.html": "ba6d2c240355be4701af2f49922cc6be18ff6456",
+    "/index.html": "0bb9e7e47c35a252534afcd0c8169fcecae37faa",
     "/main-es2015.e298935b3e65d61aa249.js": "110a19f0a958f5be372b25989c987e54c9d1fedd",
     "/main-es5.c787a379dbce1c080eb7.js": "f1c094768aceadb5da3380843105a0212833931c",
     "/polyfills-es2015.5728f680576ca47e99fe.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
@@ -235,7 +241,7 @@
     "/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.968f55bfb751cd0febb2.js": "8cff919624f4590879d1564653ac7c73c135e960",
-    "/styles.3cf28729d0cea1e21df6.css": "50a037e66d8c57b87250a1716e49417c3f5aa1ef"
+    "/styles.253e706c0d93c567b2b1.css": "ba0acb781e1069bd94d65b8039187b9c342c5aaf"
   },
   "navigationUrls": [
     {
