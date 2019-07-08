@@ -9,7 +9,7 @@ export let projectsData = [
             <a href="https://pub.dartlang.org/packages/theme_provider" rel="nofollow"><img src="https://camo.githubusercontent.com/aeb73bfce6619e8ddbbfd5071c12d822b4fffa83/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f7468656d655f70726f76696465722e737667" alt="Pub Package" data-canonical-src="https://img.shields.io/pub/v/theme_provider.svg" style="max-width:100%;"></a></p>
            
             <strong>An easy to use, customizable Theme Provider plugin for 
-            <a href='https://flutter.dev' target='_blank'>Flutter </a> </strong>
+            <a href='https://flutter.dev' target='_blank' rel="noopener">Flutter </a> </strong>
             <br />
             This provides app color schemes throughout the app 
             and automatically rebuilds the UI dynamically. 
@@ -18,10 +18,10 @@ export let projectsData = [
             abilities.
             <br />
             <br />
-            <a href='https://pub.dev/packages/theme_provider' target='_blank'>
+            <a href='https://pub.dev/packages/theme_provider' target='_blank' rel="noopener">
                Package Home Page (Dart Pub)</a>
             <br />
-            <a href='https://github.com/kdsuneraavinash/theme_provider' target='_blank'>
+            <a href='https://github.com/kdsuneraavinash/theme_provider' target='_blank' rel="noopener">
                 Github Repository
             </a>
             `
@@ -41,7 +41,7 @@ export let projectsData = [
             <strong> This was a project done for semester 3 module Object-Oriented Software Development (17-S3-CS2062)</strong>
             <br/>
             <br/>
-            <a href="https://github.com/kdsuneraavinash/pulse-healthcare" target="_blank">Github Repository</a>
+            <a href="https://github.com/kdsuneraavinash/pulse-healthcare" target="_blank" rel="noopener">Github Repository</a>
             <br/>
             <br/>
             <img src="https://github.com/kdsuneraavinash/pulse-healthcare/raw/master/web/screenshots/home_page.png" class="img-fluid d-none d-md-block" alt="Screenshot">
@@ -59,9 +59,9 @@ export let projectsData = [
             <strong> This was a project done for semester 3 module Operating Systems (17-S3-CS2042)</strong>
             <br/>
             <br/>
-            <a href="https://github.com/kdsuneraavinash/os-scheduler" target="_blank">Github Repository</a>
+            <a href="https://github.com/kdsuneraavinash/os-scheduler" target="_blank" rel="noopener">Github Repository</a>
             <br/>
-            <a href="https://kdsuneraavinash.github.io/os-scheduler/" target="_blank">Online Test Site</a>
+            <a href="https://kdsuneraavinash.github.io/os-scheduler/" target="_blank" rel="noopener">Online Test Site</a>
             <br/>
             <br/>
             <img src="https://github.com/kdsuneraavinash/os-scheduler/raw/master/readme.gif" class="img-fluid d-none d-md-block" alt="Screenshot">
@@ -75,7 +75,7 @@ export let projectsData = [
             Website for decrypt event 2019 organized by CSE17.
             <br/>
             <br/>
-            <a href="https://decrypt-cse.com" target="_blank">Visit Website</a>
+            <a href="https://decrypt-cse.com" target="_blank" rel="noopener">Visit Website</a>
             `
     },
     {
@@ -86,7 +86,7 @@ export let projectsData = [
             This is a Matrimonial Ad Portal where people can publish their Ad faster.
             <br/>
             <br/>
-            <a href="https://capsolat.com/" target="_blank">Visit Website</a>
+            <a href="https://capsolat.com/" target="_blank" rel="noopener">Visit Website</a>
             `
     },
     {
@@ -97,7 +97,7 @@ export let projectsData = [
             This bot was intended to play piano tiles game and can reach 4000+ scores easily.
             <br/>
             <br/>
-            <a href="https://github.com/kdsuneraavinash/python-projects/tree/master/piano-tile-bot" target="_blank">Github Repository</a>
+            <a href="https://github.com/kdsuneraavinash/python-projects/tree/master/piano-tile-bot" target="_blank" rel="noopener">Github Repository</a>
             <br/>
             <br/>
             <div class="embed-responsive embed-responsive-16by9 img-fluid d-none d-md-block">
@@ -117,7 +117,7 @@ export let projectsData = [
             This is a VHDL implementation of a nanoprocessor which can execute 8 different commands.
             <br/>
             <br/>
-            <a href="https://github.com/kdsuneraavinash/nanoprocessor" target="_blank">Github Repository</a>
+            <a href="https://github.com/kdsuneraavinash/nanoprocessor" target="_blank" rel="noopener">Github Repository</a>
             <br/>
             <br/>
             <img src="https://github.com/kdsuneraavinash/nanoprocessor/raw/master/design.png" class="img-fluid d-none d-md-block" alt="Design">

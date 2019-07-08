@@ -20,7 +20,7 @@ export let achievementsData = [
             The competition is open to all undergraduate students in Sri Lanka.
             <br/>
             <br/>
-            <a target='_blank' href="http://society.jfn.ac.lk/comsoc/uojcoders/">
+            <a target='_blank'rel="noopener" href="http://society.jfn.ac.lk/comsoc/uojcoders/">
             Website
             </a>
             `
@@ -37,7 +37,7 @@ export let achievementsData = [
             Teams are given an engineering problem to solve. 
             <br/>
             <br/>
-            <a target='_blank' href="https://codingcompetitions.withgoogle.com/hashcode">
+            <a target='_blank' rel="noopener" href="https://codingcompetitions.withgoogle.com/hashcode">
             Website
             </a>
             `
