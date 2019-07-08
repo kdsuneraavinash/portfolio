@@ -2,7 +2,7 @@
 
 <app-sidebar></app-sidebar>
 
-<div id="content">
+<div id="content" [class.additional-page]="isAdditionalPage()">
   <router-outlet></router-outlet>
 </div>
 

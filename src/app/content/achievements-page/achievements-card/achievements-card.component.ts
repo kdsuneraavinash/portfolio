@@ -8,6 +8,7 @@ import { AchievementsCardData } from 'src/app/achievements-card-data';
 })
 export class AchievementsCardComponent implements OnInit {
   @Input('data') data: AchievementsCardData;
+  @Input('isLast') isLast: boolean;
 
   constructor() { }
 

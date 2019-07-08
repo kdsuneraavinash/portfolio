@@ -10,7 +10,11 @@ app-sidebar {
   margin-left: $sidebar-width;
   height: 100vh;
   overflow: auto;
-  padding-bottom: 100px;
+
+  &.additional-page {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
 }
 
 /*
@@ -24,14 +28,23 @@ app-navbar {
   display: none;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: $small-size) {
+  #content {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: $sidebar-switch-size) {
   app-sidebar {
     display: none;
   }
 
   #content {
-    padding-top: 30px;
     margin-left: 0;
+
+    &.additional-page {
+      padding-top: 30px;
+    }
   }
 
   app-navbar {

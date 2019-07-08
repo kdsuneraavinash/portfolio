@@ -20,6 +20,7 @@ import { SkillsCardComponent } from './content/skills-page/skills-card/skills-ca
 import { TeamMateComponent } from './content/team-mate/team-mate.component';
 import { AboutPageComponent } from './content/about-page/about-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ScrollToTopDirective } from './scroll-to-top.directive';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     SkillsCardComponent,
     TeamMateComponent,
     AboutPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ScrollToTopDirective
   ],
   imports: [
     BrowserModule,

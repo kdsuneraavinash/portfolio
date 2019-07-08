@@ -22,6 +22,12 @@ h2 {
     left: 50px;
     transform: translateX(-50%);
   }
+
+  &.is-last {
+    &::before {
+      display: none;
+    }
+  }
 }
 
 @media only screen and (max-width: $small-size) {
