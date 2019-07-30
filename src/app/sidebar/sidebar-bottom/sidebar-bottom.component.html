@@ -1,7 +1,7 @@
 <div id="sidebar-bottom" *ngIf="footerIcons">
   <div class="row">
     <a *ngFor="let footerIcon of footerIcons" class="text-white col p-2 hvr-grow" href="{{footerIcon.linkAddress}}"
-      mdbTooltip="{{footerIcon.tooltip}}" placement="top" target="_blank" rel="noopener">
+       mdbTooltip="{{footerIcon.tooltip}}" placement="top" target="_blank" rel="noopener">
       <mdb-icon fab icon="{{footerIcon.iconName}}"></mdb-icon>
     </a>
   </div>
