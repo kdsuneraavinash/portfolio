@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { TeamMate } from '../../data/team-mate';
+import {Component, OnInit, Input} from '@angular/core';
+import {TeamMate} from '../../data/team-mate';
 
 @Component({
   selector: 'app-team-mate',
@@ -9,7 +9,8 @@ import { TeamMate } from '../../data/team-mate';
 export class TeamMateComponent implements OnInit {
   @Input('data') data: TeamMate;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

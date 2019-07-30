@@ -2,12 +2,12 @@
   <mdb-card-body class="p-4 auto-center">
     <h2 class="h2-responsive">{{data.title | uppercase}}</h2>
 
-    <hr />
+    <hr/>
     <div [innerHTML]="data.content">
     </div>
 
     <div *ngIf="data.team">
-      <hr />
+      <hr/>
       <div class="row p-3 auto-center">
         <app-team-mate *ngFor="let teamMate of data.team" [data]="teamMate"></app-team-mate>
       </div>

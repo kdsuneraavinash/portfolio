@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Skill } from 'src/app/data/skill';
+import {Component, OnInit, Input} from '@angular/core';
+import {Skill} from 'src/app/data/skill';
 
 @Component({
   selector: 'app-skills-card',
@@ -9,7 +9,8 @@ import { Skill } from 'src/app/data/skill';
 export class SkillsCardComponent implements OnInit {
   @Input('data') data: Skill;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

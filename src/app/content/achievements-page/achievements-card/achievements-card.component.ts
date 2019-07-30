@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Achievement } from 'src/app/data/achievement';
+import {Component, OnInit, Input} from '@angular/core';
+import {Achievement} from 'src/app/data/achievement';
 
 @Component({
   selector: 'app-achievements-card',
@@ -10,7 +10,8 @@ export class AchievementsCardComponent implements OnInit {
   @Input('data') data: Achievement;
   @Input('isLast') isLast: boolean;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Profile } from 'src/app/data/profile';
-import { DataService } from 'src/app/data.service';
+import {Component, OnInit} from '@angular/core';
+import {Profile} from 'src/app/data/profile';
+import {DataService} from 'src/app/data.service';
 
 @Component({
   selector: 'app-about',
@@ -10,7 +10,8 @@ import { DataService } from 'src/app/data.service';
 export class AboutPageComponent implements OnInit {
   public data: Profile;
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService) {
+  }
 
   ngOnInit() {
     this.dataService.getProfileData().subscribe((v) => this.data = v);
