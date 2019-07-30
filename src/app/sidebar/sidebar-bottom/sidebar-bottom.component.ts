@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/data.service';
-import { ProfileData } from 'src/app/profile-data';
+import { Profile } from 'src/app/data/profile';
 
 @Component({
     selector: 'app-sidebar-bottom',
@@ -10,12 +10,12 @@ import { ProfileData } from 'src/app/profile-data';
 export class SidebarBottomComponent implements OnInit {
     footerIcons: FooterIcon[];
 
-    setFooterIcons(data: ProfileData) {
+    setFooterIcons(data: Profile) {
         this.footerIcons = [
             new FooterIcon("google", "Email", "mailto:" + data.email),
-            new FooterIcon("linkedin", "LinkedIn", data.linkedin),
+            new FooterIcon("linkedin", "LinkedIn", data.linkedIn),
             new FooterIcon("github", "GitHub", data.github),
-            new FooterIcon("hackerrank", "Hackerrank", data.hackerrank),
+            new FooterIcon("hackerrank", "Hackerrank", data.hackerRank),
         ];
     }
 

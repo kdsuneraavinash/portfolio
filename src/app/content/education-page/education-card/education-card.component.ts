@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { EducationCardData } from 'src/app/education-card-data';
+import { Education } from 'src/app/data/education';
 
 @Component({
   selector: 'app-details-card',
@@ -7,7 +7,7 @@ import { EducationCardData } from 'src/app/education-card-data';
   styleUrls: ['./education-card.component.scss']
 })
 export class EducationCard implements OnInit {
-  @Input('data') data: EducationCardData;
+  @Input('data') data: Education;
 
   constructor() { }
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/data.service';
-import { ProfileData } from 'src/app/profile-data';
+import { Profile } from 'src/app/data/profile';
 
 @Component({
     selector: 'app-sidebar-top',
@@ -11,7 +11,7 @@ export class SidebarTopComponent implements OnInit {
     name: string;
     subtitle: string;
 
-    setData(data: ProfileData) {
+    setData(data: Profile) {
         this.name = data.name;
         this.subtitle = data.subtitle;
     }

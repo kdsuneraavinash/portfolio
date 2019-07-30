@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavButton } from '../navbutton-data';
+import { NavButton } from '../data/nav-button';
 import { DataService } from '../data.service';
 import { Router } from '@angular/router';
 

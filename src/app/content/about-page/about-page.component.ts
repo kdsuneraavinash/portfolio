@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfileData } from 'src/app/profile-data';
+import { Profile } from 'src/app/data/profile';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./about-page.component.scss']
 })
 export class AboutPageComponent implements OnInit {
-  public data: ProfileData;
+  public data: Profile;
 
   constructor(private dataService: DataService) { }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SkillsCardGroup } from 'src/app/skills-card-data';
+import { SkillGroup } from 'src/app/data/skill';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./skills-page.component.scss']
 })
 export class SkillsPageComponent implements OnInit {
-  cardGroups: SkillsCardGroup[];
+  cardGroups: SkillGroup[];
   constructor(private dataService: DataService) { }
 
   ngOnInit() {

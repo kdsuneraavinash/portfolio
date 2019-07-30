@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsCardData } from 'src/app/projects-card-data';
+import { Project } from 'src/app/data/project';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./projects-page.component.scss']
 })
 export class ProjectsPageComponent implements OnInit {
-  cards: ProjectsCardData[];
+  cards: Project[];
   constructor(private dataService: DataService) { }
 
   ngOnInit() {

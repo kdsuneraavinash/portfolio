@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/data.service';
-import { NavButton } from 'src/app/navbutton-data';
+import { NavButton } from 'src/app/data/nav-button';
 
 @Component({
     selector: 'app-sidebar-middle',

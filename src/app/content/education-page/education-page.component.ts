@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EducationCardData } from '../../education-card-data';
+import { Education } from '../../data/education';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./education-page.component.scss']
 })
 export class EducationPageComponent implements OnInit {
-  cards: EducationCardData[];
+  cards: Education[];
 
   constructor(private dataService: DataService) { }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AchievementsCardData } from 'src/app/achievements-card-data';
+import { Achievement } from 'src/app/data/achievement';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./achievements-page.component.scss']
 })
 export class AchievementsPageComponent implements OnInit {
-  cards: AchievementsCardData[];
+  cards: Achievement[];
 
   constructor(private dataService: DataService) { }
 

@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { EducationPageComponent } from './content/education-page/education-page.component';
-import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
-import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component';
-import { SkillsPageComponent } from './content/skills-page/skills-page.component';
-import { AboutPageComponent } from './content/about-page/about-page.component';
+import {NgModule} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
+import {EducationPageComponent} from './content/education-page/education-page.component';
+import {ProjectsPageComponent} from './content/projects-page/projects-page.component';
+import {AchievementsPageComponent} from './content/achievements-page/achievements-page.component';
+import {SkillsPageComponent} from './content/skills-page/skills-page.component';
+import {AboutPageComponent} from './content/about-page/about-page.component';
 
 const routes: Routes = [
   {
@@ -35,7 +35,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

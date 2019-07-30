@@ -1,10 +1,14 @@
-import { TeamMate } from './team-mates';
+import {TeamMate} from './team-mate';
 
-export let projectsData = [
+export class Project {
+  constructor(public title: string, public content: string, public team?: TeamMate[]) {
+  }
+
+  static readonly data = [
     {
-        title: `THEME PROVIDER - OPEN SOURCE PROJECT`,
-        content:
-            `
+      title: `THEME PROVIDER - OPEN SOURCE PROJECT`,
+      content:
+        `
             <p><a href="https://codemagic.io/apps/5cfb60390824820019d5af6b/5cfb60390824820019d5af6a/latest_build" rel="nofollow"><img src="https://camo.githubusercontent.com/ad035dbbe78bf77688ab8f125a17dae13b27a120/68747470733a2f2f6170692e636f64656d616769632e696f2f617070732f3563666236303339303832343832303031396435616636622f3563666236303339303832343832303031396435616636612f7374617475735f62616467652e737667" alt="Codemagic build status" data-canonical-src="https://api.codemagic.io/apps/5cfb60390824820019d5af6b/5cfb60390824820019d5af6a/status_badge.svg" style="max-width:100%;"></a>
             <a href="https://pub.dartlang.org/packages/theme_provider" rel="nofollow"><img src="https://camo.githubusercontent.com/aeb73bfce6619e8ddbbfd5071c12d822b4fffa83/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f7468656d655f70726f76696465722e737667" alt="Pub Package" data-canonical-src="https://img.shields.io/pub/v/theme_provider.svg" style="max-width:100%;"></a></p>
            
@@ -27,12 +31,12 @@ export let projectsData = [
             `
     },
     {
-        title: `MediKit WebApp & MobileApp - Semester 3 Group Project | Managing healthcare services | e-prescriptions`,
-        team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.lahiru()],
-        content:
-            `
-            <strong>Pulse Healthcare is a project initiated by the team Pulse with the intention of improving 
-            the doctor-patient interconnection and computerizing the healthcare system. </strong><br/>
+      title: `MediKit WebApp & MobileApp - Semester 3 Group Project | Managing health-care services | e-prescriptions`,
+      team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.lahiru()],
+      content:
+        `
+            <strong>Pulse Health-care is a project initiated by the team Pulse with the intention of improving 
+            the doctor-patient interconnection and computerizing the health-care system. </strong><br/>
             The main function of the platform is managing and storing medical data. 
             Other than that the platform provides various type of services to its clients 
             including doctor management facility and other medical center oriented facilities. 
@@ -44,13 +48,13 @@ export let projectsData = [
             <a href="https://github.com/kdsuneraavinash/pulse-healthcare" target="_blank" rel="noopener">Github Repository</a>
             <br/>
             <br/>
-            <img src="https://github.com/kdsuneraavinash/pulse-healthcare/raw/master/web/screenshots/home_page.png" class="img-fluid d-none d-md-block" alt="Screenshot">
+            <img src="https://github.com/kdsuneraavinash/pulse-healthcare/raw/master/web/screenshots/home_page.png" class="img-fluid d-none d-md-block" alt="Screenshots">
             `
     },
     {
-        title: `OS Scheduler Algorithm Simulator`,
-        content:
-            `
+      title: `OS Scheduler Algorithm Simulator`,
+      content:
+        `
             This is a simple web app/electron app to simulate the OS scheduler algorithms such as Round Robin/SJF/FCFS/SRTF. 
             Uses canvas drawings and charts to demonstrate various statistics related to simulation.
 
@@ -68,10 +72,10 @@ export let projectsData = [
             `
     },
     {
-        title: `Decrypt 2.0 Website`,
-        team: [TeamMate.sunera(), TeamMate.rumesh()],
-        content:
-            `
+      title: `Decrypt 2.0 Website`,
+      team: [TeamMate.sunera(), TeamMate.rumesh()],
+      content:
+        `
             Website for decrypt event 2019 organized by CSE17.
             <br/>
             <br/>
@@ -79,9 +83,9 @@ export let projectsData = [
             `
     },
     {
-        title: `Capsolat`,
-        content:
-            `
+      title: `Capsolat`,
+      content:
+        `
             Designed the front end for a startup for a matrimonial web site.
             This is a Matrimonial Ad Portal where people can publish their Ad faster.
             <br/>
@@ -90,10 +94,10 @@ export let projectsData = [
             `
     },
     {
-        title: `Piano Tiles Bot - Open Source Project`,
-        content:
-            `
-            A hobby project I did which captures a window from an emulater and uses openCV to process the image and press according keys. 
+      title: `Piano Tiles Bot - Open Source Project`,
+      content:
+        `
+            A hobby project I did which captures a window from an emulator and uses openCV to process the image and press according keys. 
             This bot was intended to play piano tiles game and can reach 4000+ scores easily.
             <br/>
             <br/>
@@ -108,13 +112,13 @@ export let projectsData = [
             `
     },
     {
-        title: `Nano Processor - VHDL`,
-        team: [TeamMate.sunera(), TeamMate.anju()],
-        content:
-            `
-            <strong>Nanoprocessor Project for 17-S2-CS2052 Computer Architecture</strong>
+      title: `Nano Processor - VHDL`,
+      team: [TeamMate.sunera(), TeamMate.anju()],
+      content:
+        `
+            <strong>Nano-processor Project for 17-S2-CS2052 Computer Architecture</strong>
             <br/>
-            This is a VHDL implementation of a nanoprocessor which can execute 8 different commands.
+            This is a VHDL implementation of a nano-processor which can execute 8 different commands.
             <br/>
             <br/>
             <a href="https://github.com/kdsuneraavinash/nanoprocessor" target="_blank" rel="noopener">Github Repository</a>
@@ -123,5 +127,5 @@ export let projectsData = [
             <img src="https://github.com/kdsuneraavinash/nanoprocessor/raw/master/design.png" class="img-fluid d-none d-md-block" alt="Design">
             `
     },
-
-];
+  ];
+}

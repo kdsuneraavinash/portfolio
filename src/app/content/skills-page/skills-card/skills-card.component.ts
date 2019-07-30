@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SkillsCardData } from 'src/app/skills-card-data';
+import { Skill } from 'src/app/data/skill';
 
 @Component({
   selector: 'app-skills-card',
@@ -7,7 +7,7 @@ import { SkillsCardData } from 'src/app/skills-card-data';
   styleUrls: ['./skills-card.component.scss']
 })
 export class SkillsCardComponent implements OnInit {
-  @Input('data') data: SkillsCardData;
+  @Input('data') data: Skill;
 
   constructor() { }
 
