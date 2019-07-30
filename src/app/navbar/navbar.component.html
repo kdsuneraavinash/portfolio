@@ -6,7 +6,7 @@
 
         <li class="nav-item navbar-right" *ngFor="let navButton of navButtons">
           <a class="nav-link waves-light p-2 mb-2 hvr-box-shadow-inset" routerLink="{{navButton.link}}"
-            routerLinkActive="active" mdbWavesEffect>
+             routerLinkActive="active" mdbWavesEffect>
             <mdb-icon class="icon-circle" fas icon="{{navButton.iconName}}"></mdb-icon> &nbsp;
             {{navButton.text | uppercase}} &nbsp;
           </a>

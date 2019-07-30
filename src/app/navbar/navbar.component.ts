@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { NavButton } from '../data/nav-button';
-import { DataService } from '../data.service';
-import { Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {NavButton} from '../data/nav-button';
+import {DataService} from '../data.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -11,7 +11,8 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
   public navButtons: NavButton[];
 
-  constructor(private router: Router, private dataService: DataService) { }
+  constructor(private router: Router, private dataService: DataService) {
+  }
 
   ngOnInit() {
     this.dataService.getNavigationData().subscribe((v) => this.navButtons = v);
