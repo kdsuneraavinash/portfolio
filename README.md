@@ -12,14 +12,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Build
 
-First open `src/index.html` and change base url to the required path.
-(eg: This is published on `https://kdsuneraavinash.github.io/portfolio`
-so base url have to be `/portfolio/`)
-
-```html
-<head>
-    <base href="/portfolio/">
-</head>
-```
-
-Then run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`ng build --prod --output-path docs --base-href /portfolio/`
