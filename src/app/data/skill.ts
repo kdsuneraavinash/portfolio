@@ -29,7 +29,7 @@ export class SkillGroup {
           imageUrl: "assets/dart.jpg",
           link: "https://dart.dev/",
           title: "Dart",
-          progress: 8
+          progress: 9
         },
         {
           imageUrl: "assets/php.svg",
@@ -47,7 +47,7 @@ export class SkillGroup {
           imageUrl: "assets/ts.svg",
           link: "https://www.typescriptlang.org/",
           title: "TypeScript",
-          progress: 5
+          progress: 6
         },
         {
           imageUrl: "assets/html.svg",
@@ -65,7 +65,7 @@ export class SkillGroup {
           imageUrl: "assets/cplusplus.svg",
           link: "https://isocpp.org/",
           title: "C++",
-          progress: 4
+          progress: 6
         },
         {
           imageUrl: "assets/vb.png",
@@ -94,7 +94,7 @@ export class SkillGroup {
           imageUrl: "assets/angular.svg",
           link: "https://angular.io/",
           title: "Angular",
-          progress: 5
+          progress: 6
         },
         {
           imageUrl: "assets/bootstrap.svg",
@@ -106,19 +106,19 @@ export class SkillGroup {
           imageUrl: "assets/mdb.png",
           link: "https://mdbootstrap.com/",
           title: "MDBootstrap",
-          progress: 8
+          progress: 9
         },
         {
           imageUrl: "assets/express.svg",
           link: "https://expressjs.com/",
           title: "ExpressJS",
-          progress: 3
+          progress: 4
         },
         {
           imageUrl: "assets/node.svg",
           link: "https://nodejs.org/",
           title: "NodeJs",
-          progress: 2
+          progress: 3
         },
         {
           imageUrl: "assets/opencv.png",
@@ -130,7 +130,19 @@ export class SkillGroup {
           imageUrl: "assets/tensorflow.png",
           link: "https://www.tensorflow.org",
           title: "TensorFlow",
-          progress: 3
+          progress: 4
+        },
+        {
+          imageUrl: "assets/pytorch.png",
+          link: "https://pytorch.org/",
+          title: "PyTorch",
+          progress: 4
+        },
+        {
+          imageUrl: "assets/fastai.png",
+          link: "https://www.fast.ai",
+          title: "FastAI",
+          progress: 6
         }
       ]
     },
@@ -141,19 +153,19 @@ export class SkillGroup {
           imageUrl: "assets/mysql.svg",
           link: "https://www.mysql.com/",
           title: "MySql",
-          progress: 5
+          progress: 6
         },
         {
           imageUrl: "assets/firebase.webp",
           link: "https://firebase.google.com/",
           title: "Firebase",
-          progress: 5
+          progress: 6
         },
         {
           imageUrl: "assets/git.svg",
           link: "https://git-scm.com/",
           title: "Git",
-          progress: 7
+          progress: 8
         }
       ],
     },

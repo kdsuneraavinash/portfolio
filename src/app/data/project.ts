@@ -1,10 +1,32 @@
-import {TeamMate} from './team-mate';
+import { TeamMate } from './team-mate';
 
 export class Project {
   constructor(public title: string, public content: string, public team?: TeamMate[]) {
   }
 
   static readonly data = [
+    {
+      title: `Teleport (App developed for the HackX competition)`,
+      team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.uvindu(), TeamMate.deepana()],
+      content:
+        `
+        Teleport is an app which intends to revelutionize transportation and logistics industry by further incorporating the concepts of sharing economy. 
+        <br/>
+        This app was made using flutter and supports both iOS and android platforms.
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener" href="http://hackx.lk/">
+        Website
+        </a>
+        <br/>
+        <br/>
+        <div class="embed-responsive embed-responsive-16by9 img-fluid d-none d-md-block">
+        <video loop controls class="embed-responsive-item">
+            <source src="https://video-lga3-1.xx.fbcdn.net/v/t42.26565-2/72142663_138850280727096_3174198339678266145_n.mp4?_nc_cat=100&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9zZCJ9&_nc_oc=AQn3SuC0F_bpSHY898FTmAF0wNVDx9QBOvbn5aumBIAbcRiplVDp8YCtdWdlBDNHm7Y&_nc_ht=video-lga3-1.xx&oh=dcf19b64a408214042dbc5a2c3fcf8ed&oe=5D91F9E2" type="video/mp4">
+        </video>
+        </div>
+        `
+    },
     {
       title: `THEME PROVIDER - OPEN SOURCE PROJECT`,
       content:

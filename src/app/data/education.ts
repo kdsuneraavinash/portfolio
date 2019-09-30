@@ -13,7 +13,12 @@ export class Education {
             <br/> 
             Current SGPA: 4.11
             <br/>
-            <strong>Dean's List: Semester 1, Semester 2<strong><br/>
+            <br/>
+            <strong>Dean's List</strong>
+            <ul>
+              <li>Semester 1 (GPA: 4.11)</li>
+              <li>Semester 2 (GPA: 4.11)</li>
+            </ul>
            `
     },
     {

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1564498509145,
+  "timestamp": 1569835643360,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/portfolio/favicon.ico",
         "/portfolio/index.html",
-        "/portfolio/main-es2015.774a977448861a5a02c2.js",
-        "/portfolio/main-es5.95cd2d25f5a41accf211.js",
-        "/portfolio/polyfills-es2015.27661dfa98f6332c27dc.js",
-        "/portfolio/polyfills-es5.7f43b971448d2fb49202.js",
+        "/portfolio/main-es2015.2232bce8d3c327e5851b.js",
+        "/portfolio/main-es5.63878cefab2a7af1c61a.js",
+        "/portfolio/polyfills-es2015.5728f680576ca47e99fe.js",
+        "/portfolio/polyfills-es5.4e06eb653a3c8a2d581f.js",
         "/portfolio/runtime-es2015.858f8dd898b75fe86926.js",
         "/portfolio/runtime-es5.741402d1d47331ce975c.js",
         "/portfolio/scripts.968f55bfb751cd0febb2.js",
-        "/portfolio/styles.5a4de14cc185f9b47e79.css"
+        "/portfolio/styles.253e706c0d93c567b2b1.css"
       ],
       "patterns": []
     },
@@ -70,6 +70,7 @@
         "/portfolio/assets/deepana.jpeg",
         "/portfolio/assets/dinith.jpeg",
         "/portfolio/assets/express.svg",
+        "/portfolio/assets/fastai.png",
         "/portfolio/assets/firebase.webp",
         "/portfolio/assets/flutter.png",
         "/portfolio/assets/fonts/RobotoSlab-Regular.ttf",
@@ -99,6 +100,7 @@
         "/portfolio/assets/opencv.png",
         "/portfolio/assets/php.svg",
         "/portfolio/assets/python.svg",
+        "/portfolio/assets/pytorch.png",
         "/portfolio/assets/resume.pdf",
         "/portfolio/assets/ruchin.jpg",
         "/portfolio/assets/rumesh.jpeg",
@@ -170,12 +172,13 @@
     "/portfolio/assets/arduino.png": "be8e443a46dd0d574f57d673475b80360b4e40a4",
     "/portfolio/assets/bootstrap.svg": "9bcb03b5d2d6b2f48095d7c81f3c82869f143e7b",
     "/portfolio/assets/budvin.jpeg": "eb964127bb63f9ede10d8508d0eb6f73b736c10c",
-    "/portfolio/assets/cplusplus.svg": "a56620ec3c223c8a6864456d1aa4446768ea7314",
+    "/portfolio/assets/cplusplus.svg": "ef7617c65f3998871974efb025f4e95b5bad47c1",
     "/portfolio/assets/css.svg": "ae60ffb4b56f905da6281e86203c1d4b996aab69",
     "/portfolio/assets/dart.jpg": "7e52f1691ce78d20b66492f6570a12a9c7b226e4",
     "/portfolio/assets/deepana.jpeg": "79f5e88ad4eff0a464b343d90a50fa05e2abf5d1",
     "/portfolio/assets/dinith.jpeg": "584cac29c09835700e2ade75faa01391a531e5ab",
     "/portfolio/assets/express.svg": "43c45ddd385354c0dbcaf4b8a26a514ae71e7035",
+    "/portfolio/assets/fastai.png": "f58763a815a5726ef9f0ad38faefc9fb2af76e5c",
     "/portfolio/assets/firebase.webp": "44a45faf9b942fb530b05bb423f78a948ad89a0a",
     "/portfolio/assets/flutter.png": "1092484c18e32bc720b2366e80b2792106cb9cee",
     "/portfolio/assets/fonts/RobotoSlab-Regular.ttf": "f33ab0c777de88f0f0c78e08ebf9deb4c1740df0",
@@ -205,6 +208,7 @@
     "/portfolio/assets/opencv.png": "9c178f7cf026b0a3e37c8b35fabe79bdde99b86a",
     "/portfolio/assets/php.svg": "fa286b940014ab68d6fc1abd07288f98c12f170a",
     "/portfolio/assets/python.svg": "a06ba6ad33da74551f934e40619f83d438cb528e",
+    "/portfolio/assets/pytorch.png": "6cd7da56682d360e2c6006ff3e31eb250c5a8675",
     "/portfolio/assets/resume.pdf": "0830f7ba75ff7556da1b047f5a35460d8ae919b9",
     "/portfolio/assets/ruchin.jpg": "149a9c9c38b928e8ce4a31b994d57aeecee69312",
     "/portfolio/assets/rumesh.jpeg": "c4472ba1e358870a17aab1238296637e1cf7a3ae",
@@ -233,15 +237,15 @@
     "/portfolio/fa-solid-900.b5cf8ae26748570d8fb9.woff2": "07bed153d47f9129a944ee54dd72952deed074c8",
     "/portfolio/fa-solid-900.ef3df98419d143d9617f.eot": "acee4f1e361ccf995121f381b95424b6ec6b29c0",
     "/portfolio/favicon.ico": "9ad13bbc95f9d034fa79a3b88deedb09fdf16445",
-    "/portfolio/index.html": "f547e565f15367cce819b7b68f7195a30141391e",
-    "/portfolio/main-es2015.774a977448861a5a02c2.js": "d63e81700c013a93fd5d141293ba1f24e13c8f67",
-    "/portfolio/main-es5.95cd2d25f5a41accf211.js": "a7353e0406b14d78431918a8412be926d43f2d29",
-    "/portfolio/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
-    "/portfolio/polyfills-es5.7f43b971448d2fb49202.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
+    "/portfolio/index.html": "422bf791425aff3b4b804dbaa5bd8db11b0c5070",
+    "/portfolio/main-es2015.2232bce8d3c327e5851b.js": "ffea534ddafa3820ebaf7a9d113ecf259e46446e",
+    "/portfolio/main-es5.63878cefab2a7af1c61a.js": "28f18f213f40c8a4aba65d43f7b7760b4d11ae40",
+    "/portfolio/polyfills-es2015.5728f680576ca47e99fe.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
+    "/portfolio/polyfills-es5.4e06eb653a3c8a2d581f.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
     "/portfolio/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/portfolio/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/portfolio/scripts.968f55bfb751cd0febb2.js": "8cff919624f4590879d1564653ac7c73c135e960",
-    "/portfolio/styles.5a4de14cc185f9b47e79.css": "ba0acb781e1069bd94d65b8039187b9c342c5aaf"
+    "/portfolio/styles.253e706c0d93c567b2b1.css": "ba0acb781e1069bd94d65b8039187b9c342c5aaf"
   },
   "navigationUrls": [
     {

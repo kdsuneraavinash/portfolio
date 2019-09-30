@@ -1,4 +1,4 @@
-import {TeamMate} from './team-mate';
+import { TeamMate } from './team-mate';
 
 const gold = 'amber';
 const silver = 'blue-grey';
@@ -7,10 +7,49 @@ const other = 'grey';
 
 export class Achievement {
   constructor(public title: string, public organizers: string, public type: string,
-              public color: string, public content: string, public team?: TeamMate[]) {
+    public color: string, public content: string, public team?: TeamMate[]) {
   }
 
   public static readonly data: Achievement[] = [
+    {
+      title: `HackX`,
+      organizers: 'University of Kelaniya (Sep 2019)',
+      type: 'Startup Challenge',
+      team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.uvindu(), TeamMate.deepana()],
+      color: gold,
+      content:
+        `
+        hackX - one of the most successful inter-university hackathons unfolds its fourth 
+        successive chapter as hackX 2019, addressing the innovative minds of the Sri Lankan 
+        undergraduates. This time hackX revamps the ordinary hackathon into an Innovative 
+        Startup Challenge, allowing more solid refined startups to emerge through the industrial 
+        level product development guidance provided. 
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener" href="http://hackx.lk/">
+        Website
+        </a>
+        <br/>
+        <br/>
+        <img src="https://media.licdn.com/dms/image/C5122AQHrwjIxvK87Cg/feedshare-shrink_1280/0?e=1572480000&v=beta&t=UL_OajRyKeudlcpnauTIJ_L5rZxVCdF2v8RKfMFw-6U" class="img-fluid d-none d-md-block" alt="Photo">
+            `
+    },
+    {
+      title: `SLIIT RoboFest - Finalist (University Category)`,
+      organizers: 'SLIIT (Sep 2019)',
+      type: 'Robotics Competition (Micromouse)',
+      team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.budvin(), TeamMate.dinith()],
+      color: other,
+      content:
+        `
+            RoboFest is the annual robotics competition organized by the Department of
+            Electrical & Computer Engineering of Sri Lanka Institute of Information Technology.
+
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/70444422_1190646927789033_4895788218043072512_n.jpg?_nc_cat=107&_nc_oc=AQkZuUca1akQ-0f2kbM8hTV_CQjr3RgdI1NcXtqcpU6N1iW0iDClM7lemyt3s1ANz4Q&_nc_ht=scontent.fcmb5-1.fna&oh=e3ac29bf663bf396da04ea3f1fdd017f&oe=5E3546D6" class="img-fluid d-none d-md-block" alt="Photo">
+            `
+    },
     {
       title: `UOJ CODERS V1.0 - WINNERS`,
       organizers: ' University of Jaffna (March 2019)',
@@ -28,6 +67,10 @@ export class Achievement {
             <a target="_blank" rel="noopener" href="http://society.jfn.ac.lk/comsoc/uojcoders/">
             Website
             </a>
+
+            <br/>
+            <br/>
+            <img src="https://media.licdn.com/dms/image/C5122AQGLq2bSpMnTBg/feedshare-shrink_8192/0?e=1572480000&v=beta&t=ExjZyl-_D2txDVZQpFuVk0BS5tHy0hhpGDG39QB4p3k" class="img-fluid d-none d-md-block" alt="Photo">
             `
     },
     {
@@ -45,6 +88,9 @@ export class Achievement {
             <a target='_blank' rel="noopener" href="https://codingcompetitions.withgoogle.com/hashcode">
             Website
             </a>
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/53236115_2122390737837126_8312432013361545216_n.jpg?_nc_cat=102&_nc_oc=AQnJt9S0kLK_q4wJ9pk-NKP2mD2JxzyDouRrvfo__zf9L34I9zv5J_rN1wkUJAJk-BE&_nc_ht=scontent.fcmb5-1.fna&oh=62bb2c3ee72dea8b18ed8ddd512b1906&oe=5DFB951B" class="img-fluid d-none d-md-block" alt="Photo">
             `
     },
     {
@@ -58,6 +104,9 @@ export class Achievement {
             Mobile app development competition.
             School children and undergraduates put their coding skills to the test at Idea Challenge 2018,
             the mobile app development competition held at Techno 2018.
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/44449747_1078089885693801_2966959735879761920_o.jpg?_nc_cat=102&_nc_oc=AQlDABDbdkC8MZgF5Z-LY4ZlDcPPDep8bfJpUsyfR-HDLM1G0XWZobbYN0mECmUbVDg&_nc_ht=scontent.fcmb5-1.fna&oh=ebf5ebae25ad4acca39958a43eaa015b&oe=5DF40E34" class="img-fluid d-none d-md-block" alt="Photo">
             `
     },
     {
@@ -71,12 +120,15 @@ export class Achievement {
             IESL RoboGames 2018, is part of Techno, the leading engineering exhibition held in Sri Lanka.
             The competition was held on, 14th October (University category competition & Award ceremony),
             at Sirimavo Bandaranaike Memorial Exhibition & Convention Centre.
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/44126849_1135296756618004_1109189756756951040_n.jpg?_nc_cat=100&_nc_oc=AQlFyyKb7Ud-RZJJIwSDDH-ADHAjJYgIeZ2C-n6hmDcc8xwHIUYsjX8prkoQgPvQpAM&_nc_ht=scontent.fcmb5-1.fna&oh=c4a7df63d5dd9835b638c1f804b2d9de&oe=5DF4C868" class="img-fluid d-none d-md-block" alt="Photo">
             `
     },
     {
       title: `SLIIT RoboFest - 4th place (University Category)`,
-      organizers: 'SLIIT (Oct 2018)',
-      type: 'Robotics Competition',
+      organizers: 'SLIIT (Sep 2018)',
+      type: 'Robotics Competition (Micromouse)',
       team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.budvin()],
       color: other,
       content:
@@ -104,6 +156,9 @@ export class Achievement {
             advised and proctored by an IEEE member, and often supported by an
             IEEE Student Branch – compete in a 24-hour time span against each
             other to solve a set of programming problems.
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/43573269_760690454280419_1986866529852981248_n.jpg?_nc_cat=104&_nc_oc=AQkqIO4VQz-B2N3SwIYmH9JCE6o486_k3mKCcrI5TS2oESF2nqKBD6vcvgH7yIoB04M&_nc_ht=scontent.fcmb5-1.fna&oh=90236070149e0bf8199a3bfa31fd9e7b&oe=5E3B2A00" class="img-fluid d-none d-md-block" alt="Photo">
             `
     },
     {
@@ -119,6 +174,9 @@ export class Achievement {
             them forward on their journey towards excellence. Along the way, the applicants will be
             provided with opportunities for training and mentoring to sharpen their analytical, innovative,
             pitching and many more skills to perfection.
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/33432960_944508765722560_8966439796058619904_n.jpg?_nc_cat=101&_nc_oc=AQldktwOkPXwyyE9n3ncAKakoih2P2GauQHd9LtkYsLMotjDOvF9QYPSLCG53VR1M0Y&_nc_ht=scontent.fcmb5-1.fna&oh=634b61046c47b37ccf0851e355122f20&oe=5E25E408" class="img-fluid d-none d-md-block" alt="Photo">
             `
     },
     {
@@ -131,6 +189,10 @@ export class Achievement {
         `
             The E-Club of the University of Moratuwa presents Sri Lankan Robotics Challenge, a national robot competition,
             which enables the tech-savvy youth of the country to demonstrate their skills in an international standard robotics competition.
+            <br/>
+            <br/>
+            <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t31.0-8/26840689_392579807865403_7287968632128277506_o.jpg?_nc_cat=102&_nc_oc=AQlo9DvLybzSc_G3LIEqtV8GbbGd2TQPewObz_k-Q6dBQ0rTJa8WHHkqW_eP0KHMqLU&_nc_ht=scontent.fcmb5-1.fna&oh=ebb0f0d3035ecb27da8cf35eb1344c50&oe=5E24B892" class="img-fluid d-none d-md-block" alt="Photo">
+  
             `
     },
     {
