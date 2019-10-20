@@ -20,12 +20,8 @@ export class Project {
         </a>
         <br/>
         <br/>
-        <div class="embed-responsive embed-responsive-16by9 img-fluid d-none d-md-block">
-        <video loop controls class="embed-responsive-item">
-            <source src="https://video-lga3-1.xx.fbcdn.net/v/t42.26565-2/72142663_138850280727096_3174198339678266145_n.mp4?_nc_cat=100&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9zZCJ9&_nc_oc=AQn3SuC0F_bpSHY898FTmAF0wNVDx9QBOvbn5aumBIAbcRiplVDp8YCtdWdlBDNHm7Y&_nc_ht=video-lga3-1.xx&oh=dcf19b64a408214042dbc5a2c3fcf8ed&oe=5D91F9E2" type="video/mp4">
-        </video>
-        </div>
-        `
+        <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/71107900_1385907711556906_642125545219293184_n.jpg?_nc_cat=101&_nc_oc=AQlBu9Cvpz2MXxbhsBSgMQFTsBmauIfo5AhaljHXymbS_sluQJdQjGlB9dHlpXCh6rQ&_nc_ht=scontent.fcmb5-1.fna&oh=8c3a36e2499b138a0d70077d366d2fa6&oe=5E1A3CFC" class="img-fluid d-none d-md-block" alt="Screenshots">
+         `
     },
     {
       title: `THEME PROVIDER - OPEN SOURCE PROJECT`,

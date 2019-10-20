@@ -91,6 +91,12 @@ export class SkillGroup {
           progress: 4
         },
         {
+          imageUrl: "assets/django.png",
+          link: "https://www.djangoproject.com/",
+          title: "Django",
+          progress: 6
+        },
+        {
           imageUrl: "assets/angular.svg",
           link: "https://angular.io/",
           title: "Angular",
@@ -137,13 +143,13 @@ export class SkillGroup {
           link: "https://pytorch.org/",
           title: "PyTorch",
           progress: 4
-        },
-        {
-          imageUrl: "assets/fastai.png",
-          link: "https://www.fast.ai",
-          title: "FastAI",
-          progress: 6
         }
+        // {
+        //   imageUrl: "assets/fastai.png",
+        //   link: "https://www.fast.ai",
+        //   title: "FastAI",
+        //   progress: 6
+        // }
       ]
     },
     {
@@ -154,6 +160,12 @@ export class SkillGroup {
           link: "https://www.mysql.com/",
           title: "MySql",
           progress: 6
+        },
+        {
+          imageUrl: "assets/postgre.svg",
+          link: "https://www.postgresql.org/",
+          title: "PostgreSQL",
+          progress: 5
         },
         {
           imageUrl: "assets/firebase.webp",
