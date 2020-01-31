@@ -11,6 +11,7 @@ export class EducationPageComponent implements OnInit {
     cards: Education[];
 
     constructor(private dataService: DataService) {
+        this.cards = [];
     }
 
     ngOnInit() {

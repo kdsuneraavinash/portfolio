@@ -2,10 +2,7 @@
     <app-title icon="graduation-cap" title="Education"></app-title>
 
     <div class="py-4" *ngFor="let card of cards">
-        <app-details-card [data]="card"></app-details-card>
+        <app-education-card [data]="card"></app-education-card>
     </div>
-
-    <div class="py-4" *ngIf="!cards.length">
-        Hi Kids
-    </div>
+    <app-spinner [visible]="!cards.length"></app-spinner>
 </div>

@@ -35,7 +35,7 @@ export class DataService {
     }
 
     getEducationData(): Observable<Education[]> {
-        return this.afs.collection('education').valueChanges() as Observable<Education[]>;
+        return this.afs.collection<Education>('education', ref => ref.orderBy('index')).valueChanges()
     }
 
     getProjectsData(): Observable<Project[]> {

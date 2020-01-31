@@ -19,6 +19,7 @@ import { SkillsPageComponent } from './content/skills-page/skills-page.component
 import { SkillsCardComponent } from './content/skills-page/skills-card/skills-card.component';
 import { TeamMateComponent } from './content/team-mate/team-mate.component';
 import { AboutPageComponent } from './content/about-page/about-page.component';
+import { SpinnerComponent } from './content/spinner/spinner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -44,7 +45,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
         SkillsCardComponent,
         TeamMateComponent,
         AboutPageComponent,
-        NavbarComponent
+        NavbarComponent,
+        SpinnerComponent
     ],
     imports: [
         BrowserModule,

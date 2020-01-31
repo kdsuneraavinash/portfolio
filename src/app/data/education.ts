@@ -1,4 +1,4 @@
 export class Education {
-    constructor(public title: string, public location: string, public period: string, public content: string, public image: string) {
+    constructor(public title: string, public location: string, public period: string, public content: string, public image: string, public index: number) {
     }
 }
