@@ -1,12 +1,12 @@
 <div class="container py-4">
-  <app-title icon="crown" title="Skills"></app-title>
+    <app-title icon="crown" title="Skills"></app-title>
 
-  <div *ngFor="let cardGroup of cardGroups">
-    <h2 class="auto-center"> {{cardGroup.title}}</h2>
-    <div class="row mt-5">
-      <div class="col-6 col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2" *ngFor="let card of cardGroup.skills">
-        <app-skills-card [data]="card"></app-skills-card>
-      </div>
+    <div *ngFor="let cardGroup of cardGroups">
+        <h2 class="auto-center"> {{cardGroup.title}}</h2>
+        <div class="row mt-5">
+            <div class="col-6 col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2" *ngFor="let card of cardGroup.skills">
+                <app-skills-card [data]="card"></app-skills-card>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

@@ -1,35 +1,35 @@
 <mdb-card class="mt-1 animated fadeIn">
-  <mdb-card-body class="auto-center">
-    <div class="row">
-      <div class="col-lg-3 d-none d-lg-block">
-        <div class="view overlay border rounded"><img src="{{data.image}}" alt="University Of Moratuwa"
-                                                      class="img-fluid"/>
-          <div class="mask flex-center rgba-black-light">
-          </div>
+    <mdb-card-body class="auto-center">
+        <div class="row">
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="view overlay border rounded"><img src="{{data.image}}" alt="University Of Moratuwa"
+                        class="img-fluid" />
+                    <div class="mask flex-center rgba-black-light">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-9 px-3">
+                <h2 class="h2-responsive">{{data.title}}</h2>
+
+                <div class="row mb-4">
+                    <div class="col-lg-8">
+                        <small class="px-2 blue-grey-text">
+                            <mdb-icon fas icon="city"></mdb-icon> &nbsp; {{data.location}}
+                        </small>
+                    </div>
+                    <div class="col-lg-4">
+                        <small class="px-2 blue-grey-text">
+                            <mdb-icon fas icon="calendar"></mdb-icon>&nbsp; {{data.period}}
+                        </small>
+                    </div>
+                </div>
+
+                <hr />
+                <div [innerHTML]="data.content">
+                </div>
+            </div>
         </div>
 
-      </div>
-      <div class="col-lg-9 px-3">
-        <h2 class="h2-responsive">{{data.title}}</h2>
-
-        <div class="row mb-4">
-          <div class="col-lg-8">
-            <small class="px-2 blue-grey-text">
-              <mdb-icon fas icon="city"></mdb-icon> &nbsp; {{data.location}}
-            </small>
-          </div>
-          <div class="col-lg-4">
-            <small class="px-2 blue-grey-text">
-              <mdb-icon fas icon="calendar"></mdb-icon>&nbsp; {{data.period}}
-            </small>
-          </div>
-        </div>
-
-        <hr/>
-        <div [innerHTML]="data.content">
-        </div>
-      </div>
-    </div>
-
-  </mdb-card-body>
+    </mdb-card-body>
 </mdb-card>

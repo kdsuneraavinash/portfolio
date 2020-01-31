@@ -1,39 +1,39 @@
 <section class="resume-section d-flex align-items-center">
-  <div class="text-center p-4 w-100">
+    <div class="text-center p-4 w-100">
 
-    <img src="assets/me.jpg" class="rounded-circle hoverable border border-dark mb-3" alt="Profile Picture">
+        <img src="assets/me.jpg" class="rounded-circle hoverable border border-dark mb-3" alt="Profile Picture">
 
-    <h1 class="animated bounceIn h1-responsive">{{data.name}} </h1>
+        <h1 class="animated bounceIn h1-responsive">{{data.name}} </h1>
 
-    <div class="subheading mb-2">
-      {{data.address}}
-      <br/>
-      {{data.telephone}}
-      <br/>
-      <a href="mailto:{{data.email}}">{{data.email}}</a>
+        <div class="subheading mb-2">
+            {{data.address}}
+            <br />
+            {{data.telephone}}
+            <br />
+            <a href="mailto:{{data.email}}">{{data.email}}</a>
+        </div>
+
+        <a href="assets/resume.pdf" target="_blank" rel="noopener" mdbBtn type="button" size="sm" color="dark"
+            outline="true" class="mb-5" mdbWavesEffect>
+            <mdb-icon fas icon="download" class="mr-1"></mdb-icon>
+            Download Resume
+        </a>
+
+        <p class="lead mb-5 px-5">
+            {{data.bio}}
+        </p>
+
+        <div class="social-icons">
+            <a target="_blank" rel="noopener" href="{{data.linkedIn}}">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a target="_blank" rel="noopener" href="{{data.github}}">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" rel="noopener" href="{{data.hackerRank}}">
+                <i class="fab fa-hackerrank"></i>
+            </a>
+        </div>
     </div>
-
-    <a href="assets/resume.pdf" target="_blank" rel="noopener" mdbBtn type="button" size="sm" color="dark"
-       outline="true" class="mb-5" mdbWavesEffect>
-      <mdb-icon fas icon="download" class="mr-1"></mdb-icon>
-      Download Resume
-    </a>
-
-    <p class="lead mb-5 px-5">
-      {{data.bio}}
-    </p>
-
-    <div class="social-icons">
-      <a target="_blank" rel="noopener" href="{{data.linkedIn}}">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a target="_blank" rel="noopener" href="{{data.github}}">
-        <i class="fab fa-github"></i>
-      </a>
-      <a target="_blank" rel="noopener" href="{{data.hackerRank}}">
-        <i class="fab fa-hackerrank"></i>
-      </a>
-    </div>
-  </div>
 
 </section>

@@ -1,15 +1,15 @@
 import { TeamMate } from './team-mate';
 
 export class Project {
-  constructor(public title: string, public content: string, public team?: TeamMate[]) {
-  }
+    constructor(public title: string, public content: string, public team?: TeamMate[]) {
+    }
 
-  static readonly data = [
-    {
-      title: `Teleport (App developed for the HackX competition)`,
-      team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.uvindu(), TeamMate.deepana()],
-      content:
-        `
+    static readonly data = [
+        {
+            title: `Teleport (App developed for the HackX competition)`,
+            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.uvindu(), TeamMate.deepana()],
+            content:
+                `
         Teleport is an app which intends to revelutionize transportation and logistics industry by further incorporating the concepts of sharing economy. 
         <br/>
         This app was made using flutter and supports both iOS and android platforms.
@@ -22,11 +22,11 @@ export class Project {
         <br/>
         <img src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.0-9/71107900_1385907711556906_642125545219293184_n.jpg?_nc_cat=101&_nc_oc=AQlBu9Cvpz2MXxbhsBSgMQFTsBmauIfo5AhaljHXymbS_sluQJdQjGlB9dHlpXCh6rQ&_nc_ht=scontent.fcmb5-1.fna&oh=8c3a36e2499b138a0d70077d366d2fa6&oe=5E1A3CFC" class="img-fluid d-none d-md-block" alt="Screenshots">
          `
-    },
-    {
-      title: `THEME PROVIDER - OPEN SOURCE PROJECT`,
-      content:
-        `
+        },
+        {
+            title: `THEME PROVIDER - OPEN SOURCE PROJECT`,
+            content:
+                `
             <p><a href="https://codemagic.io/apps/5cfb60390824820019d5af6b/5cfb60390824820019d5af6a/latest_build" rel="nofollow"><img src="https://camo.githubusercontent.com/ad035dbbe78bf77688ab8f125a17dae13b27a120/68747470733a2f2f6170692e636f64656d616769632e696f2f617070732f3563666236303339303832343832303031396435616636622f3563666236303339303832343832303031396435616636612f7374617475735f62616467652e737667" alt="Codemagic build status" data-canonical-src="https://api.codemagic.io/apps/5cfb60390824820019d5af6b/5cfb60390824820019d5af6a/status_badge.svg" style="max-width:100%;"></a>
             <a href="https://pub.dartlang.org/packages/theme_provider" rel="nofollow"><img src="https://camo.githubusercontent.com/aeb73bfce6619e8ddbbfd5071c12d822b4fffa83/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f7468656d655f70726f76696465722e737667" alt="Pub Package" data-canonical-src="https://img.shields.io/pub/v/theme_provider.svg" style="max-width:100%;"></a></p>
            
@@ -47,12 +47,12 @@ export class Project {
                 Github Repository
             </a>
             `
-    },
-    {
-      title: `MediKit WebApp & MobileApp - Semester 3 Group Project | Managing health-care services | e-prescriptions`,
-      team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.lahiru()],
-      content:
-        `
+        },
+        {
+            title: `MediKit WebApp & MobileApp - Semester 3 Group Project | Managing health-care services | e-prescriptions`,
+            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.lahiru()],
+            content:
+                `
             <strong>Pulse Health-care is a project initiated by the team Pulse with the intention of improving 
             the doctor-patient interconnection and computerizing the health-care system. </strong><br/>
             The main function of the platform is managing and storing medical data. 
@@ -68,11 +68,11 @@ export class Project {
             <br/>
             <img src="https://github.com/kdsuneraavinash/pulse-healthcare/raw/master/web/screenshots/home_page.png" class="img-fluid d-none d-md-block" alt="Screenshots">
             `
-    },
-    {
-      title: `OS Scheduler Algorithm Simulator`,
-      content:
-        `
+        },
+        {
+            title: `OS Scheduler Algorithm Simulator`,
+            content:
+                `
             This is a simple web app/electron app to simulate the OS scheduler algorithms such as Round Robin/SJF/FCFS/SRTF. 
             Uses canvas drawings and charts to demonstrate various statistics related to simulation.
 
@@ -88,33 +88,33 @@ export class Project {
             <br/>
             <img src="https://github.com/kdsuneraavinash/os-scheduler/raw/master/readme.gif" class="img-fluid d-none d-md-block" alt="Screenshot">
             `
-    },
-    {
-      title: `Decrypt 2.0 Website`,
-      team: [TeamMate.sunera(), TeamMate.rumesh()],
-      content:
-        `
+        },
+        {
+            title: `Decrypt 2.0 Website`,
+            team: [TeamMate.sunera(), TeamMate.rumesh()],
+            content:
+                `
             Website for decrypt event 2019 organized by CSE17.
             <br/>
             <br/>
             <a href="https://decrypt-cse.com" target="_blank" rel="noopener">Visit Website</a>
             `
-    },
-    {
-      title: `Capsolat`,
-      content:
-        `
+        },
+        {
+            title: `Capsolat`,
+            content:
+                `
             Designed the front end for a startup for a matrimonial web site.
             This is a Matrimonial Ad Portal where people can publish their Ad faster.
             <br/>
             <br/>
             <a href="https://capsolat.com/" target="_blank" rel="noopener">Visit Website</a>
             `
-    },
-    {
-      title: `Piano Tiles Bot - Open Source Project`,
-      content:
-        `
+        },
+        {
+            title: `Piano Tiles Bot - Open Source Project`,
+            content:
+                `
             A hobby project I did which captures a window from an emulator and uses openCV to process the image and press according keys. 
             This bot was intended to play piano tiles game and can reach 4000+ scores easily.
             <br/>
@@ -128,12 +128,12 @@ export class Project {
             </video>
             </div>
             `
-    },
-    {
-      title: `Nano Processor - VHDL`,
-      team: [TeamMate.sunera(), TeamMate.anju()],
-      content:
-        `
+        },
+        {
+            title: `Nano Processor - VHDL`,
+            team: [TeamMate.sunera(), TeamMate.anju()],
+            content:
+                `
             <strong>Nano-processor Project for 17-S2-CS2052 Computer Architecture</strong>
             <br/>
             This is a VHDL implementation of a nano-processor which can execute 8 different commands.
@@ -144,6 +144,6 @@ export class Project {
             <br/>
             <img src="https://github.com/kdsuneraavinash/nanoprocessor/raw/master/design.png" class="img-fluid d-none d-md-block" alt="Design">
             `
-    },
-  ];
+        },
+    ];
 }
