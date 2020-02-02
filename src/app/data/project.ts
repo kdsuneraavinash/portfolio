@@ -1,13 +1,13 @@
 import { TeamMate } from './team-mate';
 
 export class Project {
-    constructor(public title: string, public content: string, public team?: TeamMate[]) {
+    constructor(public title: string, public content: string, public team?: string[]) {
     }
 
     static readonly data = [
         {
             title: `Teleport (App developed for the HackX competition)`,
-            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.uvindu(), TeamMate.deepana()],
+            team: ['sunera', 'anju', 'ruchin', 'uvindu', 'deepana'],
             content:
                 `
         Teleport is an app which intends to revelutionize transportation and logistics industry by further incorporating the concepts of sharing economy. 
@@ -50,7 +50,7 @@ export class Project {
         },
         {
             title: `MediKit WebApp & MobileApp - Semester 3 Group Project | Managing health-care services | e-prescriptions`,
-            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.lahiru()],
+            team: ['sunera', 'anju', 'lahiru'],
             content:
                 `
             <strong>Pulse Health-care is a project initiated by the team Pulse with the intention of improving 
@@ -91,7 +91,7 @@ export class Project {
         },
         {
             title: `Decrypt 2.0 Website`,
-            team: [TeamMate.sunera(), TeamMate.rumesh()],
+            team: ['sunera', 'rumesh'],
             content:
                 `
             Website for decrypt event 2019 organized by CSE17.
@@ -131,7 +131,7 @@ export class Project {
         },
         {
             title: `Nano Processor - VHDL`,
-            team: [TeamMate.sunera(), TeamMate.anju()],
+            team: ['sunera', 'anju'],
             content:
                 `
             <strong>Nano-processor Project for 17-S2-CS2052 Computer Architecture</strong>

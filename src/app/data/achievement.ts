@@ -7,7 +7,7 @@ const other = 'grey';
 
 export class Achievement {
     constructor(public title: string, public organizers: string, public type: string,
-        public color: string, public content: string, public team?: TeamMate[]) {
+        public color: string, public content: string, public team?: string[]) {
     }
 
     public static readonly data: Achievement[] = [
@@ -15,7 +15,7 @@ export class Achievement {
             title: `HackX - Winners`,
             organizers: 'University of Kelaniya (Sep 2019)',
             type: 'Startup Challenge',
-            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.uvindu(), TeamMate.deepana()],
+            team: ['sunera', 'anju', 'ruchin', 'uvindu', 'deepana'],
             color: gold,
             content:
                 `
@@ -38,7 +38,7 @@ export class Achievement {
             title: `UOJ CODERS V1.0 - WINNERS`,
             organizers: ' University of Jaffna (March 2019)',
             type: 'Competitive Programming [Algorithm]',
-            team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.budvin()],
+            team: ['sunera', 'deepana', 'budvin'],
             color: gold,
             content:
                 `
@@ -61,7 +61,7 @@ export class Achievement {
             title: `Gold Medalist - IESL RoboGames 2018 at Techno'18`,
             organizers: 'IESL (Oct 2018)',
             type: 'Robotics Competition [Computer Vision]',
-            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.tharaka(), TeamMate.senuda(), TeamMate.thusara()],
+            team: ['sunera', 'anju', 'tharaka', 'senuda', 'thusara'],
             color: gold,
             content:
                 `
@@ -88,7 +88,7 @@ export class Achievement {
             title: `Winners - Decrypt Ideathon 2018`,
             organizers: 'University of Moratuwa (May 2018)',
             type: 'Ideathon',
-            team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.uvindu(), TeamMate.ruchin()],
+            team: ['sunera', 'deepana', 'uvindu', 'ruchin'],
             color: gold,
             content:
                 `
@@ -115,7 +115,7 @@ export class Achievement {
             title: `XOBot Challenge 2019 at Techno'18`,
             organizers: 'IESL (Oct 2019) [University of Jaffna]',
             type: 'Robotics Competition (Tic Tac Toe playing robot)',
-            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.tharaka()],
+            team: ['sunera', 'anju', 'tharaka'],
             color: silver,
             content:
                 `
@@ -134,7 +134,7 @@ export class Achievement {
             title: `Silver Medalist - IESL IDEA Challenge 2018 at Techno'18`,
             organizers: 'IESL (Oct 2018)',
             type: 'Mobile App Competition',
-            team: [TeamMate.sunera(), TeamMate.anju(), TeamMate.ruchin(), TeamMate.deepana(), TeamMate.uvindu()],
+            team: ['sunera', 'anju', 'ruchin', 'deepana', 'uvindu'],
             color: silver,
             content:
                 `
@@ -151,7 +151,7 @@ export class Achievement {
             organizers: 'IEEE (Oct 2019)',
             type: 'Competitive Programming [Algorithm]',
             color: bronze,
-            team: [TeamMate.sunera(), TeamMate.budvin(), TeamMate.deepana()],
+            team: ['sunera', 'budvin', 'deepana'],
             content:
                 `
             Island Rank: 3<br/>
@@ -175,7 +175,7 @@ export class Achievement {
             organizers: 'IEEE (Oct 2018)',
             type: 'Competitive Programming [Algorithm]',
             color: bronze,
-            team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.budvin()],
+            team: ['sunera', 'deepana', 'budvin'],
             content:
                 `
             Island Rank: 3<br/>
@@ -198,7 +198,7 @@ export class Achievement {
             title: `MoraXtreme 4.0 - Second Runners up`,
             organizers: 'University of Moratuwa (Oct 2019)',
             type: 'Competitive Programming',
-            team: [TeamMate.sunera(), TeamMate.budvin(), TeamMate.deepana()],
+            team: ['sunera', 'budvin', 'deepana'],
             color: bronze,
             content:
                 `
@@ -212,7 +212,7 @@ export class Achievement {
             title: `Sri Lanka Robotics Challenge 17 - 2nd Runners Up`,
             organizers: 'University of Moratuwa (Jan 2018)',
             type: 'Robotics Competition',
-            team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.dinith()],
+            team: ['sunera', 'deepana', 'dinith'],
             color: bronze,
             content:
                 `
@@ -229,7 +229,7 @@ export class Achievement {
             organizers: 'Google (Feb 2019)',
             type: 'Programming Competition [Algorithm]',
             color: other,
-            team: [TeamMate.sunera(), TeamMate.gamlath(), TeamMate.mudith()],
+            team: ['sunera', 'gamlath', 'mudith'],
             content:
                 `
             Hash Code is a team programming competition, organized by Google, for students and professionals around the world.
@@ -248,7 +248,7 @@ export class Achievement {
             title: `SLIIT RoboFest - 4th place (University Category)`,
             organizers: 'SLIIT (Sep 2018)',
             type: 'Robotics Competition (Micromouse)',
-            team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.budvin()],
+            team: ['sunera', 'deepana', 'budvin'],
             color: other,
             content:
                 `
@@ -260,7 +260,7 @@ export class Achievement {
             title: `SLIIT RoboFest - Finalist (University Category)`,
             organizers: 'SLIIT (Sep 2019)',
             type: 'Robotics Competition (Micromouse)',
-            team: [TeamMate.sunera(), TeamMate.deepana(), TeamMate.budvin(), TeamMate.dinith()],
+            team: ['sunera', 'deepana', 'budvin', 'dinith'],
             color: other,
             content:
                 `
