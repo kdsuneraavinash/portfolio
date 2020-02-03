@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Project } from './data/project';
 import { Education } from './data/education';
-import { Observable, of, throwError } from 'rxjs';
+import { Observable, of, BehaviorSubject } from 'rxjs';
 import { Achievement } from './data/achievement';
 import { Skill } from './data/skill';
 import { Profile } from './data/profile';
@@ -16,11 +16,17 @@ export class DataService {
     private readonly profileData: Profile;
     private readonly navButtonData: NavButton[];
     private readonly teamMatesData: Map<string, Observable<TeamMate>>;
+    private readonly profileDataObservable: BehaviorSubject<Profile>;
 
     constructor(private afs: AngularFirestore) {
         this.profileData = new Profile();
         this.navButtonData = NavButton.data;
         this.teamMatesData = new Map();
+        this.profileDataObservable = new BehaviorSubject(new Profile());
+        this.afs
+            .collection('settings')
+            .doc<Profile>('profile')
+            .valueChanges().subscribe((v) => this.profileDataObservable.next(v));
     }
 
     getNavigationData(): Observable<NavButton[]> {
@@ -28,7 +34,7 @@ export class DataService {
     }
 
     getProfileData(): Observable<Profile> {
-        return of(this.profileData);
+        return this.profileDataObservable;
     }
 
     getEducationData(): Observable<Education[]> {
