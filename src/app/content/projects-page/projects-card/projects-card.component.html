@@ -3,7 +3,7 @@
         <h2 class="h2-responsive">{{data.title | uppercase}}</h2>
 
         <hr />
-        <div [innerHTML]="data.content">
+        <div [innerHTML]="data.content | keepHtml">
         </div>
 
         <div *ngIf="data.team">

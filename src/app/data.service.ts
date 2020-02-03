@@ -15,16 +15,11 @@ import { TeamMate } from './data/team-mate';
 export class DataService {
     private readonly profileData: Profile;
     private readonly navButtonData: NavButton[];
-    private readonly projectsData: Project[];
-    private educationData: Observable<Education[]>;
-    private skillData: Observable<Skill[]>;
-    private achievementsData: Observable<Achievement[]>;
     private readonly teamMatesData: Map<string, Observable<TeamMate>>;
 
     constructor(private afs: AngularFirestore) {
         this.profileData = new Profile();
         this.navButtonData = NavButton.data;
-        this.projectsData = Project.data;
         this.teamMatesData = new Map();
     }
 
@@ -37,34 +32,27 @@ export class DataService {
     }
 
     getEducationData(): Observable<Education[]> {
-        if (!this.educationData) {
-            this.educationData = this.afs
-                .collection<Education>('education', ref => ref.orderBy('index'))
-                .valueChanges();
-        }
-        return this.educationData;
+        return this.afs
+            .collection<Education>('education', ref => ref.orderBy('index'))
+            .valueChanges();
     }
 
     getProjectsData(): Observable<Project[]> {
-        return of(this.projectsData);
+        return this.afs
+            .collection<Achievement>('projects', ref => ref.orderBy('index', 'desc'))
+            .valueChanges();
     }
 
     getAchievementsData(): Observable<Achievement[]> {
-        if (!this.achievementsData) {
-            this.achievementsData = this.afs
-                .collection<Achievement>('achievements', ref => ref.orderBy('index', 'desc'))
-                .valueChanges();
-        }
-        return this.achievementsData;
+        return this.afs
+            .collection<Achievement>('achievements', ref => ref.orderBy('index', 'desc'))
+            .valueChanges();
     }
 
     getSkillData(): Observable<Skill[]> {
-        if (!this.skillData) {
-            this.skillData = this.afs
-                .collection<Skill>('skills', ref => ref.orderBy('progress', 'desc'))
-                .valueChanges();
-        }
-        return this.skillData;
+        return this.afs
+            .collection<Skill>('skills', ref => ref.orderBy('progress', 'desc'))
+            .valueChanges();
     }
 
     getTeamMateData(id: string): Observable<TeamMate> {

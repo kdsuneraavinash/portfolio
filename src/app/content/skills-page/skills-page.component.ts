@@ -15,7 +15,7 @@ export class SkillsPageComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.dataService.getSkillsData().subscribe((v) => {
+        this.dataService.getSkillData().subscribe((v) => {
             this.cardGroups = [];
             for (const groupName of ['Languages', 'Frameworks', 'Database and Tooling']) {
                 const skills: Skill[] = v.filter((p) => p.group === groupName);

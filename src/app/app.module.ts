@@ -23,6 +23,7 @@ import { SpinnerComponent } from './content/spinner/spinner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { EscapeHtmlPipe } from './pipes/keep-html.pipe';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
@@ -46,7 +47,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
         TeamMateComponent,
         AboutPageComponent,
         NavbarComponent,
-        SpinnerComponent
+        SpinnerComponent,
+        EscapeHtmlPipe
     ],
     imports: [
         BrowserModule,

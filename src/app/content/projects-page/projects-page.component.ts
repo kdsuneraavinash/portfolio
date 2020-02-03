@@ -11,6 +11,7 @@ export class ProjectsPageComponent implements OnInit {
     cards: Project[];
 
     constructor(private dataService: DataService) {
+        this.cards = [];
     }
 
     ngOnInit() {
