@@ -4,6 +4,11 @@ MIT
 @angular/core
 MIT
 
+@angular/fire
+MIT
+
+@angular/fire/firestore
+
 @angular/forms
 MIT
 
@@ -15,6 +20,24 @@ MIT
 
 @angular/service-worker
 MIT
+
+@firebase/app
+Apache-2.0
+
+@firebase/component
+Apache-2.0
+
+@firebase/firestore
+Apache-2.0
+
+@firebase/logger
+Apache-2.0
+
+@firebase/util
+Apache-2.0
+
+@firebase/webchannel-wrapper
+Apache-2.0
 
 @fortawesome/fontawesome-free
 (CC-BY-4.0 AND OFL-1.1 AND MIT)
@@ -55,6 +78,10 @@ to represent the company, product, or service to which they refer.**
 
 
 angular-bootstrap-md
+
+firebase/app
+
+firebase/firestore
 
 rxjs
 Apache-2.0
