@@ -13,13 +13,11 @@ import { TeamMate } from './data/team-mate';
     providedIn: 'root'
 })
 export class DataService {
-    private readonly profileData: Profile;
     private readonly navButtonData: NavButton[];
     private readonly teamMatesData: Map<string, Observable<TeamMate>>;
     private readonly profileDataObservable: BehaviorSubject<Profile>;
 
     constructor(private afs: AngularFirestore) {
-        this.profileData = new Profile();
         this.navButtonData = NavButton.data;
         this.teamMatesData = new Map();
         this.profileDataObservable = new BehaviorSubject(new Profile());
