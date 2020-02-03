@@ -5,6 +5,7 @@ import { ProjectsPageComponent } from './content/projects-page/projects-page.com
 import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component';
 import { SkillsPageComponent } from './content/skills-page/skills-page.component';
 import { AboutPageComponent } from './content/about-page/about-page.component';
+import { RepositoryPageComponent } from './content/repository-page/repository-page.component';
 
 const routes: Routes = [
     {
@@ -31,11 +32,15 @@ const routes: Routes = [
     {
         path: 'skills',
         component: SkillsPageComponent
+    },
+    {
+        path: 'repositories',
+        component: RepositoryPageComponent
     }
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes, { useHash: true })],
+    imports: [RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled' })],
     exports: [RouterModule]
 })
 export class AppRoutingModule {

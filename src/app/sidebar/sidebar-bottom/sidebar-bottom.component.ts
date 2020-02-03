@@ -13,7 +13,7 @@ export class SidebarBottomComponent implements OnInit {
     setFooterIcons(data: Profile) {
         this.footerIcons = [
             new FooterIcon("google", "Email", "mailto:" + data.email),
-            new FooterIcon("linkedin", "LinkedIn", data.linkedIn),
+            new FooterIcon("linkedin", "LinkedIn", data.linkedin),
             new FooterIcon("github", "GitHub", data.github),
             new FooterIcon("hackerrank", "Hackerrank", data.hackerRank),
         ];

@@ -1,0 +1,32 @@
+<div class="animated fadeIn my-3 border border-light rounded p-4">
+    <a target="_blank" href="{{data.html_url}}" style="color: #4078c0;">
+        <h5 class="font-weight-bold">{{data.name}}</h5>
+    </a>
+    <p>{{data.description}}</p>
+    <div>
+        <img class="pr-2" *ngIf="data.stargazers_count > 5"
+            src="https://img.shields.io/github/stars/{{data.full_name}}">
+        <img class="pr-2" *ngIf="data.license" src="https://img.shields.io/github/license/{{data.full_name}}">
+        <img *ngIf="data.forks_count > 0" src="https://img.shields.io/github/forks/{{data.full_name}}?style=social">
+    </div>
+    <hr />
+    <div class="row">
+        <small class="px-3">
+            <i class="fa fa-laptop-code" aria-hidden="true"></i>
+            <span class="github-card__language-icon">
+            </span> {{data.language}}
+        </small>
+        <small class="px-3">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <span data-stars>
+                {{data.stargazers_count}}
+            </span>
+        </small>
+        <small class="px-3">
+            <i class="fa fa-code-branch" aria-hidden="true"></i>
+            <span data-forks>
+                {{data.forks_count}}
+            </span>
+        </small>
+    </div>
+</div>

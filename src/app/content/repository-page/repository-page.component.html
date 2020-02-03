@@ -1,0 +1,12 @@
+<div class="container py-4">
+    <app-title icon="code-branch" title="Repositories"></app-title>
+
+    <div class="row py-4">
+        <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let card of cards">
+            <app-repository-page-card [data]="card">
+            </app-repository-page-card>
+        </div>
+
+    </div>
+    <app-spinner [visible]="!cards.length"></app-spinner>
+</div>

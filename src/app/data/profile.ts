@@ -6,10 +6,13 @@ export class Profile {
 
     public readonly email: string;
     public readonly github: string;
-    public readonly linkedIn: string;
+    public readonly linkedin: string;
     public readonly hackerRank: string;
 
     public readonly subtitle: string;
+
+    public readonly resume: string;
+    public readonly photo: string;
 
     constructor() {
         this.name = "Sunera Avinash";
@@ -19,9 +22,12 @@ export class Profile {
 
         this.email = "kdsuneraavinash@gmail.com";
         this.github = "https://github.com/kdsuneraavinash";
-        this.linkedIn = "https://www.linkedin.com/in/kdsuneraavinash";
+        this.linkedin = "https://www.linkedin.com/in/kdsuneraavinash";
         this.hackerRank = "https://www.hackerrank.com/kdsuneraavinash";
 
         this.subtitle = "Computer Science Student";
+
+        this.resume = "assets/resume.pdf";
+        this.photo = "assets/me.jpg";
     }
 }

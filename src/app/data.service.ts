@@ -8,6 +8,8 @@ import { Profile } from './data/profile';
 import { NavButton } from './data/nav-button';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { TeamMate } from './data/team-mate';
+import { Repository } from './data/repository';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
     providedIn: 'root'
@@ -16,15 +18,20 @@ export class DataService {
     private readonly navButtonData: NavButton[];
     private readonly teamMatesData: Map<string, Observable<TeamMate>>;
     private readonly profileDataObservable: BehaviorSubject<Profile>;
+    private readonly repositoryDataObservable: BehaviorSubject<Repository[]>;
 
-    constructor(private afs: AngularFirestore) {
+    constructor(private afs: AngularFirestore, private http: HttpClient) {
         this.navButtonData = NavButton.data;
         this.teamMatesData = new Map();
         this.profileDataObservable = new BehaviorSubject(new Profile());
+        this.repositoryDataObservable = new BehaviorSubject([]);
         this.afs
             .collection('settings')
             .doc<Profile>('profile')
             .valueChanges().subscribe((v) => this.profileDataObservable.next(v));
+        this.http
+            .get('https://api.github.com/users/kdsuneraavinash/repos?sort=updated')
+            .subscribe((v) => this.repositoryDataObservable.next(v as Repository[]));
     }
 
     getNavigationData(): Observable<NavButton[]> {
@@ -67,5 +74,9 @@ export class DataService {
                 .valueChanges();
         }
         return this.teamMatesData[id];
+    }
+
+    getRepositoriesData(): Observable<Repository[]> {
+        return this.repositoryDataObservable;
     }
 }

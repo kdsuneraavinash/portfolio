@@ -10,10 +10,12 @@ import { Profile } from 'src/app/data/profile';
 export class SidebarTopComponent implements OnInit {
     name: string;
     subtitle: string;
+    photo: string;
 
     setData(data: Profile) {
         this.name = data.name;
         this.subtitle = data.subtitle;
+        this.photo = data.photo;
     }
 
     constructor(private dataService: DataService) {

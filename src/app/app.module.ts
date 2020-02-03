@@ -20,6 +20,8 @@ import { SkillsCardComponent } from './content/skills-page/skills-card/skills-ca
 import { TeamMateComponent } from './content/team-mate/team-mate.component';
 import { AboutPageComponent } from './content/about-page/about-page.component';
 import { SpinnerComponent } from './content/spinner/spinner.component';
+import { RepositoryPageComponent } from './content/repository-page/repository-page.component';
+import { RepositoryPageCardComponent } from './content/repository-page/repository-page-card/repository-page-card.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -27,6 +29,7 @@ import { EscapeHtmlPipe } from './pipes/keep-html.pipe';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
     declarations: [
@@ -48,7 +51,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
         AboutPageComponent,
         NavbarComponent,
         SpinnerComponent,
-        EscapeHtmlPipe
+        EscapeHtmlPipe,
+        RepositoryPageComponent,
+        RepositoryPageCardComponent,
     ],
     imports: [
         BrowserModule,
@@ -57,6 +62,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
         AngularFireModule.initializeApp(environment.firebase),
         AngularFirestoreModule,
         ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+        HttpClientModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
