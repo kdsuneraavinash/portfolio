@@ -4,4 +4,6 @@
     <div class="py-4" *ngFor="let card of cards">
         <app-achievements-card [data]="card"></app-achievements-card>
     </div>
+
+    <app-spinner [visible]="!cards.length"></app-spinner>
 </div>

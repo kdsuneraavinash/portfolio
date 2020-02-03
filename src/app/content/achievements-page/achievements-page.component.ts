@@ -11,6 +11,7 @@ export class AchievementsPageComponent implements OnInit {
     cards: Achievement[];
 
     constructor(private dataService: DataService) {
+        this.cards = [];
     }
 
     ngOnInit() {
