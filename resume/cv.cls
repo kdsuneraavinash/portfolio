@@ -22,6 +22,7 @@
 \usepackage[pages=some]{background}
 % Set default separator to a diamond
 \def \sep {$\diamond$}
+\def \ss#1{\textsuperscript{#1}}
 
 %-----------------------------------
 %	Name and Subtitle
