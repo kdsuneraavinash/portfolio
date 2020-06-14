@@ -3,13 +3,15 @@
 \usepackage[left=0.6in,top=0.5in,right=0.6in,bottom=0.5in]{geometry}    % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\usepackage[fixed]{fontawesome5}
 
 \imagename{face.png}
-\bgimagename{background.png}
+\sidebar{background.png}
 \name{K. D. Sunera Avinash Chandrasiri}                                 % Name
 \subtitle{344/1, Moonamalgahawatta, Duwa Temple Road, Kalutara South.}  % Address
-\subtitle{(076) 833 6850 \\ \href{mailto:suneraavinash.17@cse.mrt.ac.lk}{suneraavinash.17@cse.mrt.ac.lk}}             
-% Phone number, email
+\subtitle{(076) 833 6850 \\ \href{mailto:suneraavinash.17@cse.mrt.ac.lk}{suneraavinash.17@cse.mrt.ac.lk}}
+\subtitle{\url{https://kdsuneraavinash.github.io/portfolio}}  % Address
+\header{true}
 
 \begin{document}
 \begin{adjustwidth}{55pt}{0pt}
@@ -22,15 +24,18 @@
 \begin{rSection}{Profile}
 A third-year computer science undergraduate who has a passion for algorithms and problem-solving.  
 Also interested in web technologies and mobile app development. A GNU/Linux Enthusiast.\\
-    Github profile: \url{https://github.com/kdsuneraavinash} \\
-    LinkedIn profile: \url{https://www.linkedin.com/in/kdsuneraavinash} \\
-    Portfolio: \url{https://kdsuneraavinash.github.io/portfolio} 
+    \begin{tabularx}{\linewidth}{l l}
+    \faGlobe\ \url{https://kdsuneraavinash.github.io/portfolio} & 
+    \faGithub\ \url{https://github.com/kdsuneraavinash}  \\
+    \faLinkedin\ \url{https://www.linkedin.com/in/kdsuneraavinash} &
+    \faHackerrank\ \url{https://www.hackerrank.com/kdsuneraavinash} \\
+    \end{tabularx}
 \end{rSection}
 
 \begin{rSection}{Education}
 
 {\bf University of Moratuwa}                                \hfill {\em September 2017 - Present} 
-\\ Undergraduate, Bsc (Computer Science and Engineering)    \hfill { Current SGPA: 4.1/4.2 }
+\\ Undergraduate, Bsc (Computer Science and Engineering)    \hfill { Current SGPA: 4.08/4.2 }
 \\ Dean's List - Semester 1, 2, 3 \\
 \\{\bf Kalutara Vidyalaya – National School}                \hfill {\em July 2013 - June 2017} 
 \\ GCE Advanced Level Examination                           \hfill { Z-Score: 2.680 }
@@ -58,10 +63,10 @@ IDEA Challenge (University of Moratuwa \& IESL)         \ & Runners Up          
 %----------------------------------------------------------------------------------------
 
 \begin{tSection}{Technical Strengths}{
-Languages (Strong Familiarity)      \ & Python, Dart, Java, JavaScript \\
-Languages (Medium Familiarity)      \ & C++, TypeScript, Golang, PHP \\
-Web Development              \ & NodeJS, HTML5, CSS, Bootstrap, PHP, WordPress \\
-Databases                           \ & MySql, PostgreSql, Firebase Firestore \\
+    \faCode\ Programming Langiages      \ & Python, Dart, Java, JavaScript, Golang, C++, PHP \\
+    \faLaptop\ Frameworks \& Technologies\ & Flutter, React, Express, Arduino, OpenCV \\
+    \faGlobe\ Web Development           \ & HTML5, CSS, Bootstrap, WordPress \\
+    \faDatabase\ Databases              \ & MySql, PostgreSql, Firebase Firestore \\
 }\end{tSection}
 
 %--------------------------------------------------------------------------------
@@ -70,18 +75,19 @@ Databases                           \ & MySql, PostgreSql, Firebase Firestore \\
 
 \begin{rSection}{Projects}
 {\bf Theme Provider | Open source plugin}                        \hfill {\em June 2019} 
-\\An easy to use theme controlling plugin for Flutter which automatically rebuilds UI on theme changes.\\
-\url{https://pub.dev/packages/theme\_provider} \\
+\\An easy to use theme controlling plugin for Flutter which automatically rebuilds UI on theme changes. \\
+\faPlug\ \url{https://pub.dev/packages/theme\_provider} \\
 \\{\bf Rise of the Pharaohs Scavenger hunt app}                 \hfill {\em October 2019 - February 2020} 
 \\Scavenger-hunt mobile app created as the invitation for the CSE event – Rise of the Pharaohs.\\
-\url{https://github.com/kdsuneraavinash/cse-night-app}. \\
-\\{\bf Teleport Mobile App(Android/iOS)}                        \hfill {\em August 2019 - September 2019} 
-\\App developed for HackX competition in order to use sharing economy in transferring goods. \\
+\faGithub*\ \url{https://github.com/kdsuneraavinash/cse-night-app}. \\
 \\{\bf Tic-Tac-Toe Playing Robot Arm | Mobile app integrated robot}     \hfill {\em October 2019}
 \\This was a vision-based approach to developing a tic-tac-toe playing robot using Arduino, Android and OpenCV.\\
+\faYoutube\ \url{https://www.youtube.com/watch?v=oHg5SJYRHA0}. \\
 \\{\bf Open Inventory System | Inventory Management System}     \hfill {\em February 2020 - June 2020} 
 \\Automated inventory management system for computer labs with RBAC. The system consisted of a mobile application and a web application.\\
-\url{https://github.com/openinventoryorg}.\\
+\faGithub\ \url{https://github.com/openinventoryorg} \\
+\\{\bf Teleport Mobile App(Android/iOS)}                        \hfill {\em August 2019 - September 2019} 
+\\App developed for HackX competition in order to use sharing economy in transferring goods. 
 \end{rSection}
 
 \end{adjustwidth}

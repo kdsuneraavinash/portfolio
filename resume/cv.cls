@@ -30,7 +30,8 @@
 
 % Defines the face and background image commands
 \def \imagename#1{\def\@imagename{#1}}
-\def \bgimagename#1{\def\@bgimagename{#1}}
+\def \sidebar#1{\def\@sidebar{#1}}
+\def \header#1{\def\@header{#1}}
 % Defines the \name command to set name
 \def \name#1{\def\@name{#1}}
 \def \@name {}
@@ -39,31 +40,31 @@
 \let \@subtitletwo \relax
 \let \@subtitlethree \relax
 \def \subtitle #1{
-  \@ifundefined{@subtitletwo}{
-    \def \@subtitletwo {#1}
-  }{
-  \@ifundefined{@subtitlethree}{
-  \def \@subtitlethree {#1}
-  }{
-     \def \@subtitleone {#1}
-  }}
+    \@ifundefined{@subtitleone}{
+        \def \@subtitleone {#1}
+    }{
+    \@ifundefined{@subtitletwo}{
+        \def \@subtitletwo {#1}
+    }{
+     \def \@subtitlethree {#1}
+    }}
 }
 
 % \printname is used to print the name as a page header
 \def \printname {
-  \begingroup
-    {\MakeUppercase{\namesize\bf \@name}}
-    \nameskip\break
-  \endgroup
+    \begingroup
+        {\MakeUppercase{\namesize\bf \@name}}
+        \nameskip\break
+    \endgroup
 }
 % \printsubtitle is used to style an subtitle line (given as input)
 \def \printsubtitle #1{
-  \begingroup
-    \def \\ {\sep\ }
-    {\subtitlesize #1}
-  \endgroup
-  \par
-  \subtitleskip
+    \begingroup
+        \def \\ {\sep\ }
+        {\subtitlesize #1}
+    \endgroup
+    \par
+    \subtitleskip
 }
 
 %-----------------------------------
@@ -77,39 +78,41 @@
     opacity=1,
     angle=0,
     contents={%
-        \includegraphics[width=\paperwidth,height=\paperheight]\@bgimagename
+        \includegraphics[width=\paperwidth,height=\paperheight]\@sidebar
     }%
 }
+
+% Header text content
+\def \headerText{
+    \printname
+    \@ifundefined{@subtitleone}{}{
+        \printsubtitle{\@subtitleone}}
+    \@ifundefined{@subtitletwo}{}{ 
+        \printsubtitle{\@subtitletwo}}
+    \@ifundefined{@subtitlethree}{}{
+        \printsubtitle{\@subtitlethree}}
+}
+
 
 % Heading
 \let\ori@document=\document
 \renewcommand{\document}{
     \ori@document
-    \@ifundefined{@bgimagename}{}{
+    \@ifundefined{@sidebar}{}{
         \BgThispage
-    } 
-    \@ifundefined{@imagename}{
-        \centerline\printname
-        \@ifundefined{@subtitleone}{}{
-            \centerline{\printsubtitle{\@subtitleone}}}
-        \@ifundefined{@subtitletwo}{}{ 
-            \centerline{\printsubtitle{\@subtitletwo}}}
-        \@ifundefined{@subtitlethree}{}{
-            \centerline{\printsubtitle{\@subtitlethree}}}
-    }{
-        \noindent\begin{minipage}[]{0.17\textwidth}
-            \includegraphics[width=\linewidth]\@imagename
-        \end{minipage}%
-        \hfill%
-        \begin{minipage}[]{0.8\textwidth}
-            \printname
-            \@ifundefined{@subtitleone}{}{
-                \printsubtitle{\@subtitleone}}
-            \@ifundefined{@subtitletwo}{}{ 
-                \printsubtitle{\@subtitletwo}}
-            \@ifundefined{@subtitlethree}{}{
-                \printsubtitle{\@subtitlethree}}
-        \end{minipage}
+    }
+    \@ifundefined{@header}{}{ 
+        \@ifundefined{@imagename}{ 
+            \centering{\headerText}
+        }{
+            \noindent\begin{minipage}[]{0.17\textwidth}
+                \includegraphics[width=\linewidth]\@imagename
+            \end{minipage}%
+            \hfill%
+            \begin{minipage}[]{0.8\textwidth}
+                \headerText
+            \end{minipage}
+        }
     }
 }
 
