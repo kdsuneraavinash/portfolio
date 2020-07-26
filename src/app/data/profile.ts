@@ -1,5 +1,5 @@
 export class Profile {
-    static URL = 'http://localhost:8000/settings.json';
+    static URL = 'https://raw.githubusercontent.com/kdsuneraavinash/portfolio/master/json/settings.json';
 
     public readonly name: string;
     public readonly address: string;

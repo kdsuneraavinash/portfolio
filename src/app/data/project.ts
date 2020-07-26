@@ -4,7 +4,7 @@ class Link {
 }
 
 export class Project {
-    static URL = 'http://localhost:8000/projects.json';
+    static URL = 'https://raw.githubusercontent.com/kdsuneraavinash/portfolio/master/json/projects.json';
 
     constructor(public title: string, public content: string, public index: number,
         public badges: string[] = [], public links: Link[] = [], public team?: string[],

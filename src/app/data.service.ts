@@ -23,6 +23,8 @@ export class DataService {
   private readonly skillDataObservable: BehaviorSubject<Skill[]>;
 
   constructor(private http: HttpClient) {
+    const bust = (url) => `${url}?_cache_buster=${new Date().getTime()}`;
+
     this.navButtonData = NavButton.data;
     this.teamMatesData = new BehaviorSubject(new Map());
     this.profileDataObservable = new BehaviorSubject(new Profile());
@@ -30,22 +32,22 @@ export class DataService {
     this.projectDataObservable = new BehaviorSubject([]);
     this.achievementDataObservable = new BehaviorSubject([]);
     this.skillDataObservable = new BehaviorSubject([]);
-    this.http.get(TeamMate.URL)
+    this.http.get(bust(TeamMate.URL))
       .subscribe((v) => this.teamMatesData
         .next(v as Map<string, TeamMate>));
-    this.http.get(Skill.URL)
+    this.http.get(bust(Skill.URL))
       .subscribe((v) => this.skillDataObservable
         .next((v as Skill[]).sort(Skill.compare)));
-    this.http.get(Education.URL)
+    this.http.get(bust(Education.URL))
       .subscribe((v) => this.educationDataObservable
         .next((v as Education[]).sort(Education.compare)));
-    this.http.get(Profile.URL)
+    this.http.get(bust(Profile.URL))
       .subscribe((v) => this.profileDataObservable
         .next(v as Profile));
-    this.http.get(Achievement.URL)
+    this.http.get(bust(Achievement.URL))
       .subscribe((v) => this.achievementDataObservable
         .next((v as Achievement[]).sort(Achievement.compare)));
-    this.http.get(Project.URL)
+    this.http.get(bust(Project.URL))
       .subscribe((v) => this.projectDataObservable
         .next((v as Project[]).sort(Project.compare)));
   }
