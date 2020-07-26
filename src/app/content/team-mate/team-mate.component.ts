@@ -17,5 +17,4 @@ export class TeamMateComponent implements OnInit {
     ngOnInit() {
         this.dataService.getTeamMateData(this.data).subscribe((v) => this.teamMate = v);
     }
-
 }

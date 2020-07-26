@@ -23,8 +23,18 @@
             </div>
 
             <hr />
-            <div [innerHTML]='data.content'>
+
+            <div id="text"> {{data.content}} </div>
+
+            <div class="row pb-2 auto-center">
+                <div *ngFor="let link of data.links">
+                    <a mdbBtn type="button" color="dark" outline="true" size="sm" mdbWavesEffect target="_blank"
+                        rel="noopener" [href]="link.target"> {{link.title}} </a>
+                </div>
             </div>
+
+            <img *ngIf="data.image" [src]='data.image' class="img-fluid d-none d-md-block pt-2" alt="Photo">
+
 
             <div *ngIf="data.team">
                 <div class="row pt-4 px-3 auto-center">

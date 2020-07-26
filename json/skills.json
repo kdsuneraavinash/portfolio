@@ -1,0 +1,156 @@
+[
+    {
+        "progress": 7.5,
+        "group": "Database and Tooling",
+        "title": "Linux",
+        "image": "assets/logos/linux.svg",
+        "link": "https://www.linux.org/"
+    },
+    {
+        "progress": 8.5,
+        "group": "Frameworks",
+        "title": "React",
+        "image": "assets/logos/react.png",
+        "link": "https://reactjs.org/"
+    },
+    {
+        "progress": 5,
+        "group": "Languages",
+        "title": "Go",
+        "image": "assets/logos/go.jpg",
+        "link": "https://golang.org/"
+    },
+    {
+        "progress": 7,
+        "group": "Database and Tooling",
+        "title": "Firebase",
+        "image": "assets/logos/firebase.webp",
+        "link": "https://firebase.google.com/"
+    },
+    {
+        "group": "Languages",
+        "progress": 8,
+        "title": "HTML5",
+        "image": "assets/logos/html.svg",
+        "link": "https://whatwg.org/"
+    },
+    {
+        "progress": 9,
+        "group": "Languages",
+        "title": "Dart",
+        "image": "assets/logos/dart.jpg",
+        "link": "https://dart.dev/"
+    },
+    {
+        "progress": 6,
+        "group": "Frameworks",
+        "title": "Django",
+        "image": "assets/logos/django.png",
+        "link": "https://www.djangoproject.com/"
+    },
+    {
+        "progress": 6,
+        "group": "Frameworks",
+        "title": "Bootstrap 4",
+        "image": "assets/logos/bootstrap.svg",
+        "link": "https://getbootstrap.com/"
+    },
+    {
+        "progress": 7,
+        "group": "Languages",
+        "title": "PHP",
+        "image": "assets/logos/php.svg",
+        "link": "https://php.net/"
+    },
+    {
+        "progress": 7,
+        "group": "Languages",
+        "title": "TypeScript",
+        "image": "assets/logos/ts.svg",
+        "link": "https://www.typescriptlang.org/"
+    },
+    {
+        "progress": 8.2,
+        "group": "Languages",
+        "title": "VB.NET",
+        "image": "assets/logos/vb.png",
+        "link": "https://visualstudio.microsoft.com/"
+    },
+    {
+        "group": "Languages",
+        "progress": 8.5,
+        "title": "Java",
+        "image": "assets/logos/java.svg",
+        "link": "https://www.java.com/en/"
+    },
+    {
+        "progress": 6,
+        "group": "Frameworks",
+        "title": "Angular",
+        "image": "assets/logos/angular.svg",
+        "link": "https://angular.io/"
+    },
+    {
+        "image": "assets/logos/js.svg",
+        "link": "https://www.javascript.com/",
+        "progress": 7,
+        "group": "Languages",
+        "title": "JavaScript"
+    },
+    {
+        "title": "CSS3",
+        "image": "assets/logos/css.svg",
+        "link": "https://whatwg.org/",
+        "progress": 8,
+        "group": "Languages"
+    },
+    {
+        "image": "assets/logos/postgre.svg",
+        "link": "https://www.postgresql.org/",
+        "progress": 9,
+        "group": "Database and Tooling",
+        "title": "PostgreSQL"
+    },
+    {
+        "image": "assets/logos/flutter.png",
+        "link": "https://flutter.dev/",
+        "progress": 9.5,
+        "group": "Frameworks",
+        "title": "Flutter"
+    },
+    {
+        "progress": 7,
+        "group": "Frameworks",
+        "title": "ExpressJS",
+        "image": "assets/logos/express.svg",
+        "link": "https://expressjs.com/"
+    },
+    {
+        "progress": 8.5,
+        "group": "Database and Tooling",
+        "title": "MySql",
+        "image": "assets/logos/mysql.svg",
+        "link": "https://www.mysql.com/"
+    },
+    {
+        "group": "Languages",
+        "progress": 9,
+        "title": "Python",
+        "image": "assets/logos/python.svg",
+        "link": "https://www.python.org/"
+    },
+    {
+        "progress": 8,
+        "group": "Database and Tooling",
+        "title": "Git",
+        "image": "assets/logos/git.svg",
+        "link": "https://git-scm.com/"
+    },
+    {
+        "image": "assets/logos/cplusplus.svg",
+        "link": "https://isocpp.org/",
+        "group": "Languages",
+        "progress": 6,
+        "title": "C++"
+    }
+]

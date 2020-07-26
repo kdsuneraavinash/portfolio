@@ -1,0 +1,82 @@
+{
+    "anju": {
+        "image": "assets/team/anju.jpeg",
+        "url": "https://www.linkedin.com/in/anju-chamantha-181970179/",
+        "name": "Anju Chamantha"
+    },
+    "budvin": {
+        "image": "assets/team/budvin.jpeg",
+        "url": "https://www.linkedin.com/in/budvin-chathura/",
+        "name": "Budvin Edippuliarachchi"
+    },
+    "chamika": {
+        "url": "https://www.linkedin.com/in/chamikanan/",
+        "name": "Chamika Nandasiri",
+        "image": "assets/team/chamika.jpeg"
+    },
+    "gamlath": {
+        "image": "assets/team/gamlath.jpeg",
+        "url": "https://www.linkedin.com/in/damikagamlath/",
+        "name": "Damika Gamlath"
+    },
+    "deepana": {
+        "image": "assets/team/deepana.jpeg",
+        "url": "https://www.linkedin.com/in/deepana-ishtaweera-607364152/",
+        "name": "Deepana Ishtaweera"
+    },
+    "dinith": {
+        "image": "assets/team/dinith.jpeg",
+        "url": "https://www.linkedin.com/in/dinith-herath-65a761168/",
+        "name": "Dinith Herath"
+    },
+    "lahiru": {
+        "image": "assets/team/lahiru.jpeg",
+        "url": "https://www.linkedin.com/in/lahiru-udayanga/",
+        "name": "Lahiru Udayanga"
+    },
+    "mudith": {
+        "image": "assets/team/mudith.jpg",
+        "url": "https://www.facebook.com/WMudith",
+        "name": "Mudith Witharama"
+    },
+    "ruchin": {
+        "image": "assets/team/ruchin.jpg",
+        "url": "https://www.linkedin.com/in/ruchin-amaratunga-64b823163/",
+        "name": "Ruchin Amaratunga"
+    },
+    "rumesh": {
+        "image": "assets/team/rumesh.jpeg",
+        "url": "https://www.linkedin.com/in/rumeshmadhusanka/",
+        "name": "Rumesh Madhusanka"
+    },
+    "sasindu": {
+        "image": "assets/team/sasindu.jpg",
+        "url": "https://www.facebook.com/sasindu.dilshara.750",
+        "name": "Sasindu Dilshara"
+    },
+    "senuda": {
+        "image": "assets/team/senuda.jpeg",
+        "url": "https://www.linkedin.com/in/senuda-jayalath/",
+        "name": "Senuda Jayalath"
+    },
+    "sunera": {
+        "image": "assets/team/me.jpg",
+        "url": "https://www.linkedin.com/in/kdsuneraavinash/",
+        "name": "Sunera Avinash"
+    },
+    "tharaka": {
+        "url": "https://www.facebook.com/tharaka.wijesundara.779",
+        "name": "Tharaka Wijesundara",
+        "image": "assets/team/tharaka.jpg"
+    },
+    "thusara": {
+        "image": "assets/team/thusara.jpg",
+        "url": "https://www.facebook.com/thusaradimuth.wanigathunga/",
+        "name": "Thusara Dimuth Wanigathunga"
+    },
+    "uvindu": {
+        "url": "https://www.facebook.com/profile.php?id=100013403053394",
+        "name": "Uvindu Avishka",
+        "image": "assets/team/uvindu.jpg"
+    }
+}

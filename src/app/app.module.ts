@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarTopComponent } from './sidebar/sidebar-top/sidebar-top.component';
 import { SidebarMiddleComponent } from './sidebar/sidebar-middle/sidebar-middle.component';
 import { SidebarBottomComponent } from './sidebar/sidebar-bottom/sidebar-bottom.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { EducationCard } from './content/education-page/education-card/education-card.component';
 import { EducationPageComponent } from './content/education-page/education-page.component';
 import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
@@ -20,55 +21,40 @@ import { SkillsCardComponent } from './content/skills-page/skills-card/skills-ca
 import { TeamMateComponent } from './content/team-mate/team-mate.component';
 import { AboutPageComponent } from './content/about-page/about-page.component';
 import { SpinnerComponent } from './content/spinner/spinner.component';
-import { RepositoryPageComponent } from './content/repository-page/repository-page.component';
-import { RepositoryPageCardComponent } from './content/repository-page/repository-page-card/repository-page-card.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-import { EscapeHtmlPipe } from './pipes/keep-html.pipe';
-
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { HttpClientModule } from '@angular/common/http';
+import { environment } from '../environments/environment';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        SidebarComponent,
-        SidebarTopComponent,
-        SidebarMiddleComponent,
-        SidebarBottomComponent,
-        EducationCard,
-        EducationPageComponent,
-        ProjectsPageComponent,
-        ProjectsCardComponent,
-        AchievementsPageComponent,
-        AchievementsCardComponent,
-        TitleComponent,
-        SkillsPageComponent,
-        SkillsCardComponent,
-        TeamMateComponent,
-        AboutPageComponent,
-        NavbarComponent,
-        SpinnerComponent,
-        EscapeHtmlPipe,
-        RepositoryPageComponent,
-        RepositoryPageCardComponent,
-    ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        MDBBootstrapModule.forRoot(),
-        AngularFireModule.initializeApp(environment.firebase),
-        AngularFirestoreModule,
-        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-        HttpClientModule,
-    ],
-    providers: [],
-    bootstrap: [AppComponent],
-    schemas: [
-        CUSTOM_ELEMENTS_SCHEMA
-    ]
+  declarations: [
+    AppComponent,
+    SidebarComponent,
+    SidebarTopComponent,
+    SidebarMiddleComponent,
+    SidebarBottomComponent,
+    NavbarComponent,
+    EducationCard,
+    EducationPageComponent,
+    ProjectsPageComponent,
+    ProjectsCardComponent,
+    AchievementsPageComponent,
+    AchievementsCardComponent,
+    TitleComponent,
+    SkillsPageComponent,
+    SkillsCardComponent,
+    TeamMateComponent,
+    AboutPageComponent,
+    NavbarComponent,
+    SpinnerComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    MDBBootstrapModule.forRoot(),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    HttpClientModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule { }

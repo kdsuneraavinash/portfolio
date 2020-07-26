@@ -1,4 +1,6 @@
 export class Profile {
+    static URL = 'http://localhost:8000/settings.json';
+
     public readonly name: string;
     public readonly address: string;
     public readonly telephone: string;
@@ -28,6 +30,6 @@ export class Profile {
         this.subtitle = "Computer Science Student";
 
         this.resume = "assets/resume.pdf";
-        this.photo = "assets/me.jpg";
+        this.photo = "assets/team/me.jpg";
     }
 }

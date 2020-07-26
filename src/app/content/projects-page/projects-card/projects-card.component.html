@@ -1,10 +1,22 @@
 <mdb-card class="mt-1 animated fadeIn">
     <mdb-card-body class="p-4 auto-center">
         <h2 class="h2-responsive">{{data.title | uppercase}}</h2>
-
         <hr />
-        <div [innerHTML]="data.content | keepHtml">
+
+        <span class="mr-2" *ngFor="let badge of data.badges" [innerHTML]="badge"></span>
+
+        <div class="pt-3 pb-2" id="text"> {{data.content}} </div>
+
+        <div class="row pb-2 pl-2 auto-center">
+            <div *ngFor="let link of data.links">
+                <a mdbBtn type="button" color="dark" outline="true" size="sm" mdbWavesEffect target="_blank"
+                    rel="noopener" [href]="link.target"> {{link.title}} </a>
+            </div>
         </div>
+
+        <img id="image" *ngIf="data.image" [src]='data.image' class="img-fluid d-none d-md-block pt-2" alt="Photo">
+        <div *ngIf="data.embed" [innerHTML]='data.embed' class="pt-2"></div>
+
 
         <div *ngIf="data.team">
             <hr />
