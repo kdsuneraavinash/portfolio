@@ -1,7 +1,7 @@
-\ProvidesClass{cv}[2020/06/09 kdsuneraavinash cv class]
+\ProvidesClass{resume}[2020/06/09 kdsuneraavinash resume class]
 
 % Font size, Paper size
-\LoadClass[12pt,a4paper]{article}
+\LoadClass[10pt,a4paper]{article}
 % Remove paragraph indentation
 \usepackage[parfill]{parskip} 
 % Required for boldface (\bf and \bfseries) tabular columns
@@ -20,17 +20,9 @@
 \usepackage[hidelinks]{hyperref}
 % Background image
 \usepackage[pages=some]{background}
-% Coloring package
-\usepackage{xcolor}
 % Set default separator to a diamond
 \def \sep {$\diamond$}
 \def \ss#1{\textsuperscript{#1}}
-
-% Green color
-\definecolor{primary}{rgb}{0.29, 0.33, 0.13}
-
-% Disabled color
-\newcommand{\lightsubtitle}[1]{ \small #1\vspace{2pt} \normalsize}
 
 %-----------------------------------
 %	Name and Subtitle
@@ -69,11 +61,10 @@
 \def \printsubtitle #1{
     \begingroup
         \def \\ {\sep\ }
-        {\subtitlesize #1} 
+        {\subtitlesize #1}
     \endgroup
     \par
     \subtitleskip
-    \vspace{-2pt}
 }
 
 %-----------------------------------
@@ -93,7 +84,6 @@
 
 % Header text content
 \def \headerText{
-    \begin{flushleft}
     \printname
     \@ifundefined{@subtitleone}{}{
         \printsubtitle{\@subtitleone}}
@@ -101,7 +91,6 @@
         \printsubtitle{\@subtitletwo}}
     \@ifundefined{@subtitlethree}{}{
         \printsubtitle{\@subtitlethree}}
-    \end{flushleft}
 }
 
 
@@ -117,51 +106,31 @@
             \centering{\headerText}
         }{
             \noindent\begin{minipage}[]{0.17\textwidth}
-                \begin{tikzpicture}
-                    \begin{scope}
-                        \clip [rounded corners=0.5\textwidth] (0,0) rectangle coordinate (centerpoint) (\textwidth,\textwidth);
-                        \node [inner sep=0pt] at (centerpoint) {\includegraphics[width=\textwidth, height=\textwidth]{\@imagename}};
-                    \end{scope}
-                    \draw[white] (0.5\textwidth,0.5\textwidth) circle (0.5\textwidth);
-                    \end{tikzpicture}
-                % \includegraphics[width=\linewidth]\@imagename
+                \includegraphics[width=\linewidth]\@imagename
             \end{minipage}%
             \hfill%
-            \begin{minipage}[]{0.78\textwidth}
-                \@ifundefined{@sidebar}{ \headerText }
-                { \textcolor{white}{\headerText} }
+            \begin{minipage}[]{0.8\textwidth}
+                \headerText
             \end{minipage}
         }
     }
-    \@ifundefined{@sidebar}{  }
-    { \vspace{0.4in} }
-    
 }
 
 %-----------------------------------
 %	Sections
 %-----------------------------------
 
-\newcommand\sectioncolor[3]{
-    \@ifundefined{@sidebar}{% 
-        #1#2#3% 
-    }% 
-    {%  
-        \textcolor{orange}{#1#2#3}% 
-    }%  
-}
-
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{
     \sectionskip
-    {\bf \sectioncolor #1 }
+    \MakeUppercase{\bf #1} 
     \sectionlineskip
     \vspace{-12pt}
     \\
     \noindent\rule{\linewidth}{0.4pt}
     \vspace{-16pt}
     \begin{list}{}{ 
-        \setlength{\leftmargin}{0em} 
+        \setlength{\leftmargin}{1.5em} 
     }
     \item[]
 }{
@@ -182,10 +151,10 @@
 %	White-spaces
 %-----------------------------------
 
-\def\namesize{\Large}           % Size of the name at the top of the document
+\def\namesize{\LARGE}           % Size of the name at the top of the document
 \def\subtitleskip{\smallskip}   % The space between the two subtitle (or phone/email) lines
 \def\sectionlineskip{\medskip}  % The space above the horizontal line for each section 
 \def\nameskip{\bigskip}         % The space after your name at the top
 \def\sectionskip{\medskip}      % The space after the heading section
-\def\subtitlesize{\normalsize}
+\def\subtitlesize{\large}
 \urlstyle{same}                 % Use same font in hyperlinks
