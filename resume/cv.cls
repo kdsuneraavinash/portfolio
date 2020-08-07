@@ -28,9 +28,10 @@
 
 % Green color
 \definecolor{primary}{rgb}{0.29, 0.33, 0.13}
+\definecolor{grey}{rgb}{0.5, 0.5, 0.5}
 
 % Disabled color
-\newcommand{\lightsubtitle}[1]{ \small #1\vspace{2pt} \normalsize}
+\newcommand{\lightsubtitle}[1]{ \small \textcolor{grey}{#1}\vspace{2pt} }
 
 %-----------------------------------
 %	Name and Subtitle
@@ -156,11 +157,11 @@
     \sectionskip
     {\bf \sectioncolor #1 }
     \sectionlineskip
-    \vspace{-12pt}
+    \vspace{-14pt}
     \\
     \noindent\rule{\linewidth}{0.4pt}
-    \vspace{-16pt}
-    \begin{list}{}{ 
+    \vspace{-24pt}
+    \small\begin{list}{}{ 
         \setlength{\leftmargin}{0em} 
     }
     \item[]
