@@ -1,4 +1,4 @@
-<mdb-card class="mt-1 animated fadeIn">
+<mdb-card class="mt-1 animated fadeIn z-depth-0">
     <mdb-card-body class="p-4 auto-center">
         <h2 class="h2-responsive">{{data.title | uppercase}}</h2>
         <hr />
@@ -14,9 +14,15 @@
             </div>
         </div>
 
-        <img id="image" *ngIf="data.image" [src]='data.image' class="img-fluid d-none d-md-block pt-2" alt="Photo">
-        <div *ngIf="data.embed" [innerHTML]='data.embed' class="pt-2"></div>
-
+        <div *ngIf="data.image" [class]="'view overlay z-depth-2 ' + (data.embed ? 'zoom': '')">
+            <img [src]='data.image' class="img-fluid rounded w-100" alt="Photo">
+            <a target="_blank" *ngIf="data.embed" [href]="data.embed">
+                <div class="mask flex-center rgba-black-light">
+                </div>
+            </a>
+            <div *ngIf="data.embed == null" class="mask flex-center">
+            </div>
+        </div>
 
         <div *ngIf="data.team">
             <hr />

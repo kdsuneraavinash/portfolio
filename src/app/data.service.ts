@@ -9,6 +9,8 @@ import { Skill } from './data/skill';
 import { Profile } from './data/profile';
 import { NavButton } from './data/nav-button';
 import { TeamMate } from './data/team-mate';
+import { environment } from 'src/environments/environment';
+import * as settings from './json/settings.json';
 
 @Injectable({
   providedIn: 'root'
@@ -23,31 +25,31 @@ export class DataService {
   private readonly skillDataObservable: BehaviorSubject<Skill[]>;
 
   constructor(private http: HttpClient) {
-    const bust = (url) => `${url}?_cache_buster=${new Date().getTime()}`;
+    const bust = (url) => `${environment.data}/${url}?_cache_buster=${new Date().getTime()}`;
 
     this.navButtonData = NavButton.data;
-    this.teamMatesData = new BehaviorSubject(new Map());
-    this.profileDataObservable = new BehaviorSubject(new Profile());
+    this.teamMatesData = new BehaviorSubject(new Map<string, TeamMate>());
+    this.profileDataObservable = new BehaviorSubject(settings as Profile);
     this.educationDataObservable = new BehaviorSubject([]);
     this.projectDataObservable = new BehaviorSubject([]);
     this.achievementDataObservable = new BehaviorSubject([]);
     this.skillDataObservable = new BehaviorSubject([]);
-    this.http.get(bust(TeamMate.URL))
+    this.http.get(bust('teammates.json'))
       .subscribe((v) => this.teamMatesData
         .next(v as Map<string, TeamMate>));
-    this.http.get(bust(Skill.URL))
+    this.http.get(bust('skills.json'))
       .subscribe((v) => this.skillDataObservable
         .next((v as Skill[]).sort(Skill.compare)));
-    this.http.get(bust(Education.URL))
+    this.http.get(bust('education.json'))
       .subscribe((v) => this.educationDataObservable
         .next((v as Education[]).sort(Education.compare)));
-    this.http.get(bust(Profile.URL))
+    this.http.get(bust('settings.json'))
       .subscribe((v) => this.profileDataObservable
         .next(v as Profile));
-    this.http.get(bust(Achievement.URL))
+    this.http.get(bust('achievements.json'))
       .subscribe((v) => this.achievementDataObservable
         .next((v as Achievement[]).sort(Achievement.compare)));
-    this.http.get(bust(Project.URL))
+    this.http.get(bust('projects.json'))
       .subscribe((v) => this.projectDataObservable
         .next((v as Project[]).sort(Project.compare)));
   }

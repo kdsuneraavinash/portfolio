@@ -78,5 +78,15 @@
         "url": "https://www.facebook.com/profile.php?id=100013403053394",
         "name": "Uvindu Avishka",
         "image": "assets/team/uvindu.jpg"
+    },
+    "anjala": {
+        "url": "https://www.linkedin.com/in/anjala-dilhara",
+        "name": "Anjala Dilhara",
+        "image": "assets/team/anjala.jpeg"
+    },
+    "avishka": {
+        "url": "https://www.linkedin.com/in/avishka-shamendra",
+        "name": "Avishka Shamendra",
+        "image": "assets/team/avishka.jpeg"
     }
 }

@@ -1,6 +1,4 @@
 export class Skill {
-    static URL = 'https://raw.githubusercontent.com/kdsuneraavinash/portfolio/master/json/skills.json';
-
     constructor(public image: string, public link: string, public progress: number,
         public title: string, public group: string) {
     }

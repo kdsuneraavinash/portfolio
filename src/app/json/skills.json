@@ -70,13 +70,6 @@
         "link": "https://www.typescriptlang.org/"
     },
     {
-        "progress": 8.2,
-        "group": "Languages",
-        "title": "VB.NET",
-        "image": "assets/logos/vb.png",
-        "link": "https://visualstudio.microsoft.com/"
-    },
-    {
         "group": "Languages",
         "progress": 8.5,
         "title": "Java",

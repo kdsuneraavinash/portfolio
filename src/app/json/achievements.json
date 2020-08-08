@@ -1,6 +1,6 @@
 [
     {
-        "content": "UoJCoders coding competition is aimed to enhance the problem-solving skills and programming skills among the undergraduate students in computing and that will provide efficient programmers. The competition is a 12-hours inter-university coding competition. The competition is open to all undergraduate students in Sri Lanka.",
+        "content": "A 12-hour competitive programming competition organized by University of Jaffna.",
         "team": [
             "sunera",
             "deepana",
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "content": "MoraXtreme 4.0 is a 12-hour algorithmic coding competition which will provide a better platform to display your programming knowledge and skills in a more enthusiastic manner.",
+        "content": "MoraXtreme 4.0 is a 12-hour algorithmic coding competition organized by University of Moratuwa with the participation of other Universities in the country.",
         "organizers": "University of Moratuwa (Oct 2019)",
         "team": [
             "sunera",
@@ -33,7 +33,7 @@
         "title": "MoraXtreme 4.0 - Second Runners up"
     },
     {
-        "content": "Mobile app development competition. School children and undergraduates put their coding skills to the test at Idea Challenge 2018, the mobile app development competition held at Techno 2018. ",
+        "content": "Mobile app development competition organized as part of the Techno exhibition '18 in which our team built an Android app that aims to raise awareness of Dengue and take measures to prevent its occurrence and spread.",
         "organizers": "IESL (Oct 2018)",
         "team": [
             "sunera",
@@ -84,7 +84,6 @@
         "color": "brown",
         "title": "IEEEXtreme 12.0 - Sri Lankan Third place",
         "content": " Island Rank: 3\n World Rank: 83 \n Team - CodeBreakers97\n\n IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems. ",
-        "image": "https://i.imgur.com/jYqwGsG.jpg",
         "links": [
             {
                 "title": "IEEEXtreme 12 Competition Site",
@@ -97,7 +96,7 @@
         "type": "Startup Challenge",
         "color": "amber",
         "title": "HackX - Winners",
-        "content": "HackX - one of the most successful inter-university hackathons unfolds its fourth successive chapter as hackX 2019, addressing the innovative minds of the Sri Lankan undergraduates. This time hackX revamps the ordinary hackathon into an Innovative Startup Challenge, allowing more solid refined startups to emerge through the industrial level product development guidance provided. ",
+        "content": "An innovative startup challenge conducted by the Management and IT faculty of the University of Kelaniya in which our team developed an Android/iOS mobile app named `Teleport' to facilitate ride-sharing for parcel delivery.",
         "team": [
             "sunera",
             "anju",
@@ -125,7 +124,7 @@
         "type": "Robotics Competition (Micromouse)",
         "color": "grey",
         "title": "SLIIT RoboFest - 4th place (University Category)",
-        "content": "  RoboFest is the annual robotics competition organized by the Department of Electrical & Computer Engineering of Sri Lanka Institute of Information Technology."
+        "content": "RoboFest is the annual robotics competition organized by the Department of Electrical & Computer Engineering of Sri Lanka Institute of Information Technology."
     },
     {
         "team": [
@@ -138,7 +137,7 @@
         "color": "blue-grey",
         "type": "Robotics Competition (Tic Tac Toe playing robot)",
         "title": "XOBot Challenge 2019 at Techno'18",
-        "content": "X-O Bots is a robotic manipulator design competition open for all engineering undergraduates who are IESL student members, organized by the University of Jaffna IESL Students’ Chapter for the first time.   The task is to design a Tic-Tac-Toe playing robotic arm and compete at the grand finale at TECHNO 2019 this October. To get your creative juices flowing, participate with a group of up to 5 students and showcase your talents to the robotics world with new innovations. Win impressive cash prizes and recognizable certificates issued by the Institute of Engineers Sri Lanka.",
+        "content": "A robotic manipulator design competition conducted as part of the Techno exhibition `19 in which the task was to design a Tic-Tac-Toe playing robotic arm.",
         "image": "https://i.imgur.com/bM0zRyS.jpg"
     },
     {
@@ -146,7 +145,7 @@
         "color": "brown",
         "type": "Programming Competition [Algorithm]",
         "title": "Google Hashcode 2019 - Sri Lankan First Place | Globally 260th",
-        "content": " Hash Code is a team programming competition, organized by Google, for students and professionals around the world. Teams are given an engineering problem to solve.",
+        "content": "A team programming competition, organized by Google, for students and professionals around the world in which the teams are given an engineering problem to solve. ",
         "organizers": "Google (Feb 2019)",
         "team": [
             "sunera",
@@ -162,7 +161,7 @@
         ]
     },
     {
-        "content": "IESL RoboGames 2018, is part of Techno, the leading engineering exhibition held in Sri Lanka. The competition was held on, 14th October (University category competition & Award ceremony), at Sirimavo Bandaranaike Memorial Exhibition & Convention Centre. ",
+        "content": "A computer-vision based robotics competition conducted as part of the Techno exhibition `18 in which the task was to build an autonomous quadruped robot that could navigate a maze by using drawn arrows as guidelines.",
         "organizers": "IESL (Oct 2018)",
         "team": [
             "sunera",
@@ -193,7 +192,7 @@
         "image": "https://i.imgur.com/zVURphw.jpg"
     },
     {
-        "content": "Project: Math Quiz - a learning management system designed to teach students who have a little knowledge about mathematics.",
+        "content": "An island-wide software development competition organized by the Ministry of Education in which my solution was a learning management system designed to teach students who have a negligible knowledge about mathematics.",
         "organizers": "Ministry of Education - Sri Lanka, FITIS (Aug 2015)",
         "index": 85,
         "color": "amber",
@@ -201,7 +200,7 @@
         "title": "14th Young Computer Scientist Competition - Gold Award (Senior Category - Government Schools)"
     },
     {
-        "content": "The E-Club of the University of Moratuwa presents Sri Lankan Robotics Challenge, a national robot competition, which enables the tech-savvy youth of the country to demonstrate their skills in an international standard robotics competition.",
+        "content": "A robotics competition organized by the E-Club of the University of Moratuwa.",
         "team": [
             "sunera",
             "deepana",
@@ -240,11 +239,11 @@
         "type": "hackathon",
         "color": "blue-grey",
         "title": "Runners Up RealHack 2.0 (24hr Hackathon)",
-        "content": "RealHack is the utmost venture initiated by Software Engineering students of the University of Kelaniya in 2018. It is a 24-hour coding competition, open to all university students island-wide and is organized by the Software Engineering Students’ Association and the IEEE student branch of the University of Kelaniya.  Final 15 teams were selected by an online hackerrank competition and we were placed 1st in the leaderboard",
+        "content": "A 24-hour hackathon organized by the Software Engineering Students’ Association of the University of Kelaniya in which the task was to build a real-time Q&A site without using third-party services.",
         "image": "https://i.imgur.com/4QCE63W.jpg"
     },
     {
-        "content": "  ACES Coders, organized by ACES, the Department of Computer Engineering, University of Peradeniya is the largest algorithmic programming competition in the country. It is a 12-hour coding competition open to all undergraduates island-wide.",
+        "content": "  A 12-hour competitive programming competition organized by the Association of Computer Engineering Stu-dents of the Department of Computer Engineering, the University of Peradeniya.",
         "organizers": "University of Peradeniya (February 2020)",
         "team": [
             "sunera",
