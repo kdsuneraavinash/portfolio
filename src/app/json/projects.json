@@ -104,6 +104,50 @@
         "index": 89
     },
     {
+        "title": "OPEN INVENTORY - INVENTORY MANAGEMENT SYSTEM",
+        "content": "Automated inventory management system for computer labs with role-based access system. The system consisted of a mobile application and a web application. The web frontend was developed using React, Backend using Node.js/Express and mobile application using Flutter.",
+        "index": 88,
+        "badges": [
+            "<a href=\"https://travis-ci.com/openinventoryorg/web-frontend\">  <img src=\"https://img.shields.io/travis/openinventoryorg/web-frontend\"\"></a>",
+            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
+        ],
+        "links": [
+            {
+                "title": "Demo Website",
+                "target": "https://openinventoryorg.github.io/web-frontend"
+            },
+            {
+                "title": "Documentation Website",
+                "target": "https://openinventoryorg.github.io/docs"
+            },
+            {
+                "title": "Repositories",
+                "target": "https://github.com/openinventoryorg"
+            }
+        ],
+        "image": "https://imgur.com/f066Xl0.png",
+        "team": [
+            "sunera",
+            "gayal",
+            "sasmitha",
+            "dilan"
+        ]
+    },
+    {
+        "title": "JAVA BASED RPAL INTERPRETER",
+        "content": "RPAL interpreter implemented in Java which evaluates RPAL abstract syntax trees according to the RPAL grammar specification. Developed as part of the CS3152 Programming Languages module.",
+        "index": 87,
+        "badges": [
+            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
+        ],
+        "links": [
+            {
+                "title": "Github Repository",
+                "target": "https://github.com/kdsuneraavinash/rpal-ast-interpreter"
+            }
+        ]
+    },
+    {
         "title": "Teleport (App developed for the HackX competition)",
         "content": "Teleport is an app which intends to use concepts of sharing economy in order to further transportation and logistics industry. \nThis app was made using flutter and supports both iOS and android platforms.",
         "team": [
@@ -113,7 +157,7 @@
             "uvindu",
             "deepana"
         ],
-        "index": 88,
+        "index": 86,
         "image": "https://i.imgur.com/sNuZs6T.jpg"
     },
     {
@@ -127,7 +171,7 @@
         "badges": [
             "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
         ],
-        "index": 87,
+        "index": 85,
         "links": [
             {
                 "title": "Github Repository",
@@ -151,7 +195,10 @@
     {
         "team": [
             "sunera",
-            "anju"
+            "anju",
+            "gayal",
+            "sasmitha",
+            "dilan"
         ],
         "index": 73,
         "title": "Project Medical | Simple mobile app for medical data search engine",

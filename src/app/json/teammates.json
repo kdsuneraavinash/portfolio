@@ -88,5 +88,20 @@
         "url": "https://www.linkedin.com/in/avishka-shamendra",
         "name": "Avishka Shamendra",
         "image": "assets/team/avishka.jpeg"
+    },
+    "gayal": {
+        "url": "https://www.linkedin.com/in/gayal-dassanayake",
+        "name": "Gayal Dassanayake",
+        "image": "assets/team/gayal.jpeg"
+    },
+    "dilan": {
+        "url": "https://www.linkedin.com/in/dilandashintha",
+        "name": "Dilan Dashintha",
+        "image": "assets/team/dilan.jpeg"
+    },
+    "sasmitha": {
+        "url": "https://www.linkedin.com/in/sasmitha-dasanayaka",
+        "name": "Sasmitha Dasanayaka",
+        "image": "assets/team/sasmitha.jpeg"
     }
 }
