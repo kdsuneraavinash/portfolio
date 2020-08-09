@@ -48,7 +48,7 @@
         "title": "CB3D WEBSITE - 3D PRINTING PORTAL",
         "content": "3D printer website and administration portal with online order management and 3D file preview functionalities. Node.js, Express.js, React and PostgreSql were used to develop the system.",
         "index": 98,
-        "image": "https://i.imgur.com/bcUjk5x.png",
+        "image": "https://i.imgur.com/wA5nCzj.png",
         "links": [
             {
                 "title": "Circuit Breakers Home Page",
@@ -145,6 +145,26 @@
                 "title": "Github Repository",
                 "target": "https://github.com/kdsuneraavinash/rpal-ast-interpreter"
             }
+        ]
+    },
+    {
+        "title": "CLASSIFICATION OF ANOMALIES IN GASTROINTESTINAL TRACT THROUGH ENDOSCOPIC IMAGERY WITH TRANSFER LEARNING",
+        "content": "Transfer Learning project done for the university module which uses transfer learning with pre-trained models such as inception, densenet, resnet34 in order to correctly detect the anomaly.",
+        "index": 87.5,
+        "links": [
+            {
+                "title": "Github Repository",
+                "target": "https://github.com/kdsuneraavinash/kvasir"
+            }
+        ],
+        "badges": [
+            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
+        ],
+        "image": "https://imgur.com/iu3Nug9.png",
+        "team": [
+            "sunera",
+            "anju",
+            "ruchin"
         ]
     },
     {

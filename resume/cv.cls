@@ -31,7 +31,7 @@
 \definecolor{grey}{rgb}{0.5, 0.5, 0.5}
 
 % Disabled color
-\newcommand{\lightsubtitle}[1]{ \small \textcolor{grey}{#1}\vspace{2pt} }
+\newcommand{\lightsubtitle}[1]{ \small {\textcolor{grey}{#1}\vspace{2pt}} }
 
 %-----------------------------------
 %	Name and Subtitle
