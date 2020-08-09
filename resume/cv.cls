@@ -167,6 +167,7 @@
     \item[]
 }{
     \end{list}
+    \vspace{12pt}
 }
 
 % Defines tabular section
