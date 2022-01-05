@@ -3,7 +3,7 @@
 % Font size, Paper size
 \LoadClass[12pt,a4paper]{article}
 % Remove paragraph indentation
-\usepackage[parfill]{parskip} 
+\usepackage[parfill]{parskip}
 % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{array}
 % Required for `if then else` statements
@@ -70,7 +70,7 @@
 \def \printsubtitle #1{
     \begingroup
         \def \\ {\sep\ }
-        {\subtitlesize #1} 
+        {\subtitlesize #1}
     \endgroup
     \par
     \subtitleskip
@@ -98,7 +98,7 @@
     \printname
     \@ifundefined{@subtitleone}{}{
         \printsubtitle{\@subtitleone}}
-    \@ifundefined{@subtitletwo}{}{ 
+    \@ifundefined{@subtitletwo}{}{
         \printsubtitle{\@subtitletwo}}
     \@ifundefined{@subtitlethree}{}{
         \printsubtitle{\@subtitlethree}}
@@ -113,8 +113,8 @@
     \@ifundefined{@sidebar}{}{
         \BgThispage
     }
-    \@ifundefined{@header}{}{ 
-        \@ifundefined{@imagename}{ 
+    \@ifundefined{@header}{}{
+        \@ifundefined{@imagename}{
             \centering{\headerText}
         }{
             \noindent\begin{minipage}[]{0.17\textwidth}
@@ -136,7 +136,7 @@
     }
     \@ifundefined{@sidebar}{  }
     { \vspace{0.4in} }
-    
+
 }
 
 %-----------------------------------
@@ -144,12 +144,12 @@
 %-----------------------------------
 
 \newcommand\sectioncolor[3]{
-    \@ifundefined{@sidebar}{% 
-        #1#2#3% 
-    }% 
-    {%  
-        \textcolor{orange}{#1#2#3}% 
-    }%  
+    \@ifundefined{@sidebar}{%
+        #1#2#3%
+    }%
+    {%
+        \textcolor{orange}{#1#2#3}%
+    }%
 }
 
 % Defines the rSection environment for the large sections within the CV
@@ -161,8 +161,8 @@
     \\
     \noindent\rule{\linewidth}{0.4pt}
     \vspace{-24pt}
-    \small\begin{list}{}{ 
-        \setlength{\leftmargin}{0em} 
+    \small\begin{list}{}{
+        \setlength{\leftmargin}{0em}
     }
     \item[]
 }{
@@ -177,7 +177,7 @@
         \begin{tabular}{ @{} > {\bfseries}l @{\hspace{4ex}} l @{\hspace{2ex}} l }
             #2
         \end{tabular}
-    \end{rSection}    
+    \end{rSection}
 }
 
 %-----------------------------------
@@ -186,7 +186,7 @@
 
 \def\namesize{\Large}           % Size of the name at the top of the document
 \def\subtitleskip{\smallskip}   % The space between the two subtitle (or phone/email) lines
-\def\sectionlineskip{\medskip}  % The space above the horizontal line for each section 
+\def\sectionlineskip{\medskip}  % The space above the horizontal line for each section
 \def\nameskip{\bigskip}         % The space after your name at the top
 \def\sectionskip{\medskip}      % The space after the heading section
 \def\subtitlesize{\normalsize}
