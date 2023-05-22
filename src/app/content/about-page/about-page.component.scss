@@ -5,7 +5,13 @@ section {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: large;
+  background-color: $accent-color;
 }
 
 .subheading {
@@ -22,7 +28,7 @@ section.resume-section {
   height: 3.5rem;
   width: 3.5rem;
   background-color: $light-color;
-  color: #fff !important;
+  color: #fff;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -31,7 +37,8 @@ section.resume-section {
 }
 
 .social-icons a:hover {
-  background-color: #f1734d;
+  background-color: $accent-color;
+  color: black;
 }
 
 img {

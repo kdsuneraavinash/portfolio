@@ -2,14 +2,131 @@
 @import 'hover';
 @import 'variables';
 
+// @font-face {
+//   font-family: 'Roboto Slab';
+//   src: url(assets/fonts/cmunrm.ttf) format("truetype");
+// }
+
 @font-face {
-  font-family: 'Roboto Slab';
-  src: url(assets/fonts/cmunrm.ttf) format("truetype");
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-BlackItalic.otf) format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Black.otf) format('opentype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-BoldItalic.otf) format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Bold.otf) format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-ExtraBoldItalic.otf) format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-ExtraBold.otf) format('opentype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-ExtraLightItalic.otf) format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-ExtraLight.otf) format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Italic.otf) format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-LightItalic.otf) format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Light.otf) format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-MediumItalic.otf) format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Medium.otf) format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-SemiBoldItalic.otf) format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-SemiBold.otf) format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-ThinItalic.otf) format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-Thin.otf) format('opentype');
+  font-weight: 100;
 }
 
 * {
-  font-family: 'Roboto Slab', 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: .65pt;
+  line-height: 1.5;
 }
 
 body {
