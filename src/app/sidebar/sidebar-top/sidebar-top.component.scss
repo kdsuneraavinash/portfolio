@@ -17,9 +17,16 @@ $avatar-x-margin: (($sidebar-width - $avatar-size)/2);
 
   h1 {
     font-size: 24px;
+    font-weight: 800;
   }
 
   h2 {
     font-size: 16px;
+    font-weight: 500;
+    
+    span {
+      background-color: $accent-color;
+      color: black;
+    }
   }
 }

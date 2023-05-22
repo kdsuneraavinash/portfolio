@@ -1,7 +1,11 @@
 <div id="sidebar-top">
-    <img src="{{photo}}" class="rounded-circle hoverable border hvr-outline-out" alt="{{name}}">
-    <div class="p-4">
-        <h1>{{name | uppercase}}</h1>
-        <h2>{{subtitle}}</h2>
+  <img src="{{ photo }}" class="rounded-circle hoverable border hvr-outline-out" alt="{{ name }}" />
+  <div class="p-4">
+    <h1>{{ name | uppercase }}</h1>
+    <div>
+      <h2>
+        <span class="p-1 px-2">{{ subtitle }}</span>
+      </h2>
     </div>
+  </div>
 </div>
