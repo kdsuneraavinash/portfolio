@@ -1,41 +1,41 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { AboutPageComponent } from './content/about-page/about-page.component';
-import { ProjectsPageComponent } from './content/projects-page/projects-page.component';
-import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component';
-import { SkillsPageComponent } from './content/skills-page/skills-page.component';
-import { EducationPageComponent } from './content/education-page/education-page.component';
+import { NgModule } from '@angular/core'
+import { RouterModule, Routes } from '@angular/router'
+import { AboutPageComponent } from './content/about-page/about-page.component'
+import { EducationPageComponent } from './content/education-page/education-page.component'
+import { ProjectsPageComponent } from './content/projects-page/projects-page.component'
+import { AchievementsPageComponent } from './content/achievements-page/achievements-page.component'
+import { ExperiencePageComponent } from './content/experience-page/experience-page.component'
 
 const routes: Routes = [
   {
     path: '',
     redirectTo: '/about',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'about',
-    component: AboutPageComponent
+    component: AboutPageComponent,
   },
   {
     path: 'projects',
-    component: ProjectsPageComponent
+    component: ProjectsPageComponent,
   },
   {
     path: 'education',
-    component: EducationPageComponent
+    component: EducationPageComponent,
+  },
+  {
+    path: 'experience',
+    component: ExperiencePageComponent,
   },
   {
     path: 'achievements',
-    component: AchievementsPageComponent
+    component: AchievementsPageComponent,
   },
-  {
-    path: 'skills',
-    component: SkillsPageComponent
-  }
-];
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled' })],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

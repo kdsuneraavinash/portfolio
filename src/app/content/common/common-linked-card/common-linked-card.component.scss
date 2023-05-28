@@ -1,0 +1,73 @@
+@import '../../../../variables';
+
+.medal {
+  width: 64px;
+  height: 64px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+#text{
+  white-space: pre-line;
+}
+
+.timeline {
+  position: relative;
+
+  &::before {
+    content: '';
+    z-index: -1;
+    background: $light-color;
+    width: 5px;
+    height: 150%;
+    position: absolute;
+    left: 58px;
+    transform: translateX(-50%);
+  }
+
+  &.is-last {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: $small-size) {
+
+  .medal,
+  .timeline::before {
+    display: none;
+  }
+}
+
+small {
+  font-weight: 700;
+  color: $light-color;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.accent {
+  background-color: $accent-color;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.bronze {
+  background-color: brown;
+  color: white;
+}
+
+.other {
+  background-color: white;
+}
+
+.thumbnail {
+  max-height: 300px;
+}

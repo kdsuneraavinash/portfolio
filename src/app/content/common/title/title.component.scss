@@ -1,0 +1,36 @@
+@import '../../../../variables';
+
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.title:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Adjust the spacing between underline and title */
+  width: 100%; /* Adjust the width of the underline */
+  height: 7px; /* Adjust the thickness of the underline */
+  background-color: $light-color; /* Adjust the color of the underline */
+}
+
+@media only screen and (max-width: $small-size) {
+  .title {
+    font-size: 36px;
+  }
+}
+
+
+// To make icon appear in a dark circle
+.title-icon-circle {
+  background-color: $light-color;
+  display: inline-block;
+  border-radius: 60px;
+  padding: 18px 16px;
+
+  color: #fff;
+}

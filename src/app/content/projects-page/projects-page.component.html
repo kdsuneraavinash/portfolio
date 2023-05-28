@@ -1,9 +1,21 @@
 <div class="container py-4">
-    <app-title icon="project-diagram" title="Projects"></app-title>
+  <app-title icon="project-diagram" title="Projects"></app-title>
 
-    <div class="py-4" *ngFor="let card of cards">
-        <app-projects-card [data]="card"></app-projects-card>
-    </div>
+  <div class="py-4" *ngFor="let card of cards">
+    <app-common-linked-card
+      [content]="card.content"
+      [isLast]="false"
+      [subtitle1]="card.role"
+      [subtitle2]="card.technologies"
+      [title]="card.title"
+      image="{{card.image}}"
+      link-color="accent"
+      link-icon="project-diagram"
+      subtitle1-icon="sitemap"
+      subtitle2-icon="laptop-code"
+    ></app-common-linked-card>
 
-    <app-spinner [visible]="!cards.length"></app-spinner>
+  </div>
+
+  <app-spinner [visible]="!cards.length"></app-spinner>
 </div>

@@ -1,0 +1,17 @@
+<div class="container py-4">
+  <app-title icon="briefcase" title="Experience"></app-title>
+
+  <div class="py-4" *ngFor="let card of cards">
+    <app-common-card
+      subtitle1-icon="city"
+      subtitle2-icon="calendar"
+      [title]="card.title"
+      [subtitle1]="card.location"
+      [subtitle2]="card.period"
+      [content]="card.content"
+      [image]="card.image"
+    ></app-common-card>
+  </div>
+
+  <app-spinner [visible]="!cards.length"></app-spinner>
+</div>

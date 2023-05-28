@@ -1,9 +1,21 @@
 <div class="container py-4">
-    <app-title icon="trophy" title="Achievements"></app-title>
+  <app-title icon="trophy" title="Achievements"></app-title>
 
-    <div class="py-4" *ngFor="let card of cards">
-        <app-achievements-card [data]="card"></app-achievements-card>
-    </div>
+  <div class="py-4" *ngFor="let card of cards">
+    <app-common-linked-card
+      [content]="card.content"
+      [isLast]="false"
+      [link-color]="card.color"
+      [subtitle1]="card.organizers"
+      [subtitle2]="card.type"
+      [team]="card.team ?? []"
+      [title]="card.title"
+      image="{{card.image}}"
+      link-icon="award"
+      subtitle1-icon="sitemap"
+      subtitle2-icon="laptop-code"
+    ></app-common-linked-card>
+  </div>
 
-    <app-spinner [visible]="!cards.length"></app-spinner>
+  <app-spinner [visible]="!cards.length"></app-spinner>
 </div>

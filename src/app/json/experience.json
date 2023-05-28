@@ -1,0 +1,62 @@
+[
+    {
+        "image": "assets/experience/ixdlabs.jpg",
+        "index": 0,
+        "location": "iXD Labs (PVT) LTD, Sri Lanka",
+        "title": "Director, CTO and Team Lead",
+        "period": "May 2022 - Current",
+        "content": [
+            "<a href='https://ixdlabs.com/'>iXD Labs</a> is a tech startup focused on mobile and web software solutions for clients in Sri Lanka, Australia, and the US. ",
+            "These projects included ERPs, management systems and business automation tools.  <br/>",
+            [
+                "Design the architecture and plan the development of the software solutions",
+                "Oversee the technical aspects of the company and supervise a team of software engineers",
+                "Contribute to the backend/mobile development of projects"
+            ],
+            "Programming Languages: Python, C#, TypeScript, Dart (Flutter) <br/>"
+        ]
+    },
+    {
+        "image": "assets/experience/ixdlabs.jpg",
+        "index": 2,
+        "location": "iXD Labs (PVT) LTD, Sri Lanka",
+        "title": "Software Engineer (Part-Time)",
+        "period": "April 2021 - May 2022",
+        "content": [
+            "As a founding member and part-time Software Engineer at iXDLabs, I contributed to a range of small scale projects for clients in foreign clients. <br/>",
+            "Programming Languages: Python, JavaScript, Dart (Flutter) <br/>"
+        ]
+    },
+    {
+        "image": "assets/experience/mit.png",
+        "index": 1,
+        "location": "Massachusetts Institute of Technology, United States",
+        "title": "Intern under Dr Cathy Wu",
+        "period": "May 2022 - Sep 2022",
+        "content": [
+            "Supervisors: Dr Cathy Wu & Mr Vindula Jayawardana <br/>",
+            "Supervisor Home Page: <a href='http://www.wucathy.com/blog/'>Click Here</a> <br/>",
+            "Project Home Page: <a href='https://mit-wu-lab.github.io/greenwave/'>Click Here</a> <br/>",
+            [
+                "Conducted research on generating realistic 3D visualizations for Autonomous Eco Driving Research",
+                "Generated Carla-based 3D visualizations from simulations created by Sumo, a traffic simulation software"
+            ],
+            "Programming Languages: Python <br/>"
+        ]
+    },
+    {
+        "image": "assets/experience/wso2.png",
+        "index": 3,
+        "location": "WSO2, Sri Lanka",
+        "title": "Software Engineer Intern",
+        "period": "Sep 2020 - Nov 2022",
+        "content": [
+            "Supervisor: Mr Sameera Jayasoma, Senior Director of Platform Architecture at WSO2 <br/>",
+            [
+                "Designed and developed Ballerina Shell, a read-eval- print loop (REPL) for the Ballerina language. This tool is now shipped with the official Ballerina compiler.",
+                "Triaged and fixed bugs assigned to the Compiler Frontend team of the Ballerina team."
+            ],
+            "Programming Languages: Java <br/>"
+        ]
+    }
+]

@@ -1,18 +1,28 @@
 [
     {
-        "image": "assets/education/kvns.jpg",
+        "image": "assets/education/university.jpg",
         "index": 0,
-        "location": "Kalutara Vidyalaya - National School",
-        "title": "GCE Advanced Level Examination",
-        "period": "2003 - 2016",
-        "content": "All A Passes in Physical Sciences Stream<br/> Island rank 76th, District Rank 2nd, Z Score 2.680"
+        "location": "University of Moratuwa, Sri Lanka",
+        "title": "Bachelor of the Science of Engineering Hons",
+        "period": "Sep. 2017 - July 2022",
+        "content": [
+            "Bachelor of the Science of Engineering Hons (First Class)  <br/>",
+            "Specialization: Computer Science and Engineering <br/>",
+            [
+                "Dean's Honours List in all semesters 1-8",
+                "Overall GPA: 4.08/4.20 (Equivalently 3.89/4.0)"
+            ]
+        ]
     },
     {
-        "image": "assets/education/university.jpg",
+        "image": "assets/education/kvns.jpg",
         "index": 1,
-        "location": "University of Moratuwa",
-        "title": "Undergraduate, Bachelor of Science",
-        "period": "2017 - Current",
-        "content": "Undergraduate, Bachelor of Science, Computer Science and Engineering, University of Moratuwa. <br/> Current SGPA: 4.07 <br/> <br/> <strong>Dean's List</strong> <ul> <li>Semester 1 (GPA: 4.11)</li> <li>Semester 2 (GPA: 4.11)</li> <li>Semester 3 (GPA: 4.05)</li>  <li>Semester 4 (GPA: 4.00)</li>  <li>Semester 5 (GPA: 4.13)</li>  </ul>"
+        "location": "Kalutara Vidyalaya - National School, Sri Lanka",
+        "title": "GCE Advanced Level Examination",
+        "period": "Jan. 2003 - Aug. 2016",
+        "content": [
+            "All A Passes in Physical Sciences Stream<br/>",
+            "Island rank 76th, District Rank 2nd, Z Score 2.680"
+        ]
     }
 ]

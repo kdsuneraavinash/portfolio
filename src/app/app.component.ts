@@ -1,16 +1,17 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core'
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(public router: Router) {
-  }
+  title = 'portfolio'
+
+  constructor(public router: Router) {}
 
   isAdditionalPage() {
-    return this.router.url !== '/about';
+    return this.router.url !== '/about'
   }
 }

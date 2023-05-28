@@ -8,7 +8,7 @@
         ],
         "organizers": "University of Jaffna (March 2019)",
         "index": 95,
-        "color": "amber",
+        "color": "gold",
         "type": "Competitive Programming [Algorithm]",
         "title": "UOJ CODERS V1.0 - WINNERS",
         "image": "https://i.imgur.com/kn6n1Up.jpg",
@@ -29,7 +29,7 @@
         ],
         "index": 55,
         "type": "Competitive Programming",
-        "color": "brown",
+        "color": "bronze",
         "title": "MoraXtreme 4.0 - Second Runners up"
     },
     {
@@ -43,7 +43,7 @@
             "uvindu"
         ],
         "index": 65,
-        "color": "blue-grey",
+        "color": "silver",
         "type": "Mobile App Competition",
         "title": "Silver Medalist - IESL IDEA Challenge 2018 at Techno'18",
         "image": "https://i.imgur.com/T3ZRQuo.jpg"
@@ -59,7 +59,7 @@
         ],
         "index": 60,
         "type": "Competitive Programming [Algorithm]",
-        "color": "brown",
+        "color": "bronze",
         "image": "https://i.imgur.com/XeOkoI9.jpg",
         "links": [
             {
@@ -81,7 +81,7 @@
         ],
         "index": 55,
         "type": "Competitive Programming [Algorithm]",
-        "color": "brown",
+        "color": "bronze",
         "title": "IEEEXtreme 12.0 - Sri Lankan Third place",
         "content": " Island Rank: 3\n World Rank: 83 \n Team - CodeBreakers97\n\n IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems. ",
         "links": [
@@ -94,7 +94,7 @@
     {
         "index": 100,
         "type": "Startup Challenge",
-        "color": "amber",
+        "color": "gold",
         "title": "HackX - Winners",
         "content": "An innovative startup challenge conducted by the Management and IT faculty of the University of Kelaniya in which our team developed an Android/iOS mobile app named `Teleport' to facilitate ride-sharing for parcel delivery.",
         "team": [
@@ -122,7 +122,7 @@
         ],
         "index": 40,
         "type": "Robotics Competition (Micromouse)",
-        "color": "grey",
+        "color": "other",
         "title": "SLIIT RoboFest - 4th place (University Category)",
         "content": "RoboFest is the annual robotics competition organized by the Department of Electrical & Computer Engineering of Sri Lanka Institute of Information Technology."
     },
@@ -134,7 +134,7 @@
         ],
         "organizers": "IESL (Oct 2019) [University of Jaffna]",
         "index": 70,
-        "color": "blue-grey",
+        "color": "silver",
         "type": "Robotics Competition (Tic Tac Toe playing robot)",
         "title": "XOBot Challenge 2019 at Techno'18",
         "content": "A robotic manipulator design competition conducted as part of the Techno exhibition `19 in which the task was to design a Tic-Tac-Toe playing robotic arm.",
@@ -142,7 +142,7 @@
     },
     {
         "index": 45,
-        "color": "brown",
+        "color": "bronze",
         "type": "Programming Competition [Algorithm]",
         "title": "Google Hashcode 2019 - Sri Lankan First Place | Globally 260th",
         "content": "A team programming competition, organized by Google, for students and professionals around the world in which the teams are given an engineering problem to solve. ",
@@ -172,7 +172,7 @@
         ],
         "index": 90,
         "type": "Robotics Competition [Computer Vision]",
-        "color": "amber",
+        "color": "gold",
         "title": "Gold Medalist - IESL RoboGames 2018 at Techno'18",
         "image": "https://i.imgur.com/9t3Kc87.jpg"
     },
@@ -187,7 +187,7 @@
         ],
         "index": 80,
         "type": "Ideathon",
-        "color": "amber",
+        "color": "gold",
         "title": "Winners - Decrypt Ideathon 2018",
         "image": "https://i.imgur.com/zVURphw.jpg"
     },
@@ -195,7 +195,7 @@
         "content": "An island-wide software development competition organized by the Ministry of Education in which my solution was a learning management system designed to teach students who have a negligible knowledge about mathematics.",
         "organizers": "Ministry of Education - Sri Lanka, FITIS (Aug 2015)",
         "index": 85,
-        "color": "amber",
+        "color": "gold",
         "type": "Desktop Application",
         "title": "14th Young Computer Scientist Competition - Gold Award (Senior Category - Government Schools)"
     },
@@ -208,7 +208,7 @@
         ],
         "organizers": "University of Moratuwa (Jan 2018)",
         "index": 50,
-        "color": "brown",
+        "color": "bronze",
         "type": "Robotics Competition",
         "title": "Sri Lanka Robotics Challenge 17 - 2nd Runners Up",
         "image": "https://i.imgur.com/dbngbWK.png"
@@ -217,13 +217,13 @@
         "title": "ICT Quiz Competition - (1AB) Western Province 1st place | Grade 11 (1AB)",
         "organizers": "Ministry of Education - Sri Lanka (May 2013)",
         "index": 75,
-        "color": "amber",
+        "color": "gold",
         "type": "Quiz Competition"
     },
     {
         "organizers": "Ministry of Education - Sri Lanka, CSSL (Jun 2015)",
         "index": 30,
-        "color": "grey",
+        "color": "other",
         "type": "Competitive Programming [Algorithm]",
         "title": "National Level School Software Championship - Merit"
     },
@@ -237,13 +237,13 @@
         "organizers": "IEEE student branch of UoK (Nov 2019)",
         "index": 72,
         "type": "hackathon",
-        "color": "blue-grey",
+        "color": "silver",
         "title": "Runners Up RealHack 2.0 (24hr Hackathon)",
         "content": "A 24-hour hackathon organized by the Software Engineering Students’ Association of the University of Kelaniya in which the task was to build a real-time Q&A site without using third-party services.",
         "image": "https://i.imgur.com/4QCE63W.jpg"
     },
     {
-        "content": "  A 12-hour competitive programming competition organized by the Association of Computer Engineering Stu-dents of the Department of Computer Engineering, the University of Peradeniya.",
+        "content": "  A 12-hour competitive programming competition organized by the Association of Computer Engineering Students of the Department of Computer Engineering, the University of Peradeniya.",
         "organizers": "University of Peradeniya (February 2020)",
         "team": [
             "sunera",
@@ -251,7 +251,7 @@
             "budvin"
         ],
         "index": 110,
-        "color": "amber",
+        "color": "gold",
         "type": "Competitive Programming [Algorithm]",
         "title": "ACES Coders v8.0 - Winners",
         "links": [

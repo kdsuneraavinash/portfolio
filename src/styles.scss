@@ -2,11 +2,6 @@
 @import 'hover';
 @import 'variables';
 
-// @font-face {
-//   font-family: 'Roboto Slab';
-//   src: url(assets/fonts/cmunrm.ttf) format("truetype");
-// }
-
 @font-face {
   font-family: 'Montserrat';
   src: url(assets/fonts/Montserrat-BlackItalic.otf) format('opentype');
@@ -139,6 +134,10 @@ body {
     text-align: center;
     justify-content: center;
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 /*

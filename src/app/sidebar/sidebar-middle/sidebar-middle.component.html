@@ -1,12 +1,17 @@
 <div id="sidebar-middle" class="pt-3">
-    <div class="p-2">
-        <nav>
-            <a type="button" *ngFor="let navButton of navButtons"
-                class="p-2 mb-2 nav-button hvr-box-shadow-inset text-white" routerLink="{{navButton.link}}"
-                routerLinkActive="active" mdbWavesEffect>
-                <mdb-icon class="icon-circle" fas icon="{{navButton.iconName}}"></mdb-icon> &nbsp;
-                {{navButton.text | uppercase}}
-            </a>
-        </nav>
-    </div>
+  <div class="p-2">
+    <nav>
+      <a
+        type="button"
+        *ngFor="let navButton of navButtons"
+        class="p-2 mb-2 nav-button hvr-box-shadow-inset text-white"
+        routerLink="{{ navButton.link }}"
+        routerLinkActive="active"
+      >
+        <app-common-icon [icon]="navButton.iconName"></app-common-icon>
+        &nbsp;
+        {{ navButton.text | uppercase }}
+      </a>
+    </nav>
+  </div>
 </div>

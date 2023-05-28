@@ -1,314 +1,148 @@
 [
-    {
-        "title": "THEME PROVIDER - OPEN SOURCE PROJECT",
-        "content": "An easy to use, customizable Theme Provider plugin for Flutter. \nThis provides app color schemes throughout the app and automatically rebuilds the UI dynamically. This can also persist the current color theme. This package provides several widgets that can help to easily add theme switching abilities.",
-        "index": 100,
-        "badges": [
-            "<a href=\"https://codemagic.io/apps/5cfb60390824820019d5af6b/5cfb60390824820019d5af6a/latest_build\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/ad035dbbe78bf77688ab8f125a17dae13b27a120/68747470733a2f2f6170692e636f64656d616769632e696f2f617070732f3563666236303339303832343832303031396435616636622f3563666236303339303832343832303031396435616636612f7374617475735f62616467652e737667\" alt=\"Codemagic build status\" data-canonical-src=\"https://api.codemagic.io/apps/5cfb60390824820019d5af6b/5cfb60390824820019d5af6a/status_badge.svg\" style=\"max-width:100%;\"></a>",
-            "<a href=\"https://pub.dartlang.org/packages/theme_provider\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/aeb73bfce6619e8ddbbfd5071c12d822b4fffa83/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f7468656d655f70726f76696465722e737667\" alt=\"Pub Package\" data-canonical-src=\"https://img.shields.io/pub/v/theme_provider.svg\" style=\"max-width:100%;\"></a>",
-            "<img alt=\"preview badge\" src=\"https://img.shields.io/github/license/kdsuneraavinash/theme_provider\">",
-            "<img alt=\"preview badge\" src=\"https://img.shields.io/github/stars/kdsuneraavinash/theme_provider\">"
-        ],
-        "links": [
-            {
-                "title": "Package Home Page (Dart Pub)",
-                "target": "https://pub.dev/packages/theme_provider/"
-            },
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/theme_provider/"
-            },
-            {
-                "title": "Online Demo Site",
-                "target": "https://kdsuneraavinash.github.io/theme_provider/"
-            }
-        ]
-    },
-    {
-        "title": "GOOGONG SMART CITY COMMUNITY APP",
-        "content": "A smart city app which allows users to find local community services, receive public announcements of events and upload public amenity faults supported by the smart city network in Googong, Australia. This was a cross-platform mobile application and a web application developed using Django and Flutter. This is an ongoing project.",
-        "index": 99,
-        "image": "https://i.imgur.com/vgQeROP.jpg",
-        "links": [
-            {
-                "title": "Play Store",
-                "target": "https://play.google.com/store/apps/details?id=au.com.onewifi.googongIotApp"
-            },
-            {
-                "title": "App store",
-                "target": "https://apps.apple.com/us/app/id1523234128"
-            }
-        ],
-        "team": [
-            "sunera",
-            "dinith"
-        ]
-    },
-    {
-        "title": "CB3D WEBSITE - 3D PRINTING PORTAL",
-        "content": "3D printer website and administration portal with online order management and 3D file preview functionalities. Node.js, Express.js, React and PostgreSql were used to develop the system.",
-        "index": 98,
-        "image": "https://i.imgur.com/wA5nCzj.png",
-        "links": [
-            {
-                "title": "Circuit Breakers Home Page",
-                "target": "https://circuitbreakerssl.com/"
-            },
-            {
-                "title": "CB3D Printer Portal",
-                "target": "https://cb3d.circuitbreakerssl.com/"
-            },
-            {
-                "title": "CB3D Administration Portal",
-                "target": "https://admin.cb3d.circuitbreakerssl.com/"
-            }
-        ],
-        "team": [
-            "sunera",
-            "anjala",
-            "avishka",
-            "budvin"
-        ]
-    },
-    {
-        "team": [
-            "sunera",
-            "chamika"
-        ],
-        "index": 90,
-        "title": "Rise of the Pharaohs Scavenger hunt app",
-        "content": "Scavenger-hunt mobile app developed using \textit{Flutter and Firebase} which was created as the invitation for the CSE event – Rise of the Pharaohs.",
-        "image": "https://github.com/kdsuneraavinash/cse-night-app/raw/master/readme/invite.png",
-        "embed": "https://www.facebook.com/watch/?v=536481153582278",
-        "links": [
-            {
-                "title": "Visit Scavenger App Repository",
-                "target": "https://github.com/kdsuneraavinash/cse-night-app/"
-            },
-            {
-                "title": "Visit AR App Repository",
-                "target": "https://github.com/chamikaCN/CSE_APP_Night_of_Pharaohs/"
-            }
-        ]
-    },
-    {
-        "title": "Tic Tac Toe Playing Robot Arm | Created for XOBot Competition",
-        "content": " This was a vision based approach to developing a tic-tac-toe playing robot using Arduino and OpenCV.\nThis robot operates in 2 separate modules. An android app is used to identify the positions of balls(This version of tic-tac-toe uses green and red balls) on the board. The app then instructs the Arduino board to take the move.(The move is calculated using minimax algorithm) Then the arduino module uses the arm to play the turn.\n\nThis bot was able to win the runners-up position in XOBot Competition and this bot lost the final round by mere 3 seconds.",
-        "image": "https://i.imgur.com/JBnsTIj.png",
-        "embed": "https://www.youtube.com/watch?v=7ki3itajGDc",
-        "team": [
-            "sunera",
-            "anju",
-            "tharaka"
-        ],
-        "index": 89
-    },
-    {
-        "title": "OPEN INVENTORY - INVENTORY MANAGEMENT SYSTEM",
-        "content": "Automated inventory management system for computer labs with role-based access system. The system consisted of a mobile application and a web application. The web frontend was developed using React, Backend using Node.js/Express and mobile application using Flutter.",
-        "index": 88,
-        "badges": [
-            "<a href=\"https://travis-ci.com/openinventoryorg/web-frontend\">  <img src=\"https://img.shields.io/travis/openinventoryorg/web-frontend\"\"></a>",
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "links": [
-            {
-                "title": "Demo Website",
-                "target": "https://openinventoryorg.github.io/web-frontend"
-            },
-            {
-                "title": "Documentation Website",
-                "target": "https://openinventoryorg.github.io/docs"
-            },
-            {
-                "title": "Repositories",
-                "target": "https://github.com/openinventoryorg"
-            }
-        ],
-        "image": "https://imgur.com/f066Xl0.png",
-        "team": [
-            "sunera",
-            "gayal",
-            "sasmitha",
-            "dilan"
-        ]
-    },
-    {
-        "title": "JAVA BASED RPAL INTERPRETER",
-        "content": "RPAL interpreter implemented in Java which evaluates RPAL abstract syntax trees according to the RPAL grammar specification. Developed as part of the CS3152 Programming Languages module.",
-        "index": 87,
-        "badges": [
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "links": [
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/rpal-ast-interpreter"
-            }
-        ]
-    },
-    {
-        "title": "CLASSIFICATION OF ANOMALIES IN GASTROINTESTINAL TRACT THROUGH ENDOSCOPIC IMAGERY WITH TRANSFER LEARNING",
-        "content": "Transfer Learning project done for the university module which uses transfer learning with pre-trained models such as inception, densenet, resnet34 in order to correctly detect the anomaly.",
-        "index": 87.5,
-        "links": [
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/kvasir"
-            }
-        ],
-        "badges": [
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "image": "https://imgur.com/iu3Nug9.png",
-        "team": [
-            "sunera",
-            "anju",
-            "ruchin"
-        ]
-    },
-    {
-        "title": "Teleport (App developed for the HackX competition)",
-        "content": "Teleport is an app which intends to use concepts of sharing economy in order to further transportation and logistics industry. \nThis app was made using flutter and supports both iOS and android platforms.",
-        "team": [
-            "sunera",
-            "anju",
-            "ruchin",
-            "uvindu",
-            "deepana"
-        ],
-        "index": 86,
-        "image": "https://i.imgur.com/sNuZs6T.jpg"
-    },
-    {
-        "title": "MediKit WebApp & MobileApp - Semester 3 Group Project | Managing health-care services | e-prescriptions",
-        "content": "Pulse Health-care is a project initiated by the team Pulse with the intention of improving the doctor-patient interconnection and computerizing the health-care system. \nThe main function of the platform is managing and storing medical data. Other than that the platform provides various type of services to its clients including doctor management facility and other medical center oriented facilities. \n\nThis was a project done for semester 3 module Object-Oriented Software Development (17-S3-CS2062)",
-        "team": [
-            "sunera",
-            "anju",
-            "lahiru"
-        ],
-        "badges": [
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "index": 85,
-        "links": [
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/pulse-healthcare/"
-            }
-        ],
-        "image": "https://github.com/kdsuneraavinash/pulse-healthcare/raw/master/web/screenshots/home_page.png"
-    },
-    {
-        "index": 40,
-        "title": "Piano Tiles Bot - Open Source Project",
-        "content": "A hobby project I did which captures a window from an emulator and uses openCV to process the image and press according keys. This bot was intended to play piano tiles game and can reach 4000+ scores easily.",
-        "links": [
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/python-projects/tree/master/piano-tile-bot/"
-            }
-        ],
-        "embed": " <iframe width=\"560\" height=\"315\" class=\"d-none d-md-block\" src=\"https://www.youtube.com/embed/e-hemLmjIWc\"   frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe> "
-    },
-    {
-        "team": [
-            "sunera",
-            "anju",
-            "gayal",
-            "sasmitha",
-            "dilan"
-        ],
-        "index": 73,
-        "title": "Project Medical | Simple mobile app for medical data search engine",
-        "content": "This application is a simple mobile application which enables users to get information about symptoms of a disease,medicine recommended for curing the disease and list of medical shops where user can get the medicines.\nProject done for CS3022 - Software Engineering Module.",
-        "badges": [
-            "<a href=\"https://travis-ci.com/kdsuneraavinash/project-medical\">  <img src=\"https://img.shields.io/travis/kdsuneraavinash/project-medical\"\"></a>",
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "links": [
-            {
-                "title": "API Documentation",
-                "target": "https://kdsuneraavinash.github.io/project-medical/"
-            },
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/project-medical/"
-            }
-        ]
-    },
-    {
-        "team": [
-            "sunera",
-            "lahiru",
-            "anju"
-        ],
-        "index": 75,
-        "title": "Neomerce | Single vendor e-commerce web application",
-        "content": "Single vendor e-commerce web application made for Semester 4 CS3042 Database Systems Module.\nAllows buying products and report generation.",
-        "image": "https://github.com/kdsuneraavinash/neomerce/raw/master/screenshots/category-report.png",
-        "badges": [
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "links": [
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/neomerce/"
-            },
-            {
-                "title": "Visit Demo Site",
-                "target": "https://neomerce.herokuapp.com/"
-            }
-        ]
-    },
-    {
-        "index": 74,
-        "title": "OS Scheduler Algorithm Simulator",
-        "content": "This is a simple web app/electron app to simulate the OS scheduler algorithms such as Round Robin/SJF/FCFS/SRTF. Uses canvas drawings and charts to demonstrate various statistics related to simulation. \n\nThis was a project done for semester 3 module Operating Systems (17-S3-CS2042)",
-        "links": [
-            {
-                "title": "Github Repository",
-                "target": "https://github.com/kdsuneraavinash/os-scheduler/"
-            },
-            {
-                "title": "Online Test Site",
-                "target": "https://kdsuneraavinash.github.io/os-scheduler/"
-            }
-        ],
-        "badges": [
-            "<img src=\"https://img.shields.io/badge/semester-project-blue\">"
-        ],
-        "image": "https://github.com/kdsuneraavinash/os-scheduler/raw/master/readme.gif"
-    },
-    {
-        "index": 3,
-        "title": "Capsolat",
-        "content": "Designed the front end for a startup for a matrimonial web site. This is a Matrimonial Ad Portal where people can publish their Ad faster. ",
-        "links": [
-            {
-                "title": "Website (Invalid)",
-                "target": "https://capsolat.com/"
-            },
-            {
-                "title": "Frontend Prototype",
-                "target": "https://kdsuneraavinash.github.io/wedding-ad-site/"
-            }
-        ]
-    },
-    {
-        "team": [
-            "sunera",
-            "rumesh"
-        ],
-        "index": 1,
-        "title": "Decrypt 2.0 Website",
-        "content": " Website for decrypt event 2019 organized by CSE17.\n\n  ",
-        "links": [
-            {
-                "title": "Visit Website",
-                "target": "https://kdsuneraavinash.github.io/decrypt-site/"
-            }
-        ]
-    }
+  {
+    "index": 101,
+    "title": "Binning Metagenomic Sequences Using Convex Hulls",
+    "role":  "Final Year Research Project",
+    "technologies": "Python",
+    "content": [
+      "A novel metagenomic binning tool using convex hull distance-based unsupervised clustering, accompanied by a Python-based CLI/Web tool, developed as part of the final year project.",
+      "<br/><br/> ",
+      "Research Publication: <br/>",
+      "S. Chandrasiri, T. Perera, A. Dilhara, I. Perera, and V. Mallawaarachchi, “Ch-bin: A convex hull based approach for binning metagenomic contigs,” Computational Biology and Chemistry, vol. 100, p. 107734, 2022. <br/><br/>",
+      "Conference: The 20th Asian Pacific Bioinformatics Conference 2022 <br/> ",
+      "DOI: <a href='https://doi.org/10.1016/j.compbiolchem.2022.107734'>https://doi.org/10.1016/j.compbiolchem.2022.107734</a> <br/>",
+      "<a href='https://www.sciencedirect.com/science/article/pii/S1476927122001141'>Research Paper Link</a> <br/>",
+      "<a href='https://github.com/kdsuneraavinash/CH-Bin'>Github Repository</a> <br/>"
+    ],
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S1476927122001141-ga1.jpg"
+  },
+  {
+    "index": 100,
+    "title": "Theme Provider - Flutter Package",
+    "role":  "Open Source Project",
+    "technologies": "Dart (Flutter)",
+    "content": [
+      "<a class='pe-1' href=\"https://pub.dartlang.org/packages/theme_provider\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/aeb73bfce6619e8ddbbfd5071c12d822b4fffa83/68747470733a2f2f696d672e736869656c64732e696f2f7075622f762f7468656d655f70726f76696465722e737667\" alt=\"Pub Package\" data-canonical-src=\"https://img.shields.io/pub/v/theme_provider.svg\" style=\"max-width:100%;\"></a>",
+      "<img class='pe-1' alt=\"preview badge\" src=\"https://img.shields.io/github/license/kdsuneraavinash/theme_provider\">",
+      "<img class='pe-1' alt=\"preview badge\" src=\"https://img.shields.io/github/stars/kdsuneraavinash/theme_provider\">",
+      "<br/><br/>",
+      "An easy to use, customizable Theme Provider plugin for Flutter. \n",
+      "This provides app color schemes throughout the app and automatically rebuilds the UI dynamically. ",
+      "This can also persist the current color theme. ",
+      "This package provides several widgets that can help to easily add theme switching abilities. <br/>",
+      "<a href='https://pub.dev/packages/theme_provider/'>Package Home Page (Dart Pub)</a> <br/>",
+      "<a href='https://github.com/kdsuneraavinash/theme_provider/'>Github Repository</a> <br/>",
+      "<a href='https://kdsuneraavinash.github.io/theme_provider/'>Online Demo Site</a> <br/>"
+    ],
+    "image": "https://github.com/kdsuneraavinash/theme_provider/raw/master/select.gif"
+  },
+  {
+    "index": 96,
+    "title": "Ballerina Shell",
+    "role":  "WSO2 Software Engineer Intern",
+    "technologies": "Java",
+    "content": [
+      "A REPL program for the ballerina language. Ballerina is an open source programming language and platform for cloud-era application programmers to easily write software that just works. <br/> <br/>",
+      "This is tool developed as an intern project at WSO2, and this project was later merged in to the official ballerina language repository. <br/>",
+      "<a href='https://github.com/ballerina-platform/ballerina-lang'>Ballerina Lang Repository</a> <br/>",
+      "<a href='https://github.com/kdsuneraavinash/ballerina-shell'>Original Github Repository</a> <br/>"
+    ],
+    "image": "https://github.com/kdsuneraavinash/ballerina-shell/raw/master/docs/demo.gif"
+  },
+  {
+    "index": 90,
+    "title": "Rise of the Pharaohs Scavenger hunt app",
+    "role":  "Volunteer Project",
+    "technologies": "Dart (Flutter), Firebase",
+    "content": [
+      "Scavenger-hunt mobile app developed using Flutter and Firebase which was created as the invitation for the CSE event – Rise of the Pharaohs. <br/>",
+      "<a href='https://www.facebook.com/watch/?v=536481153582278'>Showcase Video</a> <br/>",
+      "<a href='https://github.com/kdsuneraavinash/cse-night-app/'>Visit Scavenger App Repository</a> <br/>",
+      "<a href='https://github.com/chamikaCN/CSE_APP_Night_of_Pharaohs/'>Visit AR App Repository</a> <br/>"
+    ],
+    "image": "https://github.com/kdsuneraavinash/cse-night-app/raw/master/readme/invite.png"
+  },
+  {
+    "index": 89,
+    "title": "Tic Tac Toe Playing Robot Arm",
+    "role": "Created for XOBot Competition",
+    "technologies": "Android, OpenCV, Arduino, Bluetooth",
+    "content": [
+      "This was a vision based approach to developing a tic-tac-toe playing robot using Arduino and OpenCV \n",
+      "This robot operates in 2 separate modules. ",
+      "An android app is used to identify the positions of balls (This version of tic-tac-toe uses green and red balls) on the board. ",
+      "The app then instructs the Arduino board to take the move (The move is calculated using minimax algorithm). ",
+      "Then the arduino module uses the arm to play the turn.\n\n",
+      "This bot was able to win the runners-up position in XOBot Competition and this bot lost the final round by mere 3 seconds. <br/>",
+      "<a href='https://www.youtube.com/watch?v=7ki3itajGDc'>Demo Video</a> <br/>"
+    ],
+    "image": "https://i.imgur.com/QZyAODo.gif"
+  },
+  {
+    "index": 88,
+    "title": "Java Based RPAL Interpreter",
+    "role": "Student (For CS3152 - Programming Languages module)",
+    "technologies": "Java",
+    "content": [
+      "RPAL interpreter implemented in Java which evaluates RPAL abstract syntax trees according to the RPAL grammar specification. ",
+      "Developed as part of the CS3152 - Programming Languages module. <br/>",
+      "<a href='https://github.com/kdsuneraavinash/rpal-ast-interpreter'>Github Repository</a> <br/>"
+    ]
+  },
+  {
+    "index": 87,
+    "title": "Java Based WinZig Compiler",
+    "role": "Student (For CS4542 - Compiler Design module)",
+    "technologies": "Java",
+    "content": [
+      "Compiler that generates assembly code for the specified abstract machine for programs written in WinZig language. ",
+      "Developed as part of the CS4542 - Compiler Design module. <br/>",
+      "<a href='https://github.com/kdsuneraavinash/winzig-compiler'>Github Repository</a> <br/>"
+    ]
+  },
+  {
+    "index": 86,
+    "title": "Classification of anomalies in gastrointestinal tract through endoscopic imagery with transfer learning",
+    "role": "Student",
+    "technologies": "Python",
+    "content": [
+      "Transfer Learning project done for the university module which uses transfer learning with pre-trained models such as inception, densenet, resnet34 in order to correctly detect the anomaly. <br/>",
+      "<a href='https://github.com/kdsuneraavinash/kvasir'>Github Repository</a> <br/>"
+    ],
+    "image": "https://imgur.com/iu3Nug9.png"
+  },
+  {
+    "index": 86,
+    "title": "Teleport Mobile App",
+    "role": "Developed for HackX competition",
+    "technologies": "Dart (Flutter)",
+    "content": "Teleport is an app which intends to use concepts of sharing economy in order to further transportation and logistics industry. \nThis app was made using flutter and supports both iOS and android platforms.",
+    "image": "https://i.imgur.com/sNuZs6T.jpg"
+  },
+  {
+    "index": 74,
+    "title": "OS Scheduler Algorithm Simulator",
+    "role": "Student (For CS2042 - Operating Systems module)",
+    "technologies": "JavaScript, Electron",
+    "content": [
+      "This is a simple web app/electron app to simulate the OS scheduler algorithms such as Round Robin/SJF/FCFS/SRTF. ",
+      "Uses canvas drawings and charts to demonstrate various statistics related to simulation. \n",
+      "This was a project done for semester 3 module Operating Systems (17-S3-CS2042) <br/>",
+      "<a href='https://github.com/kdsuneraavinash/os-scheduler/'>Github Repository</a> <br/>",
+      "<a href='https://kdsuneraavinash.github.io/os-scheduler/'>Online Test Site</a> <br/>"
+    ],
+    "image": "https://github.com/kdsuneraavinash/os-scheduler/raw/master/readme.gif"
+  },
+  {
+    "index": 40,
+    "title": "Piano Tiles Bot - Open Source Project",
+    "role": "Open Source Project",
+    "technologies": "Python, OpenCV",
+    "content": [
+      "A hobby project I did which captures a window from an emulator and uses openCV to process the image and press according keys. ",
+      "This bot was intended to play piano tiles game and can reach 4000+ scores easily. <br/>",
+      "<a href='https://github.com/kdsuneraavinash/python-projects/tree/master/piano-tile-bot/'>Github Repository</a> <br/>",
+      "<a href='https://www.youtube.com/watch?v=e-hemLmjIWc'>Demo Video</a> <br/>"
+    ]
+  }
 ]

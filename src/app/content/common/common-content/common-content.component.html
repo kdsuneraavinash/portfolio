@@ -1,0 +1,19 @@
+<ng-container *ngIf="isString(content)">
+  <span [innerHTML]="content"></span>
+</ng-container>
+
+<ng-container *ngIf="isArray(content)">
+  <ng-container *ngFor="let item of topLevelArray(content)">
+    <ng-container *ngIf="isString(item)">
+      <span [innerHTML]="item"></span>
+    </ng-container>
+
+    <ng-container *ngIf="isArray(item)">
+      <ul>
+        <li *ngFor="let subItem of lowLevelArray(item)">
+          <span [innerHTML]="subItem"></span>
+        </li>
+      </ul>
+    </ng-container>
+  </ng-container>
+</ng-container>
