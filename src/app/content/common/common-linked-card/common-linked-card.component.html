@@ -1,4 +1,4 @@
-<div class="mt-1 animated fadeIn p-4 timeline auto-center" [class.is-last]="isLast">
+<div class="mt-1 animated fadeIn p-4 timeline" [class.is-last]="isLast">
   <div class="d-flex">
     <div class="mb-4 px-2 mt-1">
       <span
@@ -10,7 +10,7 @@
     <div class="col-sm-10">
       <h2 class="h2-responsive">{{ title }}</h2>
 
-      <div class="d-flex">
+      <div class="d-none d-md-flex">
         <div class="col-md-6">
           <small class="px-2">
             <app-common-icon [icon]="subtitle1Icon"></app-common-icon>
@@ -25,10 +25,25 @@
         </div>
       </div>
 
+      <div class="d-md-none">
+        <div>
+          <small class="px-2 blue-grey-text">
+            <app-common-icon [icon]="subtitle1Icon"></app-common-icon>
+            &nbsp; {{ subtitle1 }}
+          </small>
+        </div>
+        <div>
+          <small class="px-2 blue-grey-text">
+            <app-common-icon [icon]="subtitle2Icon"></app-common-icon>
+            &nbsp; {{ subtitle2 }}
+          </small>
+        </div>
+      </div>
+
       <hr class="mt-1" />
 
       <div class="d-flex">
-        <div class="col-8 pe-4">
+        <div class="col-md-8 pe-4">
           <div id="text">
             <app-common-content [content]="content"></app-common-content>
           </div>
@@ -40,7 +55,7 @@
           </div>
         </div>
 
-        <div *ngIf="image" class="view overlay z-depth-2 col-4">
+        <div *ngIf="image" class="view overlay z-depth-2 col-md-4 d-none d-md-block">
           <img [src]="image" class="img-fluid rounded thumbnail float-end" alt="Photo" />
           <div class="mask flex-center rgba-black-light"></div>
         </div>

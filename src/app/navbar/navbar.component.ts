@@ -10,6 +10,7 @@ import { Router } from '@angular/router'
 })
 export class NavbarComponent implements OnInit {
   public navButtons!: NavButton[]
+  public isNavbarCollapsed: boolean = true;
 
   constructor(private router: Router, private dataService: DataService) {}
 
@@ -23,5 +24,13 @@ export class NavbarComponent implements OnInit {
     } else {
       return this.router.url[1].toUpperCase() + this.router.url.slice(2)
     }
+  }
+
+  toggleNavbarCollapsing() {
+    this.isNavbarCollapsed = !this.isNavbarCollapsed;
+  }
+
+  collapseNavbar() {
+    this.isNavbarCollapsed = true;
   }
 }
